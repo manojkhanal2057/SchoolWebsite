@@ -1,0 +1,1649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Our Teachers | Shree Pingla Devi Secondary School</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet"/>
+  <style>
+    :root{--royal-blue:#0A3D62;--royal-blue-dark:#072d48;--sky-blue:#74B9FF;--sky-blue-light:#dbeeff;--gold:#FDCB6E;--gold-dark:#e2a84a;--white:#FFFFFF;--gray-text:#2D3436;--gray-light:#636e72;--bg-soft:#F8FBFF;--shadow-soft:0 10px 40px rgba(10,61,98,.10);--shadow-card:0 8px 32px rgba(10,61,98,.13);--shadow-hover:0 20px 60px rgba(10,61,98,.22);--radius:18px;--radius-sm:10px;--transition:all .35s cubic-bezier(.4,0,.2,1)}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+    body{font-family:'Poppins',sans-serif;color:var(--gray-text);background:var(--white);overflow-x:hidden}
+    ::-webkit-scrollbar{width:7px}::-webkit-scrollbar-track{background:var(--bg-soft)}::-webkit-scrollbar-thumb{background:var(--royal-blue);border-radius:10px}
+    /* NAVBAR */
+    #mainNav{background:rgba(255,255,255,.97);backdrop-filter:blur(16px);box-shadow:0 2px 24px rgba(10,61,98,.10);padding:0;z-index:1050;transition:var(--transition)}
+    #mainNav.scrolled{box-shadow:0 4px 32px rgba(10,61,98,.16)}
+    .navbar-brand-wrap{display:flex;align-items:center;gap:12px;text-decoration:none;padding:10px 0}
+    .brand-logo{width:52px;height:52px;background:linear-gradient(135deg,var(--royal-blue),var(--sky-blue));border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;color:white;flex-shrink:0;box-shadow:0 4px 14px rgba(10,61,98,.25)}
+    .brand-name{font-size:.95rem;font-weight:800;color:var(--royal-blue);line-height:1.2;display:block}.brand-tagline{font-size:.68rem;color:var(--gray-light);font-weight:500}
+    .navbar-nav .nav-link{color:var(--gray-text)!important;font-weight:500;font-size:.88rem;padding:8px 14px!important;border-radius:8px;transition:var(--transition);position:relative}
+    .navbar-nav .nav-link::after{content:'';position:absolute;bottom:4px;left:50%;transform:translateX(-50%) scaleX(0);width:60%;height:2px;background:var(--gold);border-radius:2px;transition:transform .3s ease}
+    .navbar-nav .nav-link:hover::after,.navbar-nav .nav-link.active::after{transform:translateX(-50%) scaleX(1)}
+    .navbar-nav .nav-link:hover{color:var(--royal-blue)!important;background:var(--sky-blue-light)}
+    .btn-nav-admit{background:linear-gradient(135deg,var(--royal-blue),#1565c0);color:white!important;border-radius:50px!important;padding:8px 22px!important;font-weight:600!important;font-size:.85rem!important;transition:var(--transition)!important;box-shadow:0 4px 14px rgba(10,61,98,.3)}
+    .btn-nav-admit:hover{background:linear-gradient(135deg,var(--gold-dark),var(--gold))!important;color:var(--royal-blue)!important;transform:translateY(-2px)}.btn-nav-admit::after{display:none!important}
+    .navbar-toggler{border:none;padding:6px}.navbar-toggler:focus{box-shadow:none}
+    .toggler-icon{display:flex;flex-direction:column;gap:5px;width:26px}.toggler-icon span{display:block;width:100%;height:2.5px;background:var(--royal-blue);border-radius:4px}
+    /* PAGE HERO */
+    .page-hero{background:linear-gradient(135deg,var(--royal-blue-dark),var(--royal-blue) 50%,#1565c0);padding:120px 0 70px;position:relative;overflow:hidden}
+    .page-hero::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/svg%3E")}
+    .ph-shape{position:absolute;border-radius:50%;opacity:.07;pointer-events:none}
+    .ph-s1{width:420px;height:420px;top:-160px;right:-80px;background:white}.ph-s2{width:220px;height:220px;bottom:-90px;left:5%;background:var(--sky-blue)}
+    .page-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2rem,4.5vw,3.2rem);font-weight:800;color:white;margin-bottom:12px}
+    .page-hero p{color:rgba(255,255,255,.72);font-size:.97rem;max-width:540px}
+    .breadcrumb-wrap{display:flex;align-items:center;gap:8px;margin-bottom:18px}
+    .breadcrumb-wrap a{color:var(--gold);font-size:.82rem;font-weight:600;text-decoration:none}
+    .breadcrumb-wrap span{color:rgba(255,255,255,.45);font-size:.82rem}.breadcrumb-wrap .cur{color:rgba(255,255,255,.7);font-size:.82rem}
+    /* UTILS */
+    .section-pad{padding:90px 0}.bg-soft{background:var(--bg-soft)}
+    .section-badge{display:inline-block;background:linear-gradient(135deg,var(--sky-blue-light),#c8e6ff);color:var(--royal-blue);font-size:.75rem;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:6px 18px;border-radius:50px;margin-bottom:14px;border:1.5px solid rgba(116,185,255,.5)}
+    .section-title{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,3.5vw,2.6rem);font-weight:800;color:var(--royal-blue);line-height:1.2;margin-bottom:14px}
+    .section-sub{font-size:1rem;color:var(--gray-light);line-height:1.8;max-width:580px}
+    .gold-line{width:60px;height:4px;background:linear-gradient(90deg,var(--gold),var(--gold-dark));border-radius:4px;margin-bottom:20px}
+    .gold-line.center{margin:0 auto 20px}
+    /* FILTER TABS */
+    .filter-tabs{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:40px}
+    .filter-btn{background:white;border:2px solid #dce8f5;color:var(--gray-light);font-size:.83rem;font-weight:600;padding:8px 22px;border-radius:50px;cursor:pointer;transition:var(--transition)}
+    .filter-btn:hover,.filter-btn.active{background:var(--royal-blue);border-color:var(--royal-blue);color:white}
+    /* TEACHER CARD */
+    .teacher-card{background:white;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-soft);text-align:center;transition:var(--transition);height:100%}
+    .teacher-card:hover{transform:translateY(-10px);box-shadow:var(--shadow-hover)}
+    .tc-img-wrap{position:relative;overflow:hidden;height:230px}
+    .tc-img{width:100%;height:100%;background:linear-gradient(135deg,var(--sky-blue-light),#c8e6ff);display:flex;align-items:center;justify-content:center;font-size:5rem;transition:var(--transition)}
+    .teacher-card:hover .tc-img{transform:scale(1.06)}
+    .tc-overlay{position:absolute;inset:0;background:linear-gradient(to bottom,transparent 40%,rgba(10,61,98,.88));opacity:0;transition:var(--transition);display:flex;align-items:flex-end;justify-content:center;padding-bottom:18px}
+    .teacher-card:hover .tc-overlay{opacity:1}
+    .tc-social{display:flex;gap:10px}
+    .tc-social a{width:36px;height:36px;background:white;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--royal-blue);font-size:.85rem;text-decoration:none;transition:var(--transition)}
+    .tc-social a:hover{background:var(--gold)}
+    .tc-body{padding:20px 18px 22px}
+    .tc-name{font-weight:700;font-size:1rem;color:var(--royal-blue);margin-bottom:4px}
+    .tc-subject{font-size:.8rem;color:var(--gray-light);margin-bottom:10px}
+    .tc-meta{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
+    .tc-badge{display:inline-block;font-size:.7rem;font-weight:600;padding:3px 10px;border-radius:50px}
+    .tc-exp{background:var(--sky-blue-light);color:var(--royal-blue)}
+    .tc-qual{background:rgba(253,203,110,.2);color:var(--gold-dark)}
+    /* PRINCIPAL CARD (featured) */
+    .principal-featured{background:linear-gradient(135deg,var(--royal-blue),#1565c0);border-radius:var(--radius);padding:40px;color:white;display:flex;align-items:center;gap:32px;flex-wrap:wrap;margin-bottom:50px}
+    .pf-avatar{width:140px;height:140px;border-radius:50%;background:rgba(255,255,255,.15);display:flex;align-items:center;justify-content:center;font-size:4.5rem;border:4px solid rgba(255,255,255,.25);flex-shrink:0}
+    .pf-info{flex:1}
+    .pf-role{font-size:.75rem;font-weight:700;color:var(--gold);letter-spacing:2px;text-transform:uppercase;margin-bottom:8px}
+    .pf-name{font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:800;color:white;margin-bottom:8px}
+    .pf-desc{font-size:.88rem;color:rgba(255,255,255,.75);line-height:1.8;margin-bottom:16px;max-width:540px}
+    .pf-tags{display:flex;gap:10px;flex-wrap:wrap}
+    .pf-tag{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);color:white;font-size:.72rem;font-weight:600;padding:4px 12px;border-radius:50px}
+    /* STATS STRIP */
+    .stats-strip{background:linear-gradient(135deg,var(--royal-blue),#1565c0);padding:56px 0}
+    .stat-item{text-align:center;padding:20px;border-right:1px solid rgba(255,255,255,.1)}
+    .stat-item:last-child{border:none}
+    .stat-icon{width:52px;height:52px;background:rgba(253,203,110,.2);border-radius:13px;display:flex;align-items:center;justify-content:center;font-size:1.3rem;color:var(--gold);margin:0 auto 12px}
+    .stat-num{font-size:2.4rem;font-weight:800;color:white;line-height:1}
+    .stat-sfx{font-size:1.6rem;color:var(--gold)}
+    .stat-label{font-size:.8rem;color:rgba(255,255,255,.6);margin-top:4px}
+    /* DEPT CARDS */
+    .dept-card{background:white;border-radius:var(--radius-sm);padding:22px;box-shadow:var(--shadow-soft);border-left:4px solid var(--sky-blue);transition:var(--transition)}
+    .dept-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-card);border-left-color:var(--gold)}
+    .dept-header{display:flex;align-items:center;gap:14px;margin-bottom:14px}
+    .dept-icon{width:44px;height:44px;border-radius:11px;background:var(--sky-blue-light);display:flex;align-items:center;justify-content:center;color:var(--royal-blue);font-size:1.1rem;flex-shrink:0}
+    .dept-header h6{font-weight:700;color:var(--royal-blue);font-size:.92rem;margin:0}
+    .dept-teachers{display:flex;flex-direction:column;gap:8px}
+    .dept-teacher{display:flex;align-items:center;gap:10px;font-size:.8rem;color:var(--gray-text)}
+    .dt-dot{width:8px;height:8px;border-radius:50%;background:var(--sky-blue);flex-shrink:0}
+    /* JOIN CTA */
+    .join-cta{background:linear-gradient(135deg,var(--royal-blue-dark),var(--royal-blue));border-radius:var(--radius);padding:48px;text-align:center}
+    .join-cta h3{font-family:'Playfair Display',serif;font-size:1.9rem;font-weight:800;color:white;margin-bottom:12px}
+    .join-cta p{color:rgba(255,255,255,.7);font-size:.93rem;margin-bottom:28px;max-width:460px;margin-left:auto;margin-right:auto}
+    .btn-gold{background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:var(--royal-blue);border:none;font-weight:700;font-size:.97rem;padding:14px 34px;border-radius:50px;cursor:pointer;transition:var(--transition);text-decoration:none;display:inline-flex;align-items:center;gap:8px;box-shadow:0 6px 22px rgba(253,203,110,.4)}
+    .btn-gold:hover{transform:translateY(-3px);color:var(--royal-blue)}
+    /* FOOTER */
+    #footer{background:linear-gradient(180deg,var(--royal-blue-dark) 0%,#051e31 100%);color:white}
+    .footer-top{padding:60px 0 44px}
+    .f-brand-logo{width:56px;height:56px;background:linear-gradient(135deg,var(--sky-blue),#74b9ff80);border-radius:16px;display:flex;align-items:center;justify-content:center;font-size:1.6rem;color:white;margin-bottom:16px}
+    .f-brand-name{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:800;color:white;margin-bottom:10px}
+    .f-desc{font-size:.81rem;color:rgba(255,255,255,.5);line-height:1.8;max-width:230px}
+    .f-social{display:flex;gap:10px;margin-top:18px}
+    .f-social a{width:36px;height:36px;background:rgba(255,255,255,.08);border-radius:9px;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.6);font-size:.9rem;text-decoration:none;transition:var(--transition)}
+    .f-social a:hover{background:var(--gold);color:var(--royal-blue);transform:translateY(-3px)}
+    .f-heading{font-size:.78rem;font-weight:700;color:var(--gold);letter-spacing:2px;text-transform:uppercase;margin-bottom:18px}
+    .f-links{list-style:none}.f-links li{margin-bottom:9px}
+    .f-links a{color:rgba(255,255,255,.5);font-size:.81rem;text-decoration:none;transition:var(--transition);display:flex;align-items:center;gap:7px}
+    .f-links a::before{content:'›';color:var(--gold);font-size:1.1rem}.f-links a:hover{color:white;padding-left:4px}
+    .f-contact-item{display:flex;align-items:flex-start;gap:10px;margin-bottom:11px;font-size:.8rem;color:rgba(255,255,255,.5)}
+    .f-contact-item i{color:var(--gold);font-size:.88rem;margin-top:2px;flex-shrink:0}
+    .footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding:20px 0;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px}
+    .footer-bottom p{font-size:.78rem;color:rgba(255,255,255,.38);margin:0}
+    #backToTop{position:fixed;bottom:28px;right:28px;width:46px;height:46px;background:linear-gradient(135deg,var(--royal-blue),var(--sky-blue));color:white;border:none;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.05rem;cursor:pointer;box-shadow:0 6px 22px rgba(10,61,98,.35);transition:var(--transition);opacity:0;pointer-events:none;z-index:999}
+    #backToTop.visible{opacity:1;pointer-events:all}#backToTop:hover{transform:translateY(-4px)}
+    @media(max-width:767px){.section-pad{padding:60px 0}.principal-featured{flex-direction:column;text-align:center}.stat-item{border:none;padding:14px 10px}.join-cta{padding:36px 24px}}
+    @media(max-width:575px){.footer-bottom{flex-direction:column;text-align:center}.pf-tags{justify-content:center}}
+  </style>
+    <style>
+    /* ===========================
+       CSS VARIABLES & RESET
+    =========================== */
+    :root {
+      --royal-blue: #0A3D62;
+      --royal-blue-dark: #072d48;
+      --sky-blue: #74B9FF;
+      --sky-blue-light: #dbeeff;
+      --gold: #FDCB6E;
+      --gold-dark: #e2a84a;
+      --white: #FFFFFF;
+      --gray-text: #2D3436;
+      --gray-light: #636e72;
+      --bg-soft: #F8FBFF;
+      --shadow-soft: 0 10px 40px rgba(10,61,98,0.10);
+      --shadow-card: 0 8px 32px rgba(10,61,98,0.13);
+      --shadow-hover: 0 20px 60px rgba(10,61,98,0.22);
+      --radius: 18px;
+      --radius-sm: 10px;
+      --transition: all 0.35s cubic-bezier(0.4,0,0.2,1);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: var(--gray-text);
+      background: var(--white);
+      overflow-x: hidden;
+    }
+
+    /* ===========================
+       SCROLLBAR
+    =========================== */
+    ::-webkit-scrollbar { width: 7px; }
+    ::-webkit-scrollbar-track { background: var(--bg-soft); }
+    ::-webkit-scrollbar-thumb { background: var(--royal-blue); border-radius: 10px; }
+
+    /* ===========================
+       UTILITIES
+    =========================== */
+    .section-pad { padding: 90px 0; }
+    .section-pad-sm { padding: 60px 0; }
+    .bg-soft { background: var(--bg-soft); }
+    .text-royal { color: var(--royal-blue); }
+    .text-gold { color: var(--gold-dark); }
+    .text-sky { color: var(--sky-blue); }
+
+    .section-badge {
+      display: inline-block;
+      background: linear-gradient(135deg, var(--sky-blue-light), #c8e6ff);
+      color: var(--royal-blue);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      padding: 6px 18px;
+      border-radius: 50px;
+      margin-bottom: 14px;
+      border: 1.5px solid rgba(116,185,255,0.5);
+    }
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 800;
+      color: var(--royal-blue);
+      line-height: 1.2;
+      margin-bottom: 14px;
+    }
+    .section-sub {
+      font-size: 1rem;
+      color: var(--gray-light);
+      max-width: 560px;
+      line-height: 1.8;
+    }
+    .gold-line {
+      width: 60px; height: 4px;
+      background: linear-gradient(90deg, var(--gold), var(--gold-dark));
+      border-radius: 4px;
+      margin-bottom: 20px;
+    }
+    .gold-line.center { margin: 0 auto 20px; }
+
+    /* Floating blobs */
+    .blob {
+      position: absolute;
+      border-radius: 50%;
+      opacity: 0.07;
+      pointer-events: none;
+      animation: blobFloat 8s ease-in-out infinite alternate;
+    }
+    @keyframes blobFloat {
+      0% { transform: translateY(0) scale(1); }
+      100% { transform: translateY(-30px) scale(1.05); }
+    }
+
+    /* ===========================
+       NAVBAR
+    =========================== */
+    #mainNav {
+      background: rgba(255,255,255,0.97);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      box-shadow: 0 2px 24px rgba(10,61,98,0.10);
+      padding: 0;
+      transition: var(--transition);
+      z-index: 1050;
+    }
+    #mainNav.scrolled {
+      box-shadow: 0 4px 32px rgba(10,61,98,0.16);
+    }
+    .navbar-brand-wrap { display: flex; align-items: center; gap: 12px; text-decoration: none; padding: 10px 0; }
+    .brand-logo {
+      width: 52px; height: 52px;
+      background: linear-gradient(135deg, var(--royal-blue), var(--sky-blue));
+      border-radius: 14px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.5rem; color: white;
+      flex-shrink: 0;
+      box-shadow: 0 4px 14px rgba(10,61,98,0.25);
+    }
+    .brand-text .brand-name {
+      font-size: 0.95rem;
+      font-weight: 800;
+      color: var(--royal-blue);
+      line-height: 1.2;
+      display: block;
+    }
+    .brand-text .brand-tagline {
+      font-size: 0.68rem;
+      color: var(--gray-light);
+      font-weight: 500;
+      letter-spacing: 0.5px;
+    }
+    .navbar-nav .nav-link {
+      color: var(--gray-text) !important;
+      font-weight: 500;
+      font-size: 0.88rem;
+      padding: 8px 14px !important;
+      border-radius: 8px;
+      transition: var(--transition);
+      position: relative;
+    }
+    .navbar-nav .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 4px; left: 50%;
+      transform: translateX(-50%) scaleX(0);
+      width: 60%; height: 2px;
+      background: var(--gold);
+      border-radius: 2px;
+      transition: transform 0.3s ease;
+    }
+    .navbar-nav .nav-link:hover::after,
+    .navbar-nav .nav-link.active::after { transform: translateX(-50%) scaleX(1); }
+    .navbar-nav .nav-link:hover { color: var(--royal-blue) !important; background: var(--sky-blue-light); }
+    .btn-nav-admit {
+      background: linear-gradient(135deg, var(--royal-blue), #1565c0);
+      color: white !important;
+      border-radius: 50px !important;
+      padding: 8px 22px !important;
+      font-weight: 600 !important;
+      font-size: 0.85rem !important;
+      transition: var(--transition) !important;
+      box-shadow: 0 4px 14px rgba(10,61,98,0.3);
+    }
+    .btn-nav-admit:hover {
+      background: linear-gradient(135deg, var(--gold-dark), var(--gold)) !important;
+      color: var(--royal-blue) !important;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(10,61,98,0.25);
+    }
+    .btn-nav-admit::after { display: none !important; }
+    .navbar-toggler { border: none; padding: 6px; }
+    .navbar-toggler:focus { box-shadow: none; }
+    .toggler-icon {
+      display: flex; flex-direction: column; gap: 5px;
+      width: 26px;
+    }
+    .toggler-icon span {
+      display: block; width: 100%; height: 2.5px;
+      background: var(--royal-blue); border-radius: 4px;
+      transition: var(--transition);
+    }
+
+    /* ===========================
+       HERO
+    =========================== */
+    #hero {
+      min-height: 100vh;
+      background: linear-gradient(135deg, var(--royal-blue-dark) 0%, var(--royal-blue) 40%, #1565c0 70%, #0d47a1 100%);
+      position: relative;
+      display: flex; align-items: center;
+      overflow: hidden;
+      padding-top: 72px;
+    }
+    .hero-pattern {
+      position: absolute; inset: 0;
+      background-image:
+        radial-gradient(circle at 20% 20%, rgba(116,185,255,0.15) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(253,203,110,0.10) 0%, transparent 45%),
+        url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+    .hero-shapes .shape {
+      position: absolute;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.05);
+      animation: heroFloat 6s ease-in-out infinite alternate;
+    }
+    .hero-shapes .shape:nth-child(1) { width: 500px; height: 500px; top: -200px; right: -100px; animation-delay: 0s; }
+    .hero-shapes .shape:nth-child(2) { width: 300px; height: 300px; bottom: -100px; left: 5%; animation-delay: 2s; background: rgba(116,185,255,0.08); }
+    .hero-shapes .shape:nth-child(3) { width: 150px; height: 150px; top: 30%; right: 25%; animation-delay: 1s; background: rgba(253,203,110,0.1); }
+    @keyframes heroFloat {
+      0% { transform: translateY(0) rotate(0deg); }
+      100% { transform: translateY(-20px) rotate(5deg); }
+    }
+    .hero-content { position: relative; z-index: 2; }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(253,203,110,0.15);
+      border: 1px solid rgba(253,203,110,0.4);
+      color: var(--gold);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 7px 18px;
+      border-radius: 50px;
+      margin-bottom: 22px;
+    }
+    .hero-badge i { font-size: 0.85rem; }
+    .hero-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.4rem, 5.5vw, 4rem);
+      font-weight: 800;
+      color: white;
+      line-height: 1.15;
+      margin-bottom: 20px;
+    }
+    .hero-title .highlight {
+      background: linear-gradient(135deg, var(--gold), #ffeaa7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .hero-subtitle {
+      font-size: 1.08rem;
+      color: rgba(255,255,255,0.82);
+      line-height: 1.8;
+      margin-bottom: 36px;
+      max-width: 520px;
+    }
+    .hero-btns { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 48px; }
+    .btn-hero-primary {
+      background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+      color: var(--royal-blue);
+      font-weight: 700;
+      padding: 14px 32px;
+      border-radius: 50px;
+      border: none;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: var(--transition);
+      box-shadow: 0 6px 24px rgba(253,203,110,0.4);
+      text-decoration: none;
+      display: inline-flex; align-items: center; gap: 8px;
+    }
+    .btn-hero-primary:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 36px rgba(253,203,110,0.5);
+      color: var(--royal-blue);
+    }
+    .btn-hero-outline {
+      background: transparent;
+      color: white;
+      border: 2px solid rgba(255,255,255,0.5);
+      font-weight: 600;
+      padding: 13px 30px;
+      border-radius: 50px;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: var(--transition);
+      text-decoration: none;
+      display: inline-flex; align-items: center; gap: 8px;
+    }
+    .btn-hero-outline:hover {
+      background: rgba(255,255,255,0.12);
+      border-color: rgba(255,255,255,0.8);
+      color: white;
+      transform: translateY(-3px);
+    }
+    .hero-stats {
+      display: flex; flex-wrap: wrap; gap: 30px;
+    }
+    .hero-stat-item { text-align: left; }
+    .hero-stat-num {
+      font-size: 2rem; font-weight: 800; color: var(--gold);
+      line-height: 1;
+    }
+    .hero-stat-label {
+      font-size: 0.75rem; color: rgba(255,255,255,0.65);
+      font-weight: 500; margin-top: 3px;
+    }
+    .hero-image-wrap {
+      position: relative; z-index: 2;
+      display: flex; justify-content: center; align-items: center;
+    }
+    .hero-card-main {
+      background: rgba(255,255,255,0.10);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 24px;
+      padding: 28px;
+      width: 100%;
+      max-width: 420px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    }
+    .hero-school-img {
+      width: 100%; height: 240px;
+      object-fit: cover;
+      border-radius: 16px;
+      margin-bottom: 20px;
+      background: linear-gradient(135deg, rgba(116,185,255,0.3), rgba(10,61,98,0.5));
+      display: flex; align-items: center; justify-content: center;
+      font-size: 5rem;
+    }
+    .hero-card-info h4 {
+      font-size: 1.1rem; font-weight: 700; color: white; margin-bottom: 8px;
+    }
+    .hero-card-info p {
+      font-size: 0.82rem; color: rgba(255,255,255,0.7); line-height: 1.6;
+    }
+    .hero-feature-pills {
+      display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px;
+    }
+    .hero-pill {
+      background: rgba(253,203,110,0.2);
+      border: 1px solid rgba(253,203,110,0.4);
+      color: var(--gold);
+      font-size: 0.72rem; font-weight: 600;
+      padding: 4px 12px; border-radius: 50px;
+    }
+    .hero-floating-card {
+      position: absolute;
+      background: white;
+      border-radius: 14px;
+      padding: 12px 16px;
+      box-shadow: 0 10px 40px rgba(10,61,98,0.2);
+      animation: floatCard 4s ease-in-out infinite alternate;
+    }
+    @keyframes floatCard {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-12px); }
+    }
+    .hero-floating-card.card-top {
+      top: -20px; right: -20px;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .hero-floating-card.card-bottom {
+      bottom: -20px; left: -20px;
+      animation-delay: 1.5s;
+    }
+    .floating-icon {
+      width: 40px; height: 40px;
+      background: linear-gradient(135deg, var(--royal-blue), var(--sky-blue));
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      color: white; font-size: 1.1rem;
+    }
+    .floating-text { font-size: 0.78rem; }
+    .floating-text strong { display: block; color: var(--royal-blue); font-weight: 700; font-size: 0.85rem; }
+    .floating-text span { color: var(--gray-light); }
+    .scroll-indicator {
+      position: absolute;
+      bottom: 32px; left: 50%;
+      transform: translateX(-50%);
+      z-index: 10;
+      display: flex; flex-direction: column; align-items: center; gap: 8px;
+    }
+    .scroll-text { color: rgba(255,255,255,0.5); font-size: 0.72rem; letter-spacing: 2px; text-transform: uppercase; }
+    .scroll-mouse {
+      width: 26px; height: 40px;
+      border: 2px solid rgba(255,255,255,0.4);
+      border-radius: 13px;
+      display: flex; justify-content: center; padding-top: 6px;
+    }
+    .scroll-wheel {
+      width: 4px; height: 8px;
+      background: rgba(255,255,255,0.7);
+      border-radius: 4px;
+      animation: scrollWheel 1.8s ease-in-out infinite;
+    }
+    @keyframes scrollWheel {
+      0% { transform: translateY(0); opacity: 1; }
+      100% { transform: translateY(10px); opacity: 0; }
+    }
+
+    /* ===========================
+       ANNOUNCEMENT BAR
+    =========================== */
+    #announcementBar {
+      background: linear-gradient(90deg, var(--royal-blue), #1565c0);
+      color: white;
+      padding: 10px 0;
+      overflow: hidden;
+    }
+    .marquee-wrap {
+      display: flex; align-items: center; gap: 24px;
+      white-space: nowrap;
+      animation: marquee 25s linear infinite;
+    }
+    @keyframes marquee {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .marquee-item { display: flex; align-items: center; gap: 8px; font-size: 0.85rem; font-weight: 500; }
+    .marquee-sep { color: var(--gold); font-size: 1.2rem; }
+    .announce-label {
+      background: var(--gold);
+      color: var(--royal-blue);
+      font-weight: 700;
+      font-size: 0.75rem;
+      padding: 3px 12px;
+      border-radius: 4px;
+      letter-spacing: 1px;
+      margin-right: 8px;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    /* ===========================
+       ABOUT SECTION
+    =========================== */
+    .about-img-wrap {
+      position: relative;
+    }
+    .about-img-main {
+      width: 100%; border-radius: var(--radius);
+      box-shadow: var(--shadow-card);
+      object-fit: cover;
+      height: 420px;
+      background: linear-gradient(135deg, var(--sky-blue-light), #c8e6ff);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 5rem;
+    }
+    .about-badge-float {
+      position: absolute;
+      bottom: -24px; right: -24px;
+      background: white;
+      border-radius: var(--radius-sm);
+      padding: 18px 22px;
+      box-shadow: var(--shadow-card);
+      text-align: center;
+      min-width: 140px;
+    }
+    .about-badge-float .num {
+      font-size: 2.2rem; font-weight: 800; color: var(--royal-blue); line-height: 1;
+    }
+    .about-badge-float .lbl {
+      font-size: 0.75rem; color: var(--gray-light); font-weight: 500; margin-top: 4px;
+    }
+    .about-badge-float2 {
+      position: absolute;
+      top: -20px; left: -20px;
+      background: linear-gradient(135deg, var(--royal-blue), var(--sky-blue));
+      border-radius: var(--radius-sm);
+      padding: 14px 18px;
+      box-shadow: var(--shadow-card);
+      color: white;
+      font-size: 0.8rem; font-weight: 600;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .about-features { margin-top: 28px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .about-feature-item {
+      display: flex; align-items: flex-start; gap: 12px;
+      background: var(--bg-soft);
+      padding: 14px;
+      border-radius: var(--radius-sm);
+      transition: var(--transition);
+    }
+    .about-feature-item:hover { background: var(--sky-blue-light); transform: translateY(-3px); }
+    .af-icon {
+      width: 38px; height: 38px; flex-shrink: 0;
+      background: linear-gradient(135deg, var(--royal-blue), var(--sky-blue));
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      color: white; font-size: 0.9rem;
+    }
+    .af-text strong { font-size: 0.85rem; font-weight: 700; color: var(--royal-blue); display: block; margin-bottom: 2px; }
+    .af-text span { font-size: 0.75rem; color: var(--gray-light); }
+
+    /* ===========================
+       PRINCIPAL SECTION
+    =========================== */
+    #principal { background: linear-gradient(135deg, var(--royal-blue-dark), var(--royal-blue)); }
+    .principal-card {
+      background: rgba(255,255,255,0.06);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(255,255,255,0.14);
+      border-radius: var(--radius);
+      padding: 42px;
+      height: 100%;
+    }
+    .principal-img-wrap {
+      position: relative; display: inline-block;
+    }
+    .principal-img {
+      width: 200px; height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid rgba(255,255,255,0.2);
+      background: linear-gradient(135deg, rgba(116,185,255,0.4), rgba(253,203,110,0.3));
+      display: flex; align-items: center; justify-content: center;
+      font-size: 5rem;
+      color: rgba(255,255,255,0.6);
+    }
+    .principal-verified {
+      position: absolute; bottom: 10px; right: 0;
+      background: var(--gold);
+      width: 40px; height: 40px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--royal-blue); font-size: 1rem;
+      box-shadow: 0 4px 14px rgba(253,203,110,0.5);
+    }
+    .principal-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8rem; font-weight: 800; color: white; margin-top: 20px; margin-bottom: 6px;
+    }
+    .principal-role {
+      font-size: 0.85rem; color: var(--gold); font-weight: 600; letter-spacing: 1px; text-transform: uppercase;
+    }
+    .principal-message-card {
+      background: rgba(255,255,255,0.06);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(255,255,255,0.14);
+      border-radius: var(--radius);
+      padding: 42px;
+      height: 100%;
+      position: relative;
+    }
+    .principal-message-card::before {
+      content: '\201C';
+      font-size: 8rem; line-height: 1;
+      color: rgba(253,203,110,0.2);
+      font-family: 'Playfair Display', serif;
+      position: absolute; top: 10px; left: 28px;
+    }
+    .principal-message-card .msg-text {
+      font-size: 1rem; color: rgba(255,255,255,0.85); line-height: 1.9;
+      margin-top: 30px; margin-bottom: 28px;
+      font-style: italic;
+      position: relative; z-index: 1;
+    }
+    .principal-sig {
+      display: flex; align-items: center; gap: 14px;
+    }
+    .sig-line { flex: 1; height: 1px; background: rgba(255,255,255,0.15); }
+    .sig-text { font-size: 0.78rem; color: rgba(255,255,255,0.55); }
+
+    /* ===========================
+       MISSION & VISION
+    =========================== */
+    .mv-card {
+      background: white;
+      border-radius: var(--radius);
+      padding: 36px;
+      height: 100%;
+      box-shadow: var(--shadow-card);
+      border-top: 4px solid transparent;
+      transition: var(--transition);
+      position: relative; overflow: hidden;
+    }
+    .mv-card::before {
+      content: '';
+      position: absolute; inset: 0;
+      opacity: 0;
+      transition: var(--transition);
+      border-radius: var(--radius);
+    }
+    .mv-card.mission { border-top-color: var(--royal-blue); }
+    .mv-card.mission::before { background: linear-gradient(135deg, var(--royal-blue), #1565c0); }
+    .mv-card.vision { border-top-color: var(--sky-blue); }
+    .mv-card.vision::before { background: linear-gradient(135deg, var(--sky-blue), #0984e3); }
+    .mv-card.values { border-top-color: var(--gold); }
+    .mv-card.values::before { background: linear-gradient(135deg, var(--gold-dark), var(--gold)); }
+    .mv-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-hover); }
+    .mv-card:hover::before { opacity: 1; }
+    .mv-card:hover * { color: white !important; }
+    .mv-icon {
+      width: 64px; height: 64px;
+      border-radius: 16px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.6rem;
+      margin-bottom: 22px;
+      transition: var(--transition);
+      position: relative; z-index: 1;
+    }
+    .mv-card.mission .mv-icon { background: rgba(10,61,98,0.1); color: var(--royal-blue); }
+    .mv-card.vision .mv-icon { background: rgba(116,185,255,0.15); color: #0984e3; }
+    .mv-card.values .mv-icon { background: rgba(253,203,110,0.2); color: var(--gold-dark); }
+    .mv-card h4 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.4rem; font-weight: 800; color: var(--royal-blue);
+      margin-bottom: 14px; position: relative; z-index: 1;
+      transition: var(--transition);
+    }
+    .mv-card p {
+      color: var(--gray-light); line-height: 1.8; font-size: 0.92rem;
+      position: relative; z-index: 1;
+      transition: var(--transition);
+    }
+
+    /* ===========================
+       BOARDING & GOVT SECTIONS
+    =========================== */
+    .school-type-card {
+      background: white;
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow-card);
+      height: 100%;
+      transition: var(--transition);
+    }
+    .school-type-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-hover); }
+    .stc-header {
+      padding: 32px;
+      position: relative;
+    }
+    .stc-header.boarding { background: linear-gradient(135deg, var(--royal-blue), #1565c0); }
+    .stc-header.govt { background: linear-gradient(135deg, #00695c, #00897b); }
+    .stc-icon {
+      width: 56px; height: 56px;
+      background: rgba(255,255,255,0.15);
+      border-radius: 14px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.6rem; color: white;
+      margin-bottom: 16px;
+    }
+    .stc-header h3 { font-family: 'Playfair Display', serif; font-size: 1.6rem; font-weight: 800; color: white; margin-bottom: 6px; }
+    .stc-header p { color: rgba(255,255,255,0.75); font-size: 0.85rem; }
+    .stc-body { padding: 28px 32px; }
+    .stc-feature-list { list-style: none; margin-bottom: 24px; }
+    .stc-feature-list li {
+      display: flex; align-items: center; gap: 12px;
+      padding: 10px 0;
+      border-bottom: 1px solid #f0f4f8;
+      font-size: 0.88rem; color: var(--gray-text);
+    }
+    .stc-feature-list li:last-child { border: none; }
+    .stc-feature-list li i { color: var(--royal-blue); font-size: 0.9rem; flex-shrink: 0; }
+    .stc-feature-list.govt li i { color: #00695c; }
+    .class-badge {
+      display: inline-block;
+      background: linear-gradient(135deg, var(--royal-blue), #1565c0);
+      color: white;
+      font-weight: 700; font-size: 0.85rem;
+      padding: 6px 18px; border-radius: 50px;
+      margin-top: 4px;
+    }
+    .class-badge.govt { background: linear-gradient(135deg, #00695c, #00897b); }
+
+    /* ===========================
+       COUNTERS
+    =========================== */
+    #counters {
+      background: linear-gradient(135deg, var(--royal-blue), #1565c0, #0d47a1);
+      position: relative; overflow: hidden;
+    }
+    .counter-card {
+      text-align: center;
+      padding: 36px 20px;
+      border-radius: var(--radius);
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.12);
+      transition: var(--transition);
+    }
+    .counter-card:hover {
+      background: rgba(255,255,255,0.12);
+      transform: translateY(-6px);
+    }
+    .counter-icon {
+      width: 64px; height: 64px;
+      background: rgba(253,203,110,0.2);
+      border-radius: 16px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.6rem; color: var(--gold);
+      margin: 0 auto 18px;
+    }
+    .counter-num {
+      font-size: 3rem; font-weight: 800; color: white;
+      line-height: 1; margin-bottom: 8px;
+      display: flex; justify-content: center; align-items: baseline; gap: 2px;
+    }
+    .counter-suffix { font-size: 2rem; color: var(--gold); }
+    .counter-label { font-size: 0.88rem; color: rgba(255,255,255,0.65); font-weight: 500; }
+
+    /* ===========================
+       FACILITIES
+    =========================== */
+    .facility-card {
+      background: white;
+      border-radius: var(--radius);
+      padding: 30px 26px;
+      box-shadow: var(--shadow-soft);
+      text-align: center;
+      transition: var(--transition);
+      border: 1px solid #eef3f8;
+      height: 100%;
+      position: relative;
+      overflow: hidden;
+    }
+    .facility-card::before {
+      content: '';
+      position: absolute; bottom: 0; left: 0; right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--royal-blue), var(--sky-blue));
+      transform: scaleX(0);
+      transition: var(--transition);
+    }
+    .facility-card:hover { transform: translateY(-10px); box-shadow: var(--shadow-hover); }
+    .facility-card:hover::before { transform: scaleX(1); }
+    .facility-icon {
+      width: 70px; height: 70px;
+      background: linear-gradient(135deg, var(--sky-blue-light), #dbeeff);
+      border-radius: 20px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.8rem; color: var(--royal-blue);
+      margin: 0 auto 18px;
+      transition: var(--transition);
+    }
+    .facility-card:hover .facility-icon {
+      background: linear-gradient(135deg, var(--royal-blue), var(--sky-blue));
+      color: white;
+    }
+    .facility-card h5 { font-weight: 700; color: var(--royal-blue); margin-bottom: 10px; font-size: 1rem; }
+    .facility-card p { font-size: 0.83rem; color: var(--gray-light); line-height: 1.7; }
+
+    /* ===========================
+       TEACHERS
+    =========================== */
+    .teacher-card {
+      background: white;
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow-soft);
+      text-align: center;
+      transition: var(--transition);
+      height: 100%;
+    }
+    .teacher-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-hover); }
+    .teacher-img-wrap {
+      position: relative; overflow: hidden;
+      height: 220px;
+    }
+    .teacher-img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      background: linear-gradient(135deg, var(--sky-blue-light), #c8e6ff);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 4rem;
+      transition: var(--transition);
+    }
+    .teacher-card:hover .teacher-img { transform: scale(1.05); }
+    .teacher-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(to bottom, transparent 40%, rgba(10,61,98,0.85));
+      opacity: 0;
+      transition: var(--transition);
+      display: flex; align-items: flex-end; justify-content: center;
+      padding-bottom: 16px;
+    }
+    .teacher-card:hover .teacher-overlay { opacity: 1; }
+    .teacher-social { display: flex; gap: 10px; }
+    .teacher-social a {
+      width: 34px; height: 34px;
+      background: white;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--royal-blue); font-size: 0.85rem;
+      text-decoration: none;
+      transition: var(--transition);
+    }
+    .teacher-social a:hover { background: var(--gold); color: var(--royal-blue); }
+    .teacher-body { padding: 20px 18px; }
+    .teacher-name { font-weight: 700; font-size: 1rem; color: var(--royal-blue); margin-bottom: 4px; }
+    .teacher-subject { font-size: 0.8rem; color: var(--gray-light); margin-bottom: 10px; }
+    .teacher-exp {
+      display: inline-block;
+      background: var(--sky-blue-light);
+      color: var(--royal-blue);
+      font-size: 0.72rem; font-weight: 600;
+      padding: 3px 10px; border-radius: 50px;
+    }
+
+    /* ===========================
+       GALLERY
+    =========================== */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 220px);
+      gap: 14px;
+    }
+    .gallery-item {
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      position: relative;
+      cursor: pointer;
+    }
+    .gallery-item:nth-child(1) { grid-column: 1; grid-row: 1 / 3; }
+    .gallery-item:nth-child(4) { grid-column: 3; grid-row: 1 / 3; }
+    .gallery-img {
+      width: 100%; height: 100%;
+      background: linear-gradient(135deg, var(--sky-blue-light), var(--royal-blue));
+      display: flex; align-items: center; justify-content: center;
+      font-size: 3rem;
+      transition: var(--transition);
+    }
+    .gallery-item:hover .gallery-img { transform: scale(1.1); }
+    .gallery-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(135deg, rgba(10,61,98,0.8), rgba(21,101,192,0.6));
+      display: flex; align-items: center; justify-content: center; flex-direction: column;
+      opacity: 0;
+      transition: var(--transition);
+      padding: 16px;
+    }
+    .gallery-item:hover .gallery-overlay { opacity: 1; }
+    .gallery-overlay h6 { color: white; font-weight: 700; font-size: 0.9rem; text-align: center; margin-bottom: 6px; }
+    .gallery-overlay p { color: rgba(255,255,255,0.75); font-size: 0.75rem; text-align: center; }
+
+    /* ===========================
+       NOTICE BOARD
+    =========================== */
+    #noticeboard { background: var(--bg-soft); }
+    .notice-card {
+      background: white;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-soft);
+      overflow: hidden;
+    }
+    .notice-header {
+      background: linear-gradient(135deg, var(--royal-blue), #1565c0);
+      padding: 22px 28px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .notice-header h4 { color: white; font-weight: 700; margin: 0; font-size: 1.1rem; }
+    .notice-item {
+      display: flex; align-items: flex-start; gap: 14px;
+      padding: 16px 24px;
+      border-bottom: 1px solid #f0f4f8;
+      transition: var(--transition);
+      cursor: pointer;
+    }
+    .notice-item:last-child { border: none; }
+    .notice-item:hover { background: var(--sky-blue-light); }
+    .notice-date {
+      background: var(--royal-blue);
+      color: white;
+      border-radius: 8px;
+      padding: 6px 10px;
+      text-align: center;
+      min-width: 52px;
+      flex-shrink: 0;
+    }
+    .notice-date .day { font-size: 1.3rem; font-weight: 800; line-height: 1; }
+    .notice-date .mon { font-size: 0.65rem; letter-spacing: 1px; text-transform: uppercase; }
+    .notice-info h6 { font-size: 0.9rem; font-weight: 700; color: var(--gray-text); margin-bottom: 3px; }
+    .notice-info p { font-size: 0.77rem; color: var(--gray-light); margin: 0; }
+    .notice-badge {
+      font-size: 0.65rem; font-weight: 700; padding: 2px 8px;
+      border-radius: 4px; letter-spacing: 0.5px; flex-shrink: 0; margin-left: auto;
+    }
+    .nb-new { background: #e3f9e5; color: #2e7d32; }
+    .nb-urgent { background: #fce4ec; color: #c62828; }
+    .nb-info { background: var(--sky-blue-light); color: var(--royal-blue); }
+
+    /* ===========================
+       TIMELINE
+    =========================== */
+    #timeline { background: white; }
+    .timeline-wrap { position: relative; padding: 20px 0; }
+    .timeline-wrap::before {
+      content: '';
+      position: absolute;
+      left: 50%; top: 0; bottom: 0;
+      width: 3px;
+      background: linear-gradient(to bottom, var(--royal-blue), var(--sky-blue), var(--gold));
+      transform: translateX(-50%);
+    }
+    .tl-item {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 40px;
+      position: relative;
+    }
+    .tl-item:nth-child(odd) { flex-direction: row; }
+    .tl-item:nth-child(even) { flex-direction: row-reverse; }
+    .tl-content {
+      width: calc(50% - 40px);
+      background: white;
+      border-radius: var(--radius-sm);
+      padding: 22px 26px;
+      box-shadow: var(--shadow-card);
+      border-left: 4px solid var(--royal-blue);
+      transition: var(--transition);
+    }
+    .tl-item:nth-child(even) .tl-content { border-left: none; border-right: 4px solid var(--sky-blue); }
+    .tl-content:hover { transform: translateX(6px); box-shadow: var(--shadow-hover); }
+    .tl-item:nth-child(even) .tl-content:hover { transform: translateX(-6px); }
+    .tl-dot {
+      position: absolute; left: 50%; top: 22px;
+      transform: translateX(-50%);
+      width: 20px; height: 20px;
+      border-radius: 50%;
+      background: var(--royal-blue);
+      border: 4px solid white;
+      box-shadow: 0 0 0 3px var(--sky-blue);
+      z-index: 1;
+    }
+    .tl-year {
+      font-size: 0.75rem; font-weight: 700; color: var(--sky-blue);
+      letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px;
+    }
+    .tl-content h5 { font-weight: 700; color: var(--royal-blue); font-size: 0.95rem; margin-bottom: 6px; }
+    .tl-content p { font-size: 0.82rem; color: var(--gray-light); line-height: 1.6; margin: 0; }
+
+    /* ===========================
+       TESTIMONIALS
+    =========================== */
+    #testimonials { background: var(--bg-soft); }
+    .testimonial-card {
+      background: white;
+      border-radius: var(--radius);
+      padding: 32px;
+      box-shadow: var(--shadow-soft);
+      height: 100%;
+      position: relative;
+      transition: var(--transition);
+    }
+    .testimonial-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-hover); }
+    .testi-quote {
+      font-size: 3rem; line-height: 0.8;
+      color: var(--gold);
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 12px;
+    }
+    .testi-text {
+      font-size: 0.9rem; color: var(--gray-light);
+      line-height: 1.8; font-style: italic;
+      margin-bottom: 22px;
+    }
+    .testi-author { display: flex; align-items: center; gap: 14px; }
+    .testi-avatar {
+      width: 50px; height: 50px; border-radius: 50%;
+      background: linear-gradient(135deg, var(--royal-blue), var(--sky-blue));
+      display: flex; align-items: center; justify-content: center;
+      color: white; font-weight: 700; font-size: 1.2rem;
+      flex-shrink: 0;
+    }
+    .testi-name { font-weight: 700; font-size: 0.9rem; color: var(--royal-blue); }
+    .testi-role { font-size: 0.76rem; color: var(--gray-light); }
+    .testi-stars { color: var(--gold); font-size: 0.85rem; margin-bottom: 4px; }
+
+    /* ===========================
+       FAQ
+    =========================== */
+    #faq { background: white; }
+    .accordion-item {
+      border: 1px solid #eef3f8 !important;
+      border-radius: var(--radius-sm) !important;
+      margin-bottom: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(10,61,98,0.06);
+    }
+    .accordion-button {
+      font-weight: 600; font-size: 0.93rem; color: var(--royal-blue) !important;
+      background: white !important;
+      padding: 18px 22px;
+    }
+    .accordion-button:not(.collapsed) {
+      background: var(--sky-blue-light) !important;
+      box-shadow: none !important;
+    }
+    .accordion-button::after {
+      filter: invert(20%) sepia(70%) saturate(2000%) hue-rotate(200deg);
+    }
+    .accordion-body { font-size: 0.88rem; color: var(--gray-light); line-height: 1.8; padding: 16px 22px; }
+
+    /* ===========================
+       ADMISSION
+    =========================== */
+    #admission {
+      background: linear-gradient(135deg, var(--royal-blue), #1565c0, #0d47a1);
+      position: relative; overflow: hidden;
+    }
+    .admission-card {
+      background: rgba(255,255,255,0.08);
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: var(--radius);
+      padding: 48px;
+      text-align: center;
+    }
+    .admission-card h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2rem; font-weight: 800; color: white; margin-bottom: 14px;
+    }
+    .admission-card p {
+      color: rgba(255,255,255,0.75); font-size: 0.97rem; line-height: 1.8; margin-bottom: 32px;
+      max-width: 600px; margin-left: auto; margin-right: auto;
+    }
+    .btn-admit-primary {
+      background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+      color: var(--royal-blue);
+      border: none;
+      font-weight: 700; font-size: 1rem;
+      padding: 15px 38px; border-radius: 50px;
+      cursor: pointer; transition: var(--transition);
+      text-decoration: none; display: inline-flex; align-items: center; gap: 8px;
+      box-shadow: 0 8px 28px rgba(253,203,110,0.4);
+    }
+    .btn-admit-primary:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 14px 40px rgba(253,203,110,0.5);
+      color: var(--royal-blue);
+    }
+    .btn-admit-outline {
+      background: transparent;
+      color: white; border: 2px solid rgba(255,255,255,0.5);
+      font-weight: 600; padding: 14px 36px; border-radius: 50px;
+      cursor: pointer; transition: var(--transition);
+      text-decoration: none; display: inline-flex; align-items: center; gap: 8px;
+    }
+    .btn-admit-outline:hover {
+      background: rgba(255,255,255,0.12);
+      border-color: rgba(255,255,255,0.8); color: white;
+      transform: translateY(-4px);
+    }
+    .admission-steps {
+      display: flex; justify-content: center; flex-wrap: wrap;
+      gap: 32px; margin-top: 40px;
+    }
+    .adm-step { text-align: center; }
+    .adm-step-num {
+      width: 44px; height: 44px;
+      background: rgba(255,255,255,0.15);
+      border: 2px solid rgba(255,255,255,0.3);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--gold); font-weight: 700; font-size: 1.1rem;
+      margin: 0 auto 8px;
+    }
+    .adm-step span { font-size: 0.78rem; color: rgba(255,255,255,0.7); display: block; max-width: 80px; }
+
+    /* ===========================
+       CONTACT
+    =========================== */
+    #contact { background: var(--bg-soft); }
+    .contact-info-card {
+      background: linear-gradient(135deg, var(--royal-blue), #1565c0);
+      border-radius: var(--radius);
+      padding: 40px;
+      height: 100%;
+    }
+    .contact-info-card h4 {
+      font-family: 'Playfair Display', serif;
+      color: white; font-size: 1.6rem; font-weight: 800; margin-bottom: 8px;
+    }
+    .contact-info-card p { color: rgba(255,255,255,0.7); font-size: 0.88rem; margin-bottom: 28px; }
+    .ci-item {
+      display: flex; align-items: flex-start; gap: 16px;
+      margin-bottom: 22px;
+    }
+    .ci-icon {
+      width: 44px; height: 44px; flex-shrink: 0;
+      background: rgba(255,255,255,0.12);
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--gold); font-size: 1.1rem;
+    }
+    .ci-text strong { display: block; color: white; font-size: 0.9rem; font-weight: 700; margin-bottom: 2px; }
+    .ci-text span { color: rgba(255,255,255,0.65); font-size: 0.82rem; line-height: 1.5; }
+    .ci-socials { display: flex; gap: 10px; margin-top: 28px; }
+    .ci-social-btn {
+      width: 42px; height: 42px;
+      background: rgba(255,255,255,0.12);
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      color: white; font-size: 1rem;
+      text-decoration: none; transition: var(--transition);
+    }
+    .ci-social-btn:hover { background: var(--gold); color: var(--royal-blue); transform: translateY(-3px); }
+    .contact-form-card {
+      background: white;
+      border-radius: var(--radius);
+      padding: 40px;
+      box-shadow: var(--shadow-card);
+    }
+    .form-label { font-size: 0.85rem; font-weight: 600; color: var(--royal-blue); margin-bottom: 6px; }
+    .form-control, .form-select {
+      border: 1.5px solid #dce8f5;
+      border-radius: 10px;
+      padding: 12px 16px;
+      font-size: 0.88rem;
+      color: var(--gray-text);
+      transition: var(--transition);
+      font-family: 'Poppins', sans-serif;
+    }
+    .form-control:focus, .form-select:focus {
+      border-color: var(--sky-blue);
+      box-shadow: 0 0 0 3px rgba(116,185,255,0.15);
+      outline: none;
+    }
+    .map-embed {
+      width: 100%; height: 300px;
+      border-radius: var(--radius);
+      border: none;
+      margin-top: 14px;
+      box-shadow: var(--shadow-soft);
+    }
+    .btn-submit {
+      background: linear-gradient(135deg, var(--royal-blue), #1565c0);
+      color: white; border: none;
+      font-weight: 700; font-size: 0.95rem;
+      padding: 14px 36px; border-radius: 50px;
+      cursor: pointer; transition: var(--transition);
+      width: 100%;
+    }
+    .btn-submit:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 30px rgba(10,61,98,0.3);
+      background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+      color: var(--royal-blue);
+    }
+
+    /* ===========================
+       FOOTER
+    =========================== */
+    #footer {
+      background: linear-gradient(180deg, var(--royal-blue-dark) 0%, #051e31 100%);
+      color: white;
+    }
+    .footer-top { padding: 70px 0 50px; }
+    .footer-brand .brand-logo-lg {
+      width: 64px; height: 64px;
+      background: linear-gradient(135deg, var(--sky-blue), #74b9ff80);
+      border-radius: 18px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.8rem; color: white;
+      margin-bottom: 18px;
+      box-shadow: 0 8px 24px rgba(116,185,255,0.3);
+    }
+    .footer-brand h4 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem; font-weight: 800; color: white; margin-bottom: 12px;
+    }
+    .footer-brand p { font-size: 0.83rem; color: rgba(255,255,255,0.55); line-height: 1.8; max-width: 240px; }
+    .footer-social { display: flex; gap: 10px; margin-top: 20px; }
+    .fsocial-btn {
+      width: 38px; height: 38px;
+      background: rgba(255,255,255,0.08);
+      border-radius: 9px;
+      display: flex; align-items: center; justify-content: center;
+      color: rgba(255,255,255,0.6); font-size: 0.95rem;
+      text-decoration: none; transition: var(--transition);
+    }
+    .fsocial-btn:hover { background: var(--gold); color: var(--royal-blue); transform: translateY(-3px); }
+    .footer-heading { font-size: 0.85rem; font-weight: 700; color: var(--gold); letter-spacing: 2px; text-transform: uppercase; margin-bottom: 20px; }
+    .footer-links { list-style: none; }
+    .footer-links li { margin-bottom: 10px; }
+    .footer-links a {
+      color: rgba(255,255,255,0.55); font-size: 0.83rem;
+      text-decoration: none; transition: var(--transition);
+      display: flex; align-items: center; gap: 8px;
+    }
+    .footer-links a::before { content: '›'; color: var(--gold); font-size: 1.1rem; }
+    .footer-links a:hover { color: white; padding-left: 4px; }
+    .footer-contact-item {
+      display: flex; align-items: flex-start; gap: 10px;
+      margin-bottom: 12px; font-size: 0.82rem; color: rgba(255,255,255,0.55);
+    }
+    .footer-contact-item i { color: var(--gold); font-size: 0.9rem; margin-top: 2px; flex-shrink: 0; }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding: 22px 0;
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: 12px;
+    }
+    .footer-bottom p { font-size: 0.8rem; color: rgba(255,255,255,0.4); margin: 0; }
+    .footer-bottom a { color: var(--gold); text-decoration: none; }
+    .footer-affil {
+      display: flex; gap: 16px; flex-wrap: wrap;
+    }
+    .affil-badge {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 8px;
+      padding: 6px 14px;
+      font-size: 0.73rem; color: rgba(255,255,255,0.5);
+      display: flex; align-items: center; gap: 6px;
+    }
+    .affil-badge i { color: var(--gold); }
+
+    /* ===========================
+       BACK TO TOP
+    =========================== */
+    #backToTop {
+      position: fixed; bottom: 30px; right: 30px;
+      width: 48px; height: 48px;
+      background: linear-gradient(135deg, var(--royal-blue), var(--sky-blue));
+      color: white; border: none;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.1rem;
+      cursor: pointer;
+      box-shadow: 0 6px 24px rgba(10,61,98,0.35);
+      transition: var(--transition);
+      opacity: 0; pointer-events: none;
+      z-index: 999;
+    }
+    #backToTop.visible { opacity: 1; pointer-events: all; }
+    #backToTop:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(10,61,98,0.4); }
+
+    /* ===========================
+       RESPONSIVE
+    =========================== */
+    @media (max-width: 991px) {
+      .gallery-grid { grid-template-columns: repeat(2, 1fr); grid-template-rows: auto; }
+      .gallery-item:nth-child(1), .gallery-item:nth-child(4) { grid-column: auto; grid-row: auto; }
+      .timeline-wrap::before { left: 20px; }
+      .tl-item { flex-direction: column !important; padding-left: 50px; }
+      .tl-content { width: 100%; }
+      .tl-dot { left: 20px; }
+      .about-badge-float { right: 10px; }
+      .about-badge-float2 { left: 10px; top: -10px; }
+    }
+    @media (max-width: 767px) {
+      .section-pad { padding: 60px 0; }
+      .hero-title { font-size: 2rem; }
+      .hero-card-main { display: none; }
+      .hero-stats { justify-content: center; gap: 20px; }
+      .principal-card, .principal-message-card { padding: 28px; }
+      .gallery-grid { grid-template-columns: 1fr 1fr; }
+      .admission-card { padding: 32px 24px; }
+      .contact-form-card, .contact-info-card { padding: 28px; }
+      .footer-top { padding: 50px 0 36px; }
+    }
+    @media (max-width: 575px) {
+      .about-features { grid-template-columns: 1fr; }
+      .gallery-grid { grid-template-columns: 1fr; }
+      .footer-bottom { flex-direction: column; text-align: center; }
+    }
+
+    /* AOS custom */
+    [data-aos] { pointer-events: none; }
+    [data-aos].aos-animate { pointer-events: auto; }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+   <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand-wrap" href="#hero">
+        <div class="brand-logo">
+          <i class="fas fa-graduation-cap"></i>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Shree Pingla Devi</span>
+          <span class="brand-tagline">Secondary School • Nepal</span>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <div class="toggler-icon"><span></span><span></span><span></span></div>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav align-items-lg-center gap-lg-1 py-3 py-lg-0 ms-auto me-3">
+          <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+
+          <li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="/boarding.html">Boarding</a></li>
+          <li class="nav-item"><a class="nav-link" href="/govt-school.html">Govt. School</a></li>
+          <li class="nav-item"><a class="nav-link" href="/facilities.html">Facilities</a></li>
+          <li class="nav-item"><a class="nav-link" href="/teachers.html">Teachers</a></li>
+          <li class="nav-item"><a class="nav-link" href="/notice.html">Notice</a></li>
+          <li class="nav-item"><a class="nav-link" href="/contact.html">Contact</a></li>
+        </ul>
+        <a href="#admission" class="btn-nav-admit nav-link">Apply Now</a>
+      </div>
+    </div>
+  </nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="ph-shape ph-s1"></div><div class="ph-shape ph-s2"></div>
+  <div class="container" style="position:relative;z-index:2">
+    <div class="breadcrumb-wrap"><a href="index.html"><i class="fas fa-home me-1"></i>Home</a><span>/</span><span class="cur">Our Teachers</span></div>
+    <h1 data-aos="fade-up">Meet Our Dedicated Teachers</h1>
+    <p data-aos="fade-up" data-aos-delay="100">35+ passionate, qualified, and caring educators who inspire every student to learn, grow, and achieve their full potential every single day.</p>
+  </div>
+</section>
+
+<!-- STATS STRIP -->
+<div class="stats-strip">
+  <div class="container">
+    <div class="row" id="statsRow">
+      <div class="col-6 col-md-3"><div class="stat-item"><div class="stat-icon"><i class="fas fa-chalkboard-teacher"></i></div><div class="stat-num"><span class="counter" data-target="35">0</span><span class="stat-sfx">+</span></div><div class="stat-label">Total Teachers</div></div></div>
+      <div class="col-6 col-md-3"><div class="stat-item"><div class="stat-icon"><i class="fas fa-graduation-cap"></i></div><div class="stat-num"><span class="counter" data-target="28">0</span><span class="stat-sfx">+</span></div><div class="stat-label">B.Ed / M.Ed Qualified</div></div></div>
+      <div class="col-6 col-md-3"><div class="stat-item"><div class="stat-icon"><i class="fas fa-star"></i></div><div class="stat-num"><span class="counter" data-target="12">0</span><span class="stat-sfx">+</span></div><div class="stat-label">Avg. Years Experience</div></div></div>
+      <div class="col-6 col-md-3"><div class="stat-item"><div class="stat-icon"><i class="fas fa-trophy"></i></div><div class="stat-num"><span class="counter" data-target="8">0</span><span class="stat-sfx">+</span></div><div class="stat-label">Award-Winning Teachers</div></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- PRINCIPAL FEATURED -->
+<section style="padding:70px 0">
+  <div class="container">
+    <div class="principal-featured" data-aos="fade-up">
+      <div class="pf-avatar">👨‍💼</div>
+      <div class="pf-info">
+        <div class="pf-role"><i class="fas fa-star me-1"></i>School Leadership</div>
+        <div class="pf-name">Mr. Ram Prasad Sharma</div>
+        <p class="pf-desc">Our visionary principal with over 20 years of experience in education, leading Shree Pingla Devi Secondary School with dedication, compassion, and an unwavering commitment to student excellence. Holder of M.Ed. with specialisation in Educational Administration.</p>
+        <div class="pf-tags">
+          <span class="pf-tag"><i class="fas fa-graduation-cap me-1"></i>M.Ed. – Educational Admin</span>
+          <span class="pf-tag"><i class="fas fa-calendar me-1"></i>20+ Years Experience</span>
+          <span class="pf-tag"><i class="fas fa-award me-1"></i>District Excellence Award</span>
+          <span class="pf-tag"><i class="fas fa-home me-1"></i>Boarding Supervisor</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEACHER GRID -->
+<section class="section-pad bg-soft">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <span class="section-badge">Our Faculty</span>
+      <div class="gold-line center"></div>
+      <h2 class="section-title">All Teaching Staff</h2>
+      <p class="section-sub mx-auto">Every teacher at Shree Pingla Devi is selected for their subject expertise, teaching skill, and genuine love for nurturing young students</p>
+    </div>
+    <!-- Filter Tabs -->
+    <div class="filter-tabs" data-aos="fade-up">
+      <button class="filter-btn active" onclick="filterTeachers('all',this)">All Teachers</button>
+      <button class="filter-btn" onclick="filterTeachers('primary',this)">Primary (1–5)</button>
+      <button class="filter-btn" onclick="filterTeachers('secondary',this)">Secondary (6–10)</button>
+      <button class="filter-btn" onclick="filterTeachers('sports',this)">Sports & Arts</button>
+    </div>
+    <!-- Cards -->
+    <div class="row gy-4" id="teacherGrid">
+      <div class="col-sm-6 col-md-4 col-lg-3 teacher-item" data-cat="primary" data-aos="fade-up" data-aos-delay="0">
+        <div class="teacher-card"><div class="tc-img-wrap"><div class="tc-img" style="background:linear-gradient(135deg,#dbeeff,#74b9ff50)">👩‍🏫</div><div class="tc-overlay"><div class="tc-social"><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fas fa-envelope"></i></a></div></div></div><div class="tc-body"><div class="tc-name">Mrs. Sita Sharma</div><div class="tc-subject"><i class="fas fa-book me-1" style="color:var(--sky-blue)"></i>Mathematics & Science</div><div class="tc-meta"><span class="tc-badge tc-exp"><i class="fas fa-clock me-1"></i>15 Yrs</span><span class="tc-badge tc-qual">B.Ed.</span></div></div></div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 teacher-item" data-cat="secondary" data-aos="fade-up" data-aos-delay="60">
+        <div class="teacher-card"><div class="tc-img-wrap"><div class="tc-img" style="background:linear-gradient(135deg,#e8f5e9,#a5d6a7)">👨‍🏫</div><div class="tc-overlay"><div class="tc-social"><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fas fa-envelope"></i></a></div></div></div><div class="tc-body"><div class="tc-name">Mr. Hari Prasad Poudel</div><div class="tc-subject"><i class="fas fa-language me-1" style="color:var(--sky-blue)"></i>Nepali & Social Studies</div><div class="tc-meta"><span class="tc-badge tc-exp">12 Yrs</span><span class="tc-badge tc-qual">M.Ed.</span></div></div></div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 teacher-item" data-cat="secondary" data-aos="fade-up" data-aos-delay="120">
+        <div class="teacher-card"><div class="tc-img-wrap"><div class="tc-img" style="background:linear-gradient(135deg,#fce4ec,#f48fb1)">👩‍💼</div><div class="tc-overlay"><div class="tc-social"><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fas fa-envelope"></i></a></div></div></div><div class="tc-body"><div class="tc-name">Ms. Parbati Thapa</div><div class="tc-subject"><i class="fas fa-globe me-1" style="color:var(--sky-blue)"></i>English Language Arts</div><div class="tc-meta"><span class="tc-badge tc-exp">9 Yrs</span><span class="tc-badge tc-qual">B.Ed.</span></div></div></div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 teacher-item" data-cat="secondary" data-aos="fade-up" data-aos-delay="180">
+        <div class="teacher-card"><div class="tc-img-wrap"><div class="tc-img" style="background:linear-gradient(135deg,#ede7f6,#b39ddb)">👨‍🔬</div><div class="tc-overlay"><div class="tc-social"><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fas fa-envelope"></i></a></div></div></div><div class="tc-body"><div class="tc-name">Mr. Binod Adhikari</div><div class="tc-subject"><i class="fas fa-flask me-1" style="color:var(--sky-blue)"></i>Physics & Chemistry</div><div class="tc-meta"><span class="tc-badge tc-exp">11 Yrs</span><span class="tc-badge tc-qual">M.Sc.</span></div></div></div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 teacher-item" data-cat="sports" data-aos="fade-up" data-aos-delay="0">
+        <div class="teacher-card"><div class="tc-img-wrap"><div class="tc-img" style="background:linear-gradient(135deg,#fff8e1,#ffe082)">👩‍🎨</div><div class="tc-overlay"><div class="tc-social"><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fas fa-envelope"></i></a></div></div></div><div class="tc-body"><div class="tc-name">Ms. Mina Gurung</div><div class="tc-subject"><i class="fas fa-palette me-1" style="color:var(--sky-blue)"></i>Art & Music</div><div class="tc-meta"><span class="tc-badge tc-exp">7 Yrs</span><span class="tc-badge tc-qual">B.A.</span></div></div></div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 teacher-item" data-cat="secondary" data-aos="fade-up" data-aos-delay="60">
+        <div class="teacher-card"><div class="tc-img-wrap"><div class="tc-img" style="background:linear-gradient(135deg,#e0f7fa,#80deea)">👨‍💻</div><div class="tc-overlay"><div class="tc-social"><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fas fa-envelope"></i></a></div></div></div><div class="tc-body"><div class="tc-name">Mr. Kamal Pokharel</div><div class="tc-subject"><i class="fas fa-laptop-code me-1" style="color:var(--sky-blue)"></i>Computer Science</div><div class="tc-meta"><span class="tc-badge tc-exp">8 Yrs</span><span class="tc-badge tc-qual">B.IT</span></div></div></div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 teacher-item" data-cat="sports" data-aos="fade-up" data-aos-delay="120">
+        <div class="teacher-card"><div class="tc-img-wrap"><div class="tc-img" style="background:linear-gradient(135deg,#e8f5e9,#a5d6a7)">👩‍⚕️</div><div class="tc-overlay"><div class="tc-social"><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fas fa-envelope"></i></a></div></div></div><div class="tc-body"><div class="tc-name">Mrs. Anita Bhandari</div><div class="tc-subject"><i class="fas fa-running me-1" style="color:var(--sky-blue)"></i>Health & Physical Ed.</div><div class="tc-meta"><span class="tc-badge tc-exp">6 Yrs</span><span class="tc-badge tc-qual">B.P.Ed.</span></div></div></div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 teacher-item" data-cat="secondary" data-aos="fade-up" data-aos-delay="180">
+        <div class="teacher-card"><div class="tc-img-wrap"><div class="tc-img" style="background:linear-gradient(135deg,#fbe9e7,#ffab91)">👨‍🌾</div><div class="tc-overlay"><div class="tc-social"><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fas fa-envelope"></i></a></div></div></div><div class="tc-body"><div class="tc-name">Mr. Deepak Khatri</div><div class="tc-subject"><i class="fas fa-globe-asia me-1" style="color:var(--sky-blue)"></i>Geography & Env. Sci.</div><div class="tc-meta"><span class="tc-badge tc-exp">10 Yrs</span><span class="tc-badge tc-qual">M.A.</span></div></div></div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 teacher-item" data-cat="primary" data-aos="fade-up" data-aos-delay="0">
+        <div class="teacher-card"><div class="tc-img-wrap"><div class="tc-img" style="background:linear-gradient(135deg,#dbeeff,#74b9ff50)">👩‍🏫</div><div class="tc-overlay"><div class="tc-social"><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fas fa-envelope"></i></a></div></div></div><div class="tc-body"><div class="tc-name">Mrs. Kamala Oli</div><div class="tc-subject"><i class="fas fa-book me-1" style="color:var(--sky-blue)"></i>Primary Class Teacher (1-2)</div><div class="tc-meta"><span class="tc-badge tc-exp">13 Yrs</span><span class="tc-badge tc-qual">B.Ed.</span></div></div></div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 teacher-item" data-cat="primary" data-aos="fade-up" data-aos-delay="60">
+        <div class="teacher-card"><div class="tc-img-wrap"><div class="tc-img" style="background:linear-gradient(135deg,#f3e5f5,#ce93d8)">👨‍🏫</div><div class="tc-overlay"><div class="tc-social"><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fas fa-envelope"></i></a></div></div></div><div class="tc-body"><div class="tc-name">Mr. Suresh Bhattarai</div><div class="tc-subject"><i class="fas fa-calculator me-1" style="color:var(--sky-blue)"></i>Primary Maths & EVS (3-5)</div><div class="tc-meta"><span class="tc-badge tc-exp">9 Yrs</span><span class="tc-badge tc-qual">B.Ed.</span></div></div></div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 teacher-item" data-cat="secondary" data-aos="fade-up" data-aos-delay="120">
+        <div class="teacher-card"><div class="tc-img-wrap"><div class="tc-img" style="background:linear-gradient(135deg,#e0f7fa,#80deea)">👩‍🔬</div><div class="tc-overlay"><div class="tc-social"><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fas fa-envelope"></i></a></div></div></div><div class="tc-body"><div class="tc-name">Ms. Rekha Neupane</div><div class="tc-subject"><i class="fas fa-dna me-1" style="color:var(--sky-blue)"></i>Biology & Health Science</div><div class="tc-meta"><span class="tc-badge tc-exp">8 Yrs</span><span class="tc-badge tc-qual">M.Sc.</span></div></div></div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 teacher-item" data-cat="secondary" data-aos="fade-up" data-aos-delay="180">
+        <div class="teacher-card"><div class="tc-img-wrap"><div class="tc-img" style="background:linear-gradient(135deg,#fff8e1,#ffe082)">👨‍💼</div><div class="tc-overlay"><div class="tc-social"><a href="#"><i class="fab fa-linkedin-in"></i></a><a href="#"><i class="fas fa-envelope"></i></a></div></div></div><div class="tc-body"><div class="tc-name">Mr. Prakash Acharya</div><div class="tc-subject"><i class="fas fa-chart-line me-1" style="color:var(--sky-blue)"></i>Mathematics (Class 9–10)</div><div class="tc-meta"><span class="tc-badge tc-exp">14 Yrs</span><span class="tc-badge tc-qual">M.Ed.</span></div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DEPARTMENTS -->
+<section class="section-pad">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <span class="section-badge">Departments</span>
+      <div class="gold-line center"></div>
+      <h2 class="section-title">Teaching Departments</h2>
+      <p class="section-sub mx-auto">Our teachers are organised into subject departments, each led by a head of department who ensures curriculum quality and consistency</p>
+    </div>
+    <div class="row gy-4">
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0"><div class="dept-card"><div class="dept-header"><div class="dept-icon"><i class="fas fa-calculator"></i></div><h6>Mathematics Department</h6></div><div class="dept-teachers"><div class="dept-teacher"><div class="dt-dot"></div><span>Mr. Prakash Acharya (HOD)</span></div><div class="dept-teacher"><div class="dt-dot"></div><span>Mrs. Sita Sharma</span></div><div class="dept-teacher"><div class="dt-dot"></div><span>Mr. Suresh Bhattarai</span></div></div></div></div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="60"><div class="dept-card"><div class="dept-header"><div class="dept-icon"><i class="fas fa-flask"></i></div><h6>Science Department</h6></div><div class="dept-teachers"><div class="dept-teacher"><div class="dt-dot"></div><span>Mr. Binod Adhikari (HOD)</span></div><div class="dept-teacher"><div class="dt-dot"></div><span>Ms. Rekha Neupane</span></div><div class="dept-teacher"><div class="dt-dot"></div><span>Mrs. Sita Sharma</span></div></div></div></div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="120"><div class="dept-card"><div class="dept-header"><div class="dept-icon"><i class="fas fa-globe"></i></div><h6>Languages Department</h6></div><div class="dept-teachers"><div class="dept-teacher"><div class="dt-dot"></div><span>Mr. Hari Prasad Poudel (HOD)</span></div><div class="dept-teacher"><div class="dt-dot"></div><span>Ms. Parbati Thapa</span></div><div class="dept-teacher"><div class="dt-dot"></div><span>Mrs. Kamala Oli</span></div></div></div></div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="180"><div class="dept-card"><div class="dept-header"><div class="dept-icon"><i class="fas fa-globe-asia"></i></div><h6>Social Studies Dept.</h6></div><div class="dept-teachers"><div class="dept-teacher"><div class="dt-dot"></div><span>Mr. Deepak Khatri (HOD)</span></div><div class="dept-teacher"><div class="dt-dot"></div><span>Mr. Hari Prasad Poudel</span></div></div></div></div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="240"><div class="dept-card"><div class="dept-header"><div class="dept-icon"><i class="fas fa-laptop-code"></i></div><h6>ICT & Computer Dept.</h6></div><div class="dept-teachers"><div class="dept-teacher"><div class="dt-dot"></div><span>Mr. Kamal Pokharel (HOD)</span></div></div></div></div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300"><div class="dept-card"><div class="dept-header"><div class="dept-icon"><i class="fas fa-palette"></i></div><h6>Arts, Music & P.E.</h6></div><div class="dept-teachers"><div class="dept-teacher"><div class="dt-dot"></div><span>Ms. Mina Gurung (HOD)</span></div><div class="dept-teacher"><div class="dt-dot"></div><span>Mrs. Anita Bhandari</span></div></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- JOIN US CTA -->
+<section style="padding:70px 0;background:var(--bg-soft)">
+  <div class="container" data-aos="zoom-in">
+    <div class="join-cta">
+      <span class="section-badge" style="background:rgba(253,203,110,.15);border-color:rgba(253,203,110,.4);color:var(--gold);margin-bottom:16px">💼 Join Our Team</span>
+      <h3>Are You a Passionate Educator?</h3>
+      <p>We are always looking for talented, dedicated teachers who share our commitment to student excellence. Send us your CV and become part of our family.</p>
+      <a href="contact.html" class="btn-gold"><i class="fas fa-paper-plane"></i>Send Your Application</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+ <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-5">
+          <!-- Brand -->
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-brand">
+              <div class="brand-logo-lg"><i class="fas fa-graduation-cap"></i></div>
+              <h4>Shree Pingla Devi Secondary School</h4>
+              <p>Nurturing young minds with quality education, values, and care. Boarding (1–5) & Government School (6–10) in Nepal.</p>
+              <div class="footer-social">
+                <a href="#" class="fsocial-btn"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="fsocial-btn"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="fsocial-btn"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" class="fsocial-btn"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- Quick Links -->
+          <div class="col-lg-2 col-md-6 col-6">
+            <div class="footer-heading">Quick Links</div>
+            <ul class="footer-links">
+              <li><a href="#about">About School</a></li>
+              <li><a href="#boarding">Boarding School</a></li>
+              <li><a href="#govt">Govt. School</a></li>
+              <li><a href="#facilities">Facilities</a></li>
+              <li><a href="#teachers">Our Teachers</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+            </ul>
+          </div>
+          <!-- Programmes -->
+          <div class="col-lg-2 col-md-6 col-6">
+            <div class="footer-heading">Programmes</div>
+            <ul class="footer-links">
+              <li><a href="#boarding">Boarding (1–5)</a></li>
+              <li><a href="#govt">Day School (6–10)</a></li>
+              <li><a href="#admission">Admissions</a></li>
+              <li><a href="#noticeboard">Notices</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
+          </div>
+          <!-- Contact -->
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-heading">Contact Info</div>
+            <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><span>Achham District, Sudurpaschim Province, Nepal</span></div>
+            <div class="footer-contact-item"><i class="fas fa-phone-alt"></i><span>+977-068-XXXXXX<br>+977-98XXXXXXXX</span></div>
+            <div class="footer-contact-item"><i class="fas fa-envelope"></i><span>info@pingladevischool.edu.np</span></div>
+            <div class="footer-contact-item"><i class="fas fa-clock"></i><span>Sun–Fri: 10 AM – 4 PM</span></div>
+          </div>
+          <!-- Affiliations -->
+          <div class="col-lg-2 col-md-6">
+            <div class="footer-heading">Affiliations</div>
+            <div style="display:flex;flex-direction:column;gap:10px;">
+              <div class="affil-badge"><i class="fas fa-shield-alt"></i> Govt. of Nepal</div>
+              <div class="affil-badge"><i class="fas fa-award"></i> NEB Affiliated</div>
+              <div class="affil-badge"><i class="fas fa-book"></i> DEO Approved</div>
+              <div class="affil-badge"><i class="fas fa-star"></i> District Award</div>
+            </div>
+            <div style="margin-top:20px;padding:14px;background:rgba(253,203,110,0.1);border:1px solid rgba(253,203,110,0.2);border-radius:10px;">
+              <div style="font-size:0.72rem;color:rgba(255,255,255,0.5);margin-bottom:6px;letter-spacing:1px;text-transform:uppercase;">Admission Status</div>
+              <div style="font-size:0.85rem;font-weight:700;color:var(--gold);display:flex;align-items:center;gap:6px;"><span style="width:8px;height:8px;background:#00b894;border-radius:50%;display:inline-block;animation:blink 1.5s infinite;"></span> OPEN 2082 B.S.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="footer-bottom">
+        <p>© 2082 B.S. Shree Pingla Devi Secondary School. All Rights Reserved. Designed with ❤️ in Nepal.</p>
+        <div style="display:flex;gap:16px;flex-wrap:wrap;">
+          <a href="#" style="color:rgba(255,255,255,0.4);font-size:0.78rem;text-decoration:none;">Privacy Policy</a>
+          <a href="#" style="color:rgba(255,255,255,0.4);font-size:0.78rem;text-decoration:none;">Terms of Use</a>
+          <a href="#" style="color:rgba(255,255,255,0.4);font-size:0.78rem;text-decoration:none;">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+<button id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})"><i class="fas fa-chevron-up"></i></button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init({duration:700,once:true,offset:60,easing:'ease-out-cubic'});
+  window.addEventListener('scroll',()=>{document.getElementById('mainNav').classList.toggle('scrolled',scrollY>50);document.getElementById('backToTop').classList.toggle('visible',scrollY>400)});
+  document.querySelectorAll('.navbar-nav .nav-link,.btn-nav-admit').forEach(l=>l.addEventListener('click',()=>{const n=document.getElementById('navbarNav');if(n.classList.contains('show')){const b=bootstrap.Collapse.getInstance(n);if(b)b.hide()}}));
+  function animateCounter(el){const t=+el.dataset.target,s=t/(1800/16);let c=0;const i=setInterval(()=>{c+=s;if(c>=t){c=t;clearInterval(i)}el.textContent=Math.floor(c)},16)}
+  const obs=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting){x.target.querySelectorAll('.counter').forEach(animateCounter);obs.unobserve(x.target)}})},{threshold:.3});
+  document.querySelectorAll('#statsRow').forEach(s=>obs.observe(s));
+  function filterTeachers(cat,btn){
+    document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('.teacher-item').forEach(item=>{
+      if(cat==='all'||item.dataset.cat===cat){item.style.display='';} else {item.style.display='none';}
+    });
+  }
+</script>
+</body>
+</html>
