@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Shree Pingla Devi Secondary School – Premium Boarding & Government School in Nepal. Classes 1–10. Nurturing young minds for a brighter tomorrow." />
-  <meta name="keywords" content="Shree Pingla Devi Secondary School, Nepal school, boarding school Nepal, government school Nepal" />
+  <meta name="description"
+    content="Shree Pingla Devi Secondary School – Premium Boarding & Government School in Nepal. Classes 1–10. Nurturing young minds for a brighter tomorrow." />
+  <meta name="keywords"
+    content="Shree Pingla Devi Secondary School, Nepal school, boarding school Nepal, government school Nepal" />
   <title>Shree Pingla Devi Secondary School | Nepal</title>
 
   <!-- Bootstrap 5 -->
@@ -14,7 +17,9 @@
   <!-- AOS -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet" />
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Playfair+Display:wght@700;800&display=swap"
+    rel="stylesheet" />
 
   <style>
     /* ===========================
@@ -31,16 +36,26 @@
       --gray-text: #2D3436;
       --gray-light: #636e72;
       --bg-soft: #F8FBFF;
-      --shadow-soft: 0 10px 40px rgba(10,61,98,0.10);
-      --shadow-card: 0 8px 32px rgba(10,61,98,0.13);
-      --shadow-hover: 0 20px 60px rgba(10,61,98,0.22);
+      --shadow-soft: 0 10px 40px rgba(10, 61, 98, 0.10);
+      --shadow-card: 0 8px 32px rgba(10, 61, 98, 0.13);
+      --shadow-hover: 0 20px 60px rgba(10, 61, 98, 0.22);
       --radius: 18px;
       --radius-sm: 10px;
-      --transition: all 0.35s cubic-bezier(0.4,0,0.2,1);
+      --transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       font-family: 'Poppins', sans-serif;
       color: var(--gray-text);
@@ -51,19 +66,45 @@
     /* ===========================
        SCROLLBAR
     =========================== */
-    ::-webkit-scrollbar { width: 7px; }
-    ::-webkit-scrollbar-track { background: var(--bg-soft); }
-    ::-webkit-scrollbar-thumb { background: var(--royal-blue); border-radius: 10px; }
+    ::-webkit-scrollbar {
+      width: 7px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: var(--bg-soft);
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: var(--royal-blue);
+      border-radius: 10px;
+    }
 
     /* ===========================
        UTILITIES
     =========================== */
-    .section-pad { padding: 90px 0; }
-    .section-pad-sm { padding: 60px 0; }
-    .bg-soft { background: var(--bg-soft); }
-    .text-royal { color: var(--royal-blue); }
-    .text-gold { color: var(--gold-dark); }
-    .text-sky { color: var(--sky-blue); }
+    .section-pad {
+      padding: 90px 0;
+    }
+
+    .section-pad-sm {
+      padding: 60px 0;
+    }
+
+    .bg-soft {
+      background: var(--bg-soft);
+    }
+
+    .text-royal {
+      color: var(--royal-blue);
+    }
+
+    .text-gold {
+      color: var(--gold-dark);
+    }
+
+    .text-sky {
+      color: var(--sky-blue);
+    }
 
     .section-badge {
       display: inline-block;
@@ -76,8 +117,9 @@
       padding: 6px 18px;
       border-radius: 50px;
       margin-bottom: 14px;
-      border: 1.5px solid rgba(116,185,255,0.5);
+      border: 1.5px solid rgba(116, 185, 255, 0.5);
     }
+
     .section-title {
       font-family: 'Playfair Display', serif;
       font-size: clamp(2rem, 4vw, 2.8rem);
@@ -86,19 +128,25 @@
       line-height: 1.2;
       margin-bottom: 14px;
     }
+
     .section-sub {
       font-size: 1rem;
       color: var(--gray-light);
       max-width: 560px;
       line-height: 1.8;
     }
+
     .gold-line {
-      width: 60px; height: 4px;
+      width: 60px;
+      height: 4px;
       background: linear-gradient(90deg, var(--gold), var(--gold-dark));
       border-radius: 4px;
       margin-bottom: 20px;
     }
-    .gold-line.center { margin: 0 auto 20px; }
+
+    .gold-line.center {
+      margin: 0 auto 20px;
+    }
 
     /* Floating blobs */
     .blob {
@@ -108,36 +156,56 @@
       pointer-events: none;
       animation: blobFloat 8s ease-in-out infinite alternate;
     }
+
     @keyframes blobFloat {
-      0% { transform: translateY(0) scale(1); }
-      100% { transform: translateY(-30px) scale(1.05); }
+      0% {
+        transform: translateY(0) scale(1);
+      }
+
+      100% {
+        transform: translateY(-30px) scale(1.05);
+      }
     }
 
     /* ===========================
        NAVBAR
     =========================== */
     #mainNav {
-      background: rgba(255,255,255,0.97);
+      background: rgba(255, 255, 255, 0.97);
       backdrop-filter: blur(16px);
       -webkit-backdrop-filter: blur(16px);
-      box-shadow: 0 2px 24px rgba(10,61,98,0.10);
+      box-shadow: 0 2px 24px rgba(10, 61, 98, 0.10);
       padding: 0;
       transition: var(--transition);
       z-index: 1050;
     }
+
     #mainNav.scrolled {
-      box-shadow: 0 4px 32px rgba(10,61,98,0.16);
+      box-shadow: 0 4px 32px rgba(10, 61, 98, 0.16);
     }
-    .navbar-brand-wrap { display: flex; align-items: center; gap: 12px; text-decoration: none; padding: 10px 0; }
+
+    .navbar-brand-wrap {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      padding: 10px 0;
+    }
+
     .brand-logo {
-      width: 52px; height: 52px;
+      width: 52px;
+      height: 52px;
       background: linear-gradient(135deg, var(--royal-blue), var(--sky-blue));
       border-radius: 14px;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 1.5rem; color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      color: white;
       flex-shrink: 0;
-      box-shadow: 0 4px 14px rgba(10,61,98,0.25);
+      box-shadow: 0 4px 14px rgba(10, 61, 98, 0.25);
     }
+
     .brand-text .brand-name {
       font-size: 0.95rem;
       font-weight: 800;
@@ -145,12 +213,14 @@
       line-height: 1.2;
       display: block;
     }
+
     .brand-text .brand-tagline {
       font-size: 0.68rem;
       color: var(--gray-light);
       font-weight: 500;
       letter-spacing: 0.5px;
     }
+
     .navbar-nav .nav-link {
       color: var(--gray-text) !important;
       font-weight: 500;
@@ -160,19 +230,30 @@
       transition: var(--transition);
       position: relative;
     }
+
     .navbar-nav .nav-link::after {
       content: '';
       position: absolute;
-      bottom: 4px; left: 50%;
+      bottom: 4px;
+      left: 50%;
       transform: translateX(-50%) scaleX(0);
-      width: 60%; height: 2px;
+      width: 60%;
+      height: 2px;
       background: var(--gold);
       border-radius: 2px;
       transition: transform 0.3s ease;
     }
+
     .navbar-nav .nav-link:hover::after,
-    .navbar-nav .nav-link.active::after { transform: translateX(-50%) scaleX(1); }
-    .navbar-nav .nav-link:hover { color: var(--royal-blue) !important; background: var(--sky-blue-light); }
+    .navbar-nav .nav-link.active::after {
+      transform: translateX(-50%) scaleX(1);
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: var(--royal-blue) !important;
+      background: var(--sky-blue-light);
+    }
+
     .btn-nav-admit {
       background: linear-gradient(135deg, var(--royal-blue), #1565c0);
       color: white !important;
@@ -181,24 +262,42 @@
       font-weight: 600 !important;
       font-size: 0.85rem !important;
       transition: var(--transition) !important;
-      box-shadow: 0 4px 14px rgba(10,61,98,0.3);
+      box-shadow: 0 4px 14px rgba(10, 61, 98, 0.3);
     }
+
     .btn-nav-admit:hover {
       background: linear-gradient(135deg, var(--gold-dark), var(--gold)) !important;
       color: var(--royal-blue) !important;
       transform: translateY(-2px);
-      box-shadow: 0 8px 24px rgba(10,61,98,0.25);
+      box-shadow: 0 8px 24px rgba(10, 61, 98, 0.25);
     }
-    .btn-nav-admit::after { display: none !important; }
-    .navbar-toggler { border: none; padding: 6px; }
-    .navbar-toggler:focus { box-shadow: none; }
+
+    .btn-nav-admit::after {
+      display: none !important;
+    }
+
+    .navbar-toggler {
+      border: none;
+      padding: 6px;
+    }
+
+    .navbar-toggler:focus {
+      box-shadow: none;
+    }
+
     .toggler-icon {
-      display: flex; flex-direction: column; gap: 5px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
       width: 26px;
     }
+
     .toggler-icon span {
-      display: block; width: 100%; height: 2.5px;
-      background: var(--royal-blue); border-radius: 4px;
+      display: block;
+      width: 100%;
+      height: 2.5px;
+      background: var(--royal-blue);
+      border-radius: 4px;
       transition: var(--transition);
     }
 
@@ -209,35 +308,75 @@
       min-height: 100vh;
       background: linear-gradient(135deg, var(--royal-blue-dark) 0%, var(--royal-blue) 40%, #1565c0 70%, #0d47a1 100%);
       position: relative;
-      display: flex; align-items: center;
+      display: flex;
+      align-items: center;
       overflow: hidden;
       padding-top: 72px;
     }
+
     .hero-pattern {
-      position: absolute; inset: 0;
+      position: absolute;
+      inset: 0;
       background-image:
-        radial-gradient(circle at 20% 20%, rgba(116,185,255,0.15) 0%, transparent 50%),
-        radial-gradient(circle at 80% 80%, rgba(253,203,110,0.10) 0%, transparent 45%),
+        radial-gradient(circle at 20% 20%, rgba(116, 185, 255, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(253, 203, 110, 0.10) 0%, transparent 45%),
         url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     }
+
     .hero-shapes .shape {
       position: absolute;
       border-radius: 50%;
-      background: rgba(255,255,255,0.05);
+      background: rgba(255, 255, 255, 0.05);
       animation: heroFloat 6s ease-in-out infinite alternate;
     }
-    .hero-shapes .shape:nth-child(1) { width: 500px; height: 500px; top: -200px; right: -100px; animation-delay: 0s; }
-    .hero-shapes .shape:nth-child(2) { width: 300px; height: 300px; bottom: -100px; left: 5%; animation-delay: 2s; background: rgba(116,185,255,0.08); }
-    .hero-shapes .shape:nth-child(3) { width: 150px; height: 150px; top: 30%; right: 25%; animation-delay: 1s; background: rgba(253,203,110,0.1); }
-    @keyframes heroFloat {
-      0% { transform: translateY(0) rotate(0deg); }
-      100% { transform: translateY(-20px) rotate(5deg); }
+
+    .hero-shapes .shape:nth-child(1) {
+      width: 500px;
+      height: 500px;
+      top: -200px;
+      right: -100px;
+      animation-delay: 0s;
     }
-    .hero-content { position: relative; z-index: 2; }
+
+    .hero-shapes .shape:nth-child(2) {
+      width: 300px;
+      height: 300px;
+      bottom: -100px;
+      left: 5%;
+      animation-delay: 2s;
+      background: rgba(116, 185, 255, 0.08);
+    }
+
+    .hero-shapes .shape:nth-child(3) {
+      width: 150px;
+      height: 150px;
+      top: 30%;
+      right: 25%;
+      animation-delay: 1s;
+      background: rgba(253, 203, 110, 0.1);
+    }
+
+    @keyframes heroFloat {
+      0% {
+        transform: translateY(0) rotate(0deg);
+      }
+
+      100% {
+        transform: translateY(-20px) rotate(5deg);
+      }
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+
     .hero-badge {
-      display: inline-flex; align-items: center; gap: 8px;
-      background: rgba(253,203,110,0.15);
-      border: 1px solid rgba(253,203,110,0.4);
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(253, 203, 110, 0.15);
+      border: 1px solid rgba(253, 203, 110, 0.4);
       color: var(--gold);
       font-size: 0.78rem;
       font-weight: 600;
@@ -247,7 +386,11 @@
       border-radius: 50px;
       margin-bottom: 22px;
     }
-    .hero-badge i { font-size: 0.85rem; }
+
+    .hero-badge i {
+      font-size: 0.85rem;
+    }
+
     .hero-title {
       font-family: 'Playfair Display', serif;
       font-size: clamp(2.4rem, 5.5vw, 4rem);
@@ -256,20 +399,29 @@
       line-height: 1.15;
       margin-bottom: 20px;
     }
+
     .hero-title .highlight {
       background: linear-gradient(135deg, var(--gold), #ffeaa7);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
     }
+
     .hero-subtitle {
       font-size: 1.08rem;
-      color: rgba(255,255,255,0.82);
+      color: rgba(255, 255, 255, 0.82);
       line-height: 1.8;
       margin-bottom: 36px;
       max-width: 520px;
     }
-    .hero-btns { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 48px; }
+
+    .hero-btns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 48px;
+    }
+
     .btn-hero-primary {
       background: linear-gradient(135deg, var(--gold), var(--gold-dark));
       color: var(--royal-blue);
@@ -280,19 +432,23 @@
       font-size: 0.95rem;
       cursor: pointer;
       transition: var(--transition);
-      box-shadow: 0 6px 24px rgba(253,203,110,0.4);
+      box-shadow: 0 6px 24px rgba(253, 203, 110, 0.4);
       text-decoration: none;
-      display: inline-flex; align-items: center; gap: 8px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
     }
+
     .btn-hero-primary:hover {
       transform: translateY(-3px);
-      box-shadow: 0 12px 36px rgba(253,203,110,0.5);
+      box-shadow: 0 12px 36px rgba(253, 203, 110, 0.5);
       color: var(--royal-blue);
     }
+
     .btn-hero-outline {
       background: transparent;
       color: white;
-      border: 2px solid rgba(255,255,255,0.5);
+      border: 2px solid rgba(255, 255, 255, 0.5);
       font-weight: 600;
       padding: 13px 30px;
       border-radius: 50px;
@@ -300,127 +456,219 @@
       cursor: pointer;
       transition: var(--transition);
       text-decoration: none;
-      display: inline-flex; align-items: center; gap: 8px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
     }
+
     .btn-hero-outline:hover {
-      background: rgba(255,255,255,0.12);
-      border-color: rgba(255,255,255,0.8);
+      background: rgba(255, 255, 255, 0.12);
+      border-color: rgba(255, 255, 255, 0.8);
       color: white;
       transform: translateY(-3px);
     }
+
     .hero-stats {
-      display: flex; flex-wrap: wrap; gap: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
     }
-    .hero-stat-item { text-align: left; }
+
+    .hero-stat-item {
+      text-align: left;
+    }
+
     .hero-stat-num {
-      font-size: 2rem; font-weight: 800; color: var(--gold);
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--gold);
       line-height: 1;
     }
+
     .hero-stat-label {
-      font-size: 0.75rem; color: rgba(255,255,255,0.65);
-      font-weight: 500; margin-top: 3px;
+      font-size: 0.75rem;
+      color: rgba(255, 255, 255, 0.65);
+      font-weight: 500;
+      margin-top: 3px;
     }
+
     .hero-image-wrap {
-      position: relative; z-index: 2;
-      display: flex; justify-content: center; align-items: center;
+      position: relative;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
+
     .hero-card-main {
-      background: rgba(255,255,255,0.10);
+      background: rgba(255, 255, 255, 0.10);
       backdrop-filter: blur(20px);
       -webkit-backdrop-filter: blur(20px);
-      border: 1px solid rgba(255,255,255,0.2);
+      border: 1px solid rgba(255, 255, 255, 0.2);
       border-radius: 24px;
       padding: 28px;
       width: 100%;
       max-width: 420px;
-      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
     }
+
     .hero-school-img {
-      width: 100%; 
+      width: 100%;
       height: 280px;
       object-fit: cover;
       border-radius: 16px;
       margin-bottom: 20px;
-      background: linear-gradient(135deg, rgba(116,185,255,0.3), rgba(10,61,98,0.5));
-      display: flex; align-items: center; justify-content: center;
-     
+      background: linear-gradient(135deg, rgba(116, 185, 255, 0.3), rgba(10, 61, 98, 0.5));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
     }
-    .hero-school-img img{
+
+    .hero-school-img img {
       width: 100%;
-      height:100%;
+      height: 100%;
       border-radius: 20px;
     }
-    
+
 
     .hero-card-info h4 {
-      font-size: 1.1rem; font-weight: 700; color: white; margin-bottom: 8px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: white;
+      margin-bottom: 8px;
     }
+
     .hero-card-info p {
-      font-size: 0.82rem; color: rgba(255,255,255,0.7); line-height: 1.6;
+      font-size: 0.82rem;
+      color: rgba(255, 255, 255, 0.7);
+      line-height: 1.6;
     }
+
     .hero-feature-pills {
-      display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
     }
+
     .hero-pill {
-      background: rgba(253,203,110,0.2);
-      border: 1px solid rgba(253,203,110,0.4);
+      background: rgba(253, 203, 110, 0.2);
+      border: 1px solid rgba(253, 203, 110, 0.4);
       color: var(--gold);
-      font-size: 0.72rem; font-weight: 600;
-      padding: 4px 12px; border-radius: 50px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 50px;
     }
+
     .hero-floating-card {
       position: absolute;
       background: white;
       border-radius: 14px;
       padding: 12px 16px;
-      box-shadow: 0 10px 40px rgba(10,61,98,0.2);
+      box-shadow: 0 10px 40px rgba(10, 61, 98, 0.2);
       animation: floatCard 4s ease-in-out infinite alternate;
     }
+
     @keyframes floatCard {
-      0% { transform: translateY(0); }
-      100% { transform: translateY(-12px); }
+      0% {
+        transform: translateY(0);
+      }
+
+      100% {
+        transform: translateY(-12px);
+      }
     }
+
     .hero-floating-card.card-top {
-      top: -20px; right: -20px;
-      display: flex; align-items: center; gap: 10px;
+      top: -20px;
+      right: -20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
     }
+
     .hero-floating-card.card-bottom {
-      bottom: -20px; left: -20px;
+      bottom: -20px;
+      left: -20px;
       animation-delay: 1.5s;
     }
+
     .floating-icon {
-      width: 40px; height: 40px;
+      width: 40px;
+      height: 40px;
       background: linear-gradient(135deg, var(--royal-blue), var(--sky-blue));
       border-radius: 10px;
-      display: flex; align-items: center; justify-content: center;
-      color: white; font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 1.1rem;
     }
-    .floating-text { font-size: 0.78rem; }
-    .floating-text strong { display: block; color: var(--royal-blue); font-weight: 700; font-size: 0.85rem; }
-    .floating-text span { color: var(--gray-light); }
+
+    .floating-text {
+      font-size: 0.78rem;
+    }
+
+    .floating-text strong {
+      display: block;
+      color: var(--royal-blue);
+      font-weight: 700;
+      font-size: 0.85rem;
+    }
+
+    .floating-text span {
+      color: var(--gray-light);
+    }
+
     .scroll-indicator {
       position: absolute;
-      bottom: 32px; left: 50%;
+      bottom: 32px;
+      left: 50%;
       transform: translateX(-50%);
       z-index: 10;
-      display: flex; flex-direction: column; align-items: center; gap: 8px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
     }
-    .scroll-text { color: rgba(255,255,255,0.5); font-size: 0.72rem; letter-spacing: 2px; text-transform: uppercase; }
+
+    .scroll-text {
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 0.72rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
     .scroll-mouse {
-      width: 26px; height: 40px;
-      border: 2px solid rgba(255,255,255,0.4);
+      width: 26px;
+      height: 40px;
+      border: 2px solid rgba(255, 255, 255, 0.4);
       border-radius: 13px;
-      display: flex; justify-content: center; padding-top: 6px;
+      display: flex;
+      justify-content: center;
+      padding-top: 6px;
     }
+
     .scroll-wheel {
-      width: 4px; height: 8px;
-      background: rgba(255,255,255,0.7);
+      width: 4px;
+      height: 8px;
+      background: rgba(255, 255, 255, 0.7);
       border-radius: 4px;
       animation: scrollWheel 1.8s ease-in-out infinite;
     }
+
     @keyframes scrollWheel {
-      0% { transform: translateY(0); opacity: 1; }
-      100% { transform: translateY(10px); opacity: 0; }
+      0% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+
+      100% {
+        transform: translateY(10px);
+        opacity: 0;
+      }
     }
 
     /* ===========================
@@ -432,17 +680,38 @@
       padding: 10px 0;
       overflow: hidden;
     }
+
     .marquee-wrap {
-      display: flex; align-items: center; gap: 24px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
       white-space: nowrap;
       animation: marquee 25s linear infinite;
     }
+
     @keyframes marquee {
-      0% { transform: translateX(0); }
-      100% { transform: translateX(-50%); }
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(-50%);
+      }
     }
-    .marquee-item { display: flex; align-items: center; gap: 8px; font-size: 0.85rem; font-weight: 500; }
-    .marquee-sep { color: var(--gold); font-size: 1.2rem; }
+
+    .marquee-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+
+    .marquee-sep {
+      color: var(--gold);
+      font-size: 1.2rem;
+    }
+
     .announce-label {
       background: var(--gold);
       color: var(--royal-blue);
@@ -462,23 +731,30 @@
     .about-img-wrap {
       position: relative;
     }
+
     .about-img-main {
-      width: 100%; border-radius: var(--radius);
+      width: 100%;
+      border-radius: var(--radius);
       box-shadow: var(--shadow-card);
       object-fit: cover;
       height: 420px;
       background: linear-gradient(135deg, var(--sky-blue-light), #c8e6ff);
-      display: flex; align-items: center; justify-content: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       font-size: 5rem;
     }
-    .about-img-main img{
+
+    .about-img-main img {
       height: 100%;
       width: 100%;
       border-radius: 20px;
     }
+
     .about-badge-float {
       position: absolute;
-      bottom: -24px; right: -24px;
+      bottom: -24px;
+      right: -24px;
       background: white;
       border-radius: var(--radius-sm);
       padding: 18px 22px;
@@ -486,117 +762,208 @@
       text-align: center;
       min-width: 140px;
     }
+
     .about-badge-float .num {
-      font-size: 2.2rem; font-weight: 800; color: var(--royal-blue); line-height: 1;
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: var(--royal-blue);
+      line-height: 1;
     }
+
     .about-badge-float .lbl {
-      font-size: 0.75rem; color: var(--gray-light); font-weight: 500; margin-top: 4px;
+      font-size: 0.75rem;
+      color: var(--gray-light);
+      font-weight: 500;
+      margin-top: 4px;
     }
+
     .about-badge-float2 {
       position: absolute;
-      top: -20px; left: -20px;
+      top: -20px;
+      left: -20px;
       background: linear-gradient(135deg, var(--royal-blue), var(--sky-blue));
       border-radius: var(--radius-sm);
       padding: 14px 18px;
       box-shadow: var(--shadow-card);
       color: white;
-      font-size: 0.8rem; font-weight: 600;
-      display: flex; align-items: center; gap: 8px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 8px;
     }
-    .about-features { margin-top: 28px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+
+    .about-features {
+      margin-top: 28px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
     .about-feature-item {
-      display: flex; align-items: flex-start; gap: 12px;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
       background: var(--bg-soft);
       padding: 14px;
       border-radius: var(--radius-sm);
       transition: var(--transition);
     }
-    .about-feature-item:hover { background: var(--sky-blue-light); transform: translateY(-3px); }
+
+    .about-feature-item:hover {
+      background: var(--sky-blue-light);
+      transform: translateY(-3px);
+    }
+
     .af-icon {
-      width: 38px; height: 38px; flex-shrink: 0;
+      width: 38px;
+      height: 38px;
+      flex-shrink: 0;
       background: linear-gradient(135deg, var(--royal-blue), var(--sky-blue));
       border-radius: 10px;
-      display: flex; align-items: center; justify-content: center;
-      color: white; font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 0.9rem;
     }
-    .af-text strong { font-size: 0.85rem; font-weight: 700; color: var(--royal-blue); display: block; margin-bottom: 2px; }
-    .af-text span { font-size: 0.75rem; color: var(--gray-light); }
+
+    .af-text strong {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--royal-blue);
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .af-text span {
+      font-size: 0.75rem;
+      color: var(--gray-light);
+    }
 
     /* ===========================
        PRINCIPAL SECTION
     =========================== */
-    #principal { background: linear-gradient(135deg, var(--royal-blue-dark), var(--royal-blue)); }
+    #principal {
+      background: linear-gradient(135deg, var(--royal-blue-dark), var(--royal-blue));
+    }
+
     .principal-card {
-      background: rgba(255,255,255,0.06);
+      background: rgba(255, 255, 255, 0.06);
       backdrop-filter: blur(16px);
-      border: 1px solid rgba(255,255,255,0.14);
+      border: 1px solid rgba(255, 255, 255, 0.14);
       border-radius: var(--radius);
       padding: 42px;
       height: 100%;
     }
+
     .principal-img-wrap {
-      position: relative; display: inline-block;
+      position: relative;
+      display: inline-block;
     }
+
     .principal-img {
-      width: 200px; 
+      width: 200px;
       height: 200px;
       border-radius: 50%;
       object-fit: cover;
-      border: 5px solid rgba(255,255,255,0.2);
-      background: linear-gradient(135deg, rgba(116,185,255,0.4), rgba(253,203,110,0.3));
-      display: flex; align-items: center; justify-content: center;
+      border: 5px solid rgba(255, 255, 255, 0.2);
+      background: linear-gradient(135deg, rgba(116, 185, 255, 0.4), rgba(253, 203, 110, 0.3));
+      display: flex;
+      align-items: center;
+      justify-content: center;
       font-size: 5rem;
-      color: rgba(255,255,255,0.6);
+      color: rgba(255, 255, 255, 0.6);
     }
-    .principal-img img{
+
+    .principal-img img {
       width: 100%;
       height: 100%;
       border-radius: 50%;
       object-fit: cover;
     }
+
     .principal-verified {
-      position: absolute; bottom: 10px; right: 0;
+      position: absolute;
+      bottom: 10px;
+      right: 0;
       background: var(--gold);
-      width: 40px; height: 40px;
+      width: 40px;
+      height: 40px;
       border-radius: 50%;
-      display: flex; align-items: center; justify-content: center;
-      color: var(--royal-blue); font-size: 1rem;
-      box-shadow: 0 4px 14px rgba(253,203,110,0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--royal-blue);
+      font-size: 1rem;
+      box-shadow: 0 4px 14px rgba(253, 203, 110, 0.5);
     }
+
     .principal-name {
       font-family: 'Playfair Display', serif;
-      font-size: 1.8rem; font-weight: 800; color: white; margin-top: 20px; margin-bottom: 6px;
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: white;
+      margin-top: 20px;
+      margin-bottom: 6px;
     }
+
     .principal-role {
-      font-size: 0.85rem; color: var(--gold); font-weight: 600; letter-spacing: 1px; text-transform: uppercase;
+      font-size: 0.85rem;
+      color: var(--gold);
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
     }
+
     .principal-message-card {
-      background: rgba(255,255,255,0.06);
+      background: rgba(255, 255, 255, 0.06);
       backdrop-filter: blur(16px);
-      border: 1px solid rgba(255,255,255,0.14);
+      border: 1px solid rgba(255, 255, 255, 0.14);
       border-radius: var(--radius);
       padding: 42px;
       height: 100%;
       position: relative;
     }
+
     .principal-message-card::before {
       content: '\201C';
-      font-size: 8rem; line-height: 1;
-      color: rgba(253,203,110,0.2);
+      font-size: 8rem;
+      line-height: 1;
+      color: rgba(253, 203, 110, 0.2);
       font-family: 'Playfair Display', serif;
-      position: absolute; top: 10px; left: 28px;
+      position: absolute;
+      top: 10px;
+      left: 28px;
     }
+
     .principal-message-card .msg-text {
-      font-size: 1rem; color: rgba(255,255,255,0.85); line-height: 1.9;
-      margin-top: 30px; margin-bottom: 28px;
+      font-size: 1rem;
+      color: rgba(255, 255, 255, 0.85);
+      line-height: 1.9;
+      margin-top: 30px;
+      margin-bottom: 28px;
       font-style: italic;
-      position: relative; z-index: 1;
+      position: relative;
+      z-index: 1;
     }
+
     .principal-sig {
-      display: flex; align-items: center; gap: 14px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
     }
-    .sig-line { flex: 1; height: 1px; background: rgba(255,255,255,0.15); }
-    .sig-text { font-size: 0.78rem; color: rgba(255,255,255,0.55); }
+
+    .sig-line {
+      flex: 1;
+      height: 1px;
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    .sig-text {
+      font-size: 0.78rem;
+      color: rgba(255, 255, 255, 0.55);
+    }
 
     /* ===========================
        MISSION & VISION
@@ -609,45 +976,102 @@
       box-shadow: var(--shadow-card);
       border-top: 4px solid transparent;
       transition: var(--transition);
-      position: relative; overflow: hidden;
+      position: relative;
+      overflow: hidden;
     }
+
     .mv-card::before {
       content: '';
-      position: absolute; inset: 0;
+      position: absolute;
+      inset: 0;
       opacity: 0;
       transition: var(--transition);
       border-radius: var(--radius);
     }
-    .mv-card.mission { border-top-color: var(--royal-blue); }
-    .mv-card.mission::before { background: linear-gradient(135deg, var(--royal-blue), #1565c0); }
-    .mv-card.vision { border-top-color: var(--sky-blue); }
-    .mv-card.vision::before { background: linear-gradient(135deg, var(--sky-blue), #0984e3); }
-    .mv-card.values { border-top-color: var(--gold); }
-    .mv-card.values::before { background: linear-gradient(135deg, var(--gold-dark), var(--gold)); }
-    .mv-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-hover); }
-    .mv-card:hover::before { opacity: 1; }
-    .mv-card:hover * { color: white !important; }
+
+    .mv-card.mission {
+      border-top-color: var(--royal-blue);
+    }
+
+    .mv-card.mission::before {
+      background: linear-gradient(135deg, var(--royal-blue), #1565c0);
+    }
+
+    .mv-card.vision {
+      border-top-color: var(--sky-blue);
+    }
+
+    .mv-card.vision::before {
+      background: linear-gradient(135deg, var(--sky-blue), #0984e3);
+    }
+
+    .mv-card.values {
+      border-top-color: var(--gold);
+    }
+
+    .mv-card.values::before {
+      background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+    }
+
+    .mv-card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow-hover);
+    }
+
+    .mv-card:hover::before {
+      opacity: 1;
+    }
+
+    .mv-card:hover * {
+      color: white !important;
+    }
+
     .mv-icon {
-      width: 64px; height: 64px;
+      width: 64px;
+      height: 64px;
       border-radius: 16px;
-      display: flex; align-items: center; justify-content: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       font-size: 1.6rem;
       margin-bottom: 22px;
       transition: var(--transition);
-      position: relative; z-index: 1;
+      position: relative;
+      z-index: 1;
     }
-    .mv-card.mission .mv-icon { background: rgba(10,61,98,0.1); color: var(--royal-blue); }
-    .mv-card.vision .mv-icon { background: rgba(116,185,255,0.15); color: #0984e3; }
-    .mv-card.values .mv-icon { background: rgba(253,203,110,0.2); color: var(--gold-dark); }
+
+    .mv-card.mission .mv-icon {
+      background: rgba(10, 61, 98, 0.1);
+      color: var(--royal-blue);
+    }
+
+    .mv-card.vision .mv-icon {
+      background: rgba(116, 185, 255, 0.15);
+      color: #0984e3;
+    }
+
+    .mv-card.values .mv-icon {
+      background: rgba(253, 203, 110, 0.2);
+      color: var(--gold-dark);
+    }
+
     .mv-card h4 {
       font-family: 'Playfair Display', serif;
-      font-size: 1.4rem; font-weight: 800; color: var(--royal-blue);
-      margin-bottom: 14px; position: relative; z-index: 1;
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: var(--royal-blue);
+      margin-bottom: 14px;
+      position: relative;
+      z-index: 1;
       transition: var(--transition);
     }
+
     .mv-card p {
-      color: var(--gray-light); line-height: 1.8; font-size: 0.92rem;
-      position: relative; z-index: 1;
+      color: var(--gray-light);
+      line-height: 1.8;
+      font-size: 0.92rem;
+      position: relative;
+      z-index: 1;
       transition: var(--transition);
     }
 
@@ -662,78 +1086,157 @@
       height: 100%;
       transition: var(--transition);
     }
-    .school-type-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-hover); }
+
+    .school-type-card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow-hover);
+    }
+
     .stc-header {
       padding: 32px;
       position: relative;
     }
-    .stc-header.boarding { background: linear-gradient(135deg, var(--royal-blue), #1565c0); }
-    .stc-header.govt { background: linear-gradient(135deg, #00695c, #00897b); }
+
+    .stc-header.boarding {
+      background: linear-gradient(135deg, var(--royal-blue), #1565c0);
+    }
+
+    .stc-header.govt {
+      background: linear-gradient(135deg, #00695c, #00897b);
+    }
+
     .stc-icon {
-      width: 56px; height: 56px;
-      background: rgba(255,255,255,0.15);
+      width: 56px;
+      height: 56px;
+      background: rgba(255, 255, 255, 0.15);
       border-radius: 14px;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 1.6rem; color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+      color: white;
       margin-bottom: 16px;
     }
-    .stc-header h3 { font-family: 'Playfair Display', serif; font-size: 1.6rem; font-weight: 800; color: white; margin-bottom: 6px; }
-    .stc-header p { color: rgba(255,255,255,0.75); font-size: 0.85rem; }
-    .stc-body { padding: 28px 32px; }
-    .stc-feature-list { list-style: none; margin-bottom: 24px; }
+
+    .stc-header h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: white;
+      margin-bottom: 6px;
+    }
+
+    .stc-header p {
+      color: rgba(255, 255, 255, 0.75);
+      font-size: 0.85rem;
+    }
+
+    .stc-body {
+      padding: 28px 32px;
+    }
+
+    .stc-feature-list {
+      list-style: none;
+      margin-bottom: 24px;
+    }
+
     .stc-feature-list li {
-      display: flex; align-items: center; gap: 12px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
       padding: 10px 0;
       border-bottom: 1px solid #f0f4f8;
-      font-size: 0.88rem; color: var(--gray-text);
+      font-size: 0.88rem;
+      color: var(--gray-text);
     }
-    .stc-feature-list li:last-child { border: none; }
-    .stc-feature-list li i { color: var(--royal-blue); font-size: 0.9rem; flex-shrink: 0; }
-    .stc-feature-list.govt li i { color: #00695c; }
+
+    .stc-feature-list li:last-child {
+      border: none;
+    }
+
+    .stc-feature-list li i {
+      color: var(--royal-blue);
+      font-size: 0.9rem;
+      flex-shrink: 0;
+    }
+
+    .stc-feature-list.govt li i {
+      color: #00695c;
+    }
+
     .class-badge {
       display: inline-block;
       background: linear-gradient(135deg, var(--royal-blue), #1565c0);
       color: white;
-      font-weight: 700; font-size: 0.85rem;
-      padding: 6px 18px; border-radius: 50px;
+      font-weight: 700;
+      font-size: 0.85rem;
+      padding: 6px 18px;
+      border-radius: 50px;
       margin-top: 4px;
     }
-    .class-badge.govt { background: linear-gradient(135deg, #00695c, #00897b); }
+
+    .class-badge.govt {
+      background: linear-gradient(135deg, #00695c, #00897b);
+    }
 
     /* ===========================
        COUNTERS
     =========================== */
     #counters {
       background: linear-gradient(135deg, var(--royal-blue), #1565c0, #0d47a1);
-      position: relative; overflow: hidden;
+      position: relative;
+      overflow: hidden;
     }
+
     .counter-card {
       text-align: center;
       padding: 36px 20px;
       border-radius: var(--radius);
-      background: rgba(255,255,255,0.07);
-      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.12);
       transition: var(--transition);
     }
+
     .counter-card:hover {
-      background: rgba(255,255,255,0.12);
+      background: rgba(255, 255, 255, 0.12);
       transform: translateY(-6px);
     }
+
     .counter-icon {
-      width: 64px; height: 64px;
-      background: rgba(253,203,110,0.2);
+      width: 64px;
+      height: 64px;
+      background: rgba(253, 203, 110, 0.2);
       border-radius: 16px;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 1.6rem; color: var(--gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+      color: var(--gold);
       margin: 0 auto 18px;
     }
+
     .counter-num {
-      font-size: 3rem; font-weight: 800; color: white;
-      line-height: 1; margin-bottom: 8px;
-      display: flex; justify-content: center; align-items: baseline; gap: 2px;
+      font-size: 3rem;
+      font-weight: 800;
+      color: white;
+      line-height: 1;
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      gap: 2px;
     }
-    .counter-suffix { font-size: 2rem; color: var(--gold); }
-    .counter-label { font-size: 0.88rem; color: rgba(255,255,255,0.65); font-weight: 500; }
+
+    .counter-suffix {
+      font-size: 2rem;
+      color: var(--gold);
+    }
+
+    .counter-label {
+      font-size: 0.88rem;
+      color: rgba(255, 255, 255, 0.65);
+      font-weight: 500;
+    }
 
     /* ===========================
        FACILITIES
@@ -750,31 +1253,59 @@
       position: relative;
       overflow: hidden;
     }
+
     .facility-card::before {
       content: '';
-      position: absolute; bottom: 0; left: 0; right: 0;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
       height: 4px;
       background: linear-gradient(90deg, var(--royal-blue), var(--sky-blue));
       transform: scaleX(0);
       transition: var(--transition);
     }
-    .facility-card:hover { transform: translateY(-10px); box-shadow: var(--shadow-hover); }
-    .facility-card:hover::before { transform: scaleX(1); }
+
+    .facility-card:hover {
+      transform: translateY(-10px);
+      box-shadow: var(--shadow-hover);
+    }
+
+    .facility-card:hover::before {
+      transform: scaleX(1);
+    }
+
     .facility-icon {
-      width: 70px; height: 70px;
+      width: 70px;
+      height: 70px;
       background: linear-gradient(135deg, var(--sky-blue-light), #dbeeff);
       border-radius: 20px;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 1.8rem; color: var(--royal-blue);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.8rem;
+      color: var(--royal-blue);
       margin: 0 auto 18px;
       transition: var(--transition);
     }
+
     .facility-card:hover .facility-icon {
       background: linear-gradient(135deg, var(--royal-blue), var(--sky-blue));
       color: white;
     }
-    .facility-card h5 { font-weight: 700; color: var(--royal-blue); margin-bottom: 10px; font-size: 1rem; }
-    .facility-card p { font-size: 0.83rem; color: var(--gray-light); line-height: 1.7; }
+
+    .facility-card h5 {
+      font-weight: 700;
+      color: var(--royal-blue);
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+
+    .facility-card p {
+      font-size: 0.83rem;
+      color: var(--gray-light);
+      line-height: 1.7;
+    }
 
     /* ===========================
        TEACHERS
@@ -788,49 +1319,99 @@
       transition: var(--transition);
       height: 100%;
     }
-    .teacher-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-hover); }
+
+    .teacher-card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow-hover);
+    }
+
     .teacher-img-wrap {
-      position: relative; overflow: hidden;
+      position: relative;
+      overflow: hidden;
       height: 220px;
     }
+
     .teacher-img {
-      width: 100%; height: 100%;
+      width: 100%;
+      height: 100%;
       object-fit: cover;
       background: linear-gradient(135deg, var(--sky-blue-light), #c8e6ff);
-      display: flex; align-items: center; justify-content: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       font-size: 4rem;
       transition: var(--transition);
     }
-    .teacher-card:hover .teacher-img { transform: scale(1.05); }
+
+    .teacher-card:hover .teacher-img {
+      transform: scale(1.05);
+    }
+
     .teacher-overlay {
-      position: absolute; inset: 0;
-      background: linear-gradient(to bottom, transparent 40%, rgba(10,61,98,0.85));
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to bottom, transparent 40%, rgba(10, 61, 98, 0.85));
       opacity: 0;
       transition: var(--transition);
-      display: flex; align-items: flex-end; justify-content: center;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
       padding-bottom: 16px;
     }
-    .teacher-card:hover .teacher-overlay { opacity: 1; }
-    .teacher-social { display: flex; gap: 10px; }
+
+    .teacher-card:hover .teacher-overlay {
+      opacity: 1;
+    }
+
+    .teacher-social {
+      display: flex;
+      gap: 10px;
+    }
+
     .teacher-social a {
-      width: 34px; height: 34px;
+      width: 34px;
+      height: 34px;
       background: white;
       border-radius: 50%;
-      display: flex; align-items: center; justify-content: center;
-      color: var(--royal-blue); font-size: 0.85rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--royal-blue);
+      font-size: 0.85rem;
       text-decoration: none;
       transition: var(--transition);
     }
-    .teacher-social a:hover { background: var(--gold); color: var(--royal-blue); }
-    .teacher-body { padding: 20px 18px; }
-    .teacher-name { font-weight: 700; font-size: 1rem; color: var(--royal-blue); margin-bottom: 4px; }
-    .teacher-subject { font-size: 0.8rem; color: var(--gray-light); margin-bottom: 10px; }
+
+    .teacher-social a:hover {
+      background: var(--gold);
+      color: var(--royal-blue);
+    }
+
+    .teacher-body {
+      padding: 20px 18px;
+    }
+
+    .teacher-name {
+      font-weight: 700;
+      font-size: 1rem;
+      color: var(--royal-blue);
+      margin-bottom: 4px;
+    }
+
+    .teacher-subject {
+      font-size: 0.8rem;
+      color: var(--gray-light);
+      margin-bottom: 10px;
+    }
+
     .teacher-exp {
       display: inline-block;
       background: var(--sky-blue-light);
       color: var(--royal-blue);
-      font-size: 0.72rem; font-weight: 600;
-      padding: 3px 10px; border-radius: 50px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 50px;
     }
 
     /* ===========================
@@ -842,59 +1423,117 @@
       grid-template-rows: repeat(2, 220px);
       gap: 14px;
     }
+
     .gallery-item {
       border-radius: var(--radius-sm);
       overflow: hidden;
       position: relative;
       cursor: pointer;
     }
-    .gallery-item:nth-child(1) { grid-column: 1; grid-row: 1 / 3; }
-    .gallery-item:nth-child(4) { grid-column: 3; grid-row: 1 / 3; }
+
+    .gallery-item:nth-child(1) {
+      grid-column: 1;
+      grid-row: 1 / 3;
+    }
+
+    .gallery-item:nth-child(4) {
+      grid-column: 3;
+      grid-row: 1 / 3;
+    }
+
     .gallery-img {
-      width: 100%; height: 100%;
+      width: 100%;
+      height: 100%;
       background: linear-gradient(135deg, var(--sky-blue-light), var(--royal-blue));
-      display: flex; align-items: center; justify-content: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       font-size: 3rem;
       transition: var(--transition);
     }
-    .gallery-item:hover .gallery-img { transform: scale(1.1); }
+
+    .gallery-item:hover .gallery-img {
+      transform: scale(1.1);
+    }
+
     .gallery-overlay {
-      position: absolute; inset: 0;
-      background: linear-gradient(135deg, rgba(10,61,98,0.8), rgba(21,101,192,0.6));
-      display: flex; align-items: center; justify-content: center; flex-direction: column;
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(10, 61, 98, 0.8), rgba(21, 101, 192, 0.6));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
       opacity: 0;
       transition: var(--transition);
       padding: 16px;
     }
-    .gallery-item:hover .gallery-overlay { opacity: 1; }
-    .gallery-overlay h6 { color: white; font-weight: 700; font-size: 0.9rem; text-align: center; margin-bottom: 6px; }
-    .gallery-overlay p { color: rgba(255,255,255,0.75); font-size: 0.75rem; text-align: center; }
+
+    .gallery-item:hover .gallery-overlay {
+      opacity: 1;
+    }
+
+    .gallery-overlay h6 {
+      color: white;
+      font-weight: 700;
+      font-size: 0.9rem;
+      text-align: center;
+      margin-bottom: 6px;
+    }
+
+    .gallery-overlay p {
+      color: rgba(255, 255, 255, 0.75);
+      font-size: 0.75rem;
+      text-align: center;
+    }
 
     /* ===========================
        NOTICE BOARD
     =========================== */
-    #noticeboard { background: var(--bg-soft); }
+    #noticeboard {
+      background: var(--bg-soft);
+    }
+
     .notice-card {
       background: white;
       border-radius: var(--radius);
       box-shadow: var(--shadow-soft);
       overflow: hidden;
     }
+
     .notice-header {
       background: linear-gradient(135deg, var(--royal-blue), #1565c0);
       padding: 22px 28px;
-      display: flex; align-items: center; justify-content: space-between;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
-    .notice-header h4 { color: white; font-weight: 700; margin: 0; font-size: 1.1rem; }
+
+    .notice-header h4 {
+      color: white;
+      font-weight: 700;
+      margin: 0;
+      font-size: 1.1rem;
+    }
+
     .notice-item {
-      display: flex; align-items: flex-start; gap: 14px;
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
       padding: 16px 24px;
       border-bottom: 1px solid #f0f4f8;
       transition: var(--transition);
       cursor: pointer;
     }
-    .notice-item:last-child { border: none; }
-    .notice-item:hover { background: var(--sky-blue-light); }
+
+    .notice-item:last-child {
+      border: none;
+    }
+
+    .notice-item:hover {
+      background: var(--sky-blue-light);
+    }
+
     .notice-date {
       background: var(--royal-blue);
       color: white;
@@ -904,39 +1543,95 @@
       min-width: 52px;
       flex-shrink: 0;
     }
-    .notice-date .day { font-size: 1.3rem; font-weight: 800; line-height: 1; }
-    .notice-date .mon { font-size: 0.65rem; letter-spacing: 1px; text-transform: uppercase; }
-    .notice-info h6 { font-size: 0.9rem; font-weight: 700; color: var(--gray-text); margin-bottom: 3px; }
-    .notice-info p { font-size: 0.77rem; color: var(--gray-light); margin: 0; }
-    .notice-badge {
-      font-size: 0.65rem; font-weight: 700; padding: 2px 8px;
-      border-radius: 4px; letter-spacing: 0.5px; flex-shrink: 0; margin-left: auto;
+
+    .notice-date .day {
+      font-size: 1.3rem;
+      font-weight: 800;
+      line-height: 1;
     }
-    .nb-new { background: #e3f9e5; color: #2e7d32; }
-    .nb-urgent { background: #fce4ec; color: #c62828; }
-    .nb-info { background: var(--sky-blue-light); color: var(--royal-blue); }
+
+    .notice-date .mon {
+      font-size: 0.65rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .notice-info h6 {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--gray-text);
+      margin-bottom: 3px;
+    }
+
+    .notice-info p {
+      font-size: 0.77rem;
+      color: var(--gray-light);
+      margin: 0;
+    }
+
+    .notice-badge {
+      font-size: 0.65rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+      flex-shrink: 0;
+      margin-left: auto;
+    }
+
+    .nb-new {
+      background: #e3f9e5;
+      color: #2e7d32;
+    }
+
+    .nb-urgent {
+      background: #fce4ec;
+      color: #c62828;
+    }
+
+    .nb-info {
+      background: var(--sky-blue-light);
+      color: var(--royal-blue);
+    }
 
     /* ===========================
        TIMELINE
     =========================== */
-    #timeline { background: white; }
-    .timeline-wrap { position: relative; padding: 20px 0; }
+    #timeline {
+      background: white;
+    }
+
+    .timeline-wrap {
+      position: relative;
+      padding: 20px 0;
+    }
+
     .timeline-wrap::before {
       content: '';
       position: absolute;
-      left: 50%; top: 0; bottom: 0;
+      left: 50%;
+      top: 0;
+      bottom: 0;
       width: 3px;
       background: linear-gradient(to bottom, var(--royal-blue), var(--sky-blue), var(--gold));
       transform: translateX(-50%);
     }
+
     .tl-item {
       display: flex;
       align-items: flex-start;
       margin-bottom: 40px;
       position: relative;
     }
-    .tl-item:nth-child(odd) { flex-direction: row; }
-    .tl-item:nth-child(even) { flex-direction: row-reverse; }
+
+    .tl-item:nth-child(odd) {
+      flex-direction: row;
+    }
+
+    .tl-item:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+
     .tl-content {
       width: calc(50% - 40px);
       background: white;
@@ -946,30 +1641,65 @@
       border-left: 4px solid var(--royal-blue);
       transition: var(--transition);
     }
-    .tl-item:nth-child(even) .tl-content { border-left: none; border-right: 4px solid var(--sky-blue); }
-    .tl-content:hover { transform: translateX(6px); box-shadow: var(--shadow-hover); }
-    .tl-item:nth-child(even) .tl-content:hover { transform: translateX(-6px); }
+
+    .tl-item:nth-child(even) .tl-content {
+      border-left: none;
+      border-right: 4px solid var(--sky-blue);
+    }
+
+    .tl-content:hover {
+      transform: translateX(6px);
+      box-shadow: var(--shadow-hover);
+    }
+
+    .tl-item:nth-child(even) .tl-content:hover {
+      transform: translateX(-6px);
+    }
+
     .tl-dot {
-      position: absolute; left: 50%; top: 22px;
+      position: absolute;
+      left: 50%;
+      top: 22px;
       transform: translateX(-50%);
-      width: 20px; height: 20px;
+      width: 20px;
+      height: 20px;
       border-radius: 50%;
       background: var(--royal-blue);
       border: 4px solid white;
       box-shadow: 0 0 0 3px var(--sky-blue);
       z-index: 1;
     }
+
     .tl-year {
-      font-size: 0.75rem; font-weight: 700; color: var(--sky-blue);
-      letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--sky-blue);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 6px;
     }
-    .tl-content h5 { font-weight: 700; color: var(--royal-blue); font-size: 0.95rem; margin-bottom: 6px; }
-    .tl-content p { font-size: 0.82rem; color: var(--gray-light); line-height: 1.6; margin: 0; }
+
+    .tl-content h5 {
+      font-weight: 700;
+      color: var(--royal-blue);
+      font-size: 0.95rem;
+      margin-bottom: 6px;
+    }
+
+    .tl-content p {
+      font-size: 0.82rem;
+      color: var(--gray-light);
+      line-height: 1.6;
+      margin: 0;
+    }
 
     /* ===========================
        TESTIMONIALS
     =========================== */
-    #testimonials { background: var(--bg-soft); }
+    #testimonials {
+      background: var(--bg-soft);
+    }
+
     .testimonial-card {
       background: white;
       border-radius: var(--radius);
@@ -979,167 +1709,323 @@
       position: relative;
       transition: var(--transition);
     }
-    .testimonial-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-hover); }
+
+    .testimonial-card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow-hover);
+    }
+
     .testi-quote {
-      font-size: 3rem; line-height: 0.8;
+      font-size: 3rem;
+      line-height: 0.8;
       color: var(--gold);
       font-family: 'Playfair Display', serif;
       margin-bottom: 12px;
     }
+
     .testi-text {
-      font-size: 0.9rem; color: var(--gray-light);
-      line-height: 1.8; font-style: italic;
+      font-size: 0.9rem;
+      color: var(--gray-light);
+      line-height: 1.8;
+      font-style: italic;
       margin-bottom: 22px;
     }
-    .testi-author { display: flex; align-items: center; gap: 14px; }
+
+    .testi-author {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
     .testi-avatar {
-      width: 50px; height: 50px; border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
       background: linear-gradient(135deg, var(--royal-blue), var(--sky-blue));
-      display: flex; align-items: center; justify-content: center;
-      color: white; font-weight: 700; font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: 700;
+      font-size: 1.2rem;
       flex-shrink: 0;
     }
-    .testi-name { font-weight: 700; font-size: 0.9rem; color: var(--royal-blue); }
-    .testi-role { font-size: 0.76rem; color: var(--gray-light); }
-    .testi-stars { color: var(--gold); font-size: 0.85rem; margin-bottom: 4px; }
+
+    .testi-name {
+      font-weight: 700;
+      font-size: 0.9rem;
+      color: var(--royal-blue);
+    }
+
+    .testi-role {
+      font-size: 0.76rem;
+      color: var(--gray-light);
+    }
+
+    .testi-stars {
+      color: var(--gold);
+      font-size: 0.85rem;
+      margin-bottom: 4px;
+    }
 
     /* ===========================
        FAQ
     =========================== */
-    #faq { background: white; }
+    #faq {
+      background: white;
+    }
+
     .accordion-item {
       border: 1px solid #eef3f8 !important;
       border-radius: var(--radius-sm) !important;
       margin-bottom: 12px;
       overflow: hidden;
-      box-shadow: 0 2px 12px rgba(10,61,98,0.06);
+      box-shadow: 0 2px 12px rgba(10, 61, 98, 0.06);
     }
+
     .accordion-button {
-      font-weight: 600; font-size: 0.93rem; color: var(--royal-blue) !important;
+      font-weight: 600;
+      font-size: 0.93rem;
+      color: var(--royal-blue) !important;
       background: white !important;
       padding: 18px 22px;
     }
+
     .accordion-button:not(.collapsed) {
       background: var(--sky-blue-light) !important;
       box-shadow: none !important;
     }
+
     .accordion-button::after {
       filter: invert(20%) sepia(70%) saturate(2000%) hue-rotate(200deg);
     }
-    .accordion-body { font-size: 0.88rem; color: var(--gray-light); line-height: 1.8; padding: 16px 22px; }
+
+    .accordion-body {
+      font-size: 0.88rem;
+      color: var(--gray-light);
+      line-height: 1.8;
+      padding: 16px 22px;
+    }
 
     /* ===========================
        ADMISSION
     =========================== */
     #admission {
       background: linear-gradient(135deg, var(--royal-blue), #1565c0, #0d47a1);
-      position: relative; overflow: hidden;
+      position: relative;
+      overflow: hidden;
     }
+
     .admission-card {
-      background: rgba(255,255,255,0.08);
+      background: rgba(255, 255, 255, 0.08);
       backdrop-filter: blur(20px);
-      border: 1px solid rgba(255,255,255,0.15);
+      border: 1px solid rgba(255, 255, 255, 0.15);
       border-radius: var(--radius);
       padding: 48px;
       text-align: center;
     }
+
     .admission-card h2 {
       font-family: 'Playfair Display', serif;
-      font-size: 2.2rem; font-weight: 800; color: white; margin-bottom: 14px;
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: white;
+      margin-bottom: 14px;
     }
+
     .admission-card p {
-      color: rgba(255,255,255,0.75); font-size: 0.97rem; line-height: 1.8; margin-bottom: 32px;
-      max-width: 600px; margin-left: auto; margin-right: auto;
+      color: rgba(255, 255, 255, 0.75);
+      font-size: 0.97rem;
+      line-height: 1.8;
+      margin-bottom: 32px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
     }
+
     .btn-admit-primary {
       background: linear-gradient(135deg, var(--gold), var(--gold-dark));
       color: var(--royal-blue);
       border: none;
-      font-weight: 700; font-size: 1rem;
-      padding: 15px 38px; border-radius: 50px;
-      cursor: pointer; transition: var(--transition);
-      text-decoration: none; display: inline-flex; align-items: center; gap: 8px;
-      box-shadow: 0 8px 28px rgba(253,203,110,0.4);
+      font-weight: 700;
+      font-size: 1rem;
+      padding: 15px 38px;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: var(--transition);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 8px 28px rgba(253, 203, 110, 0.4);
     }
+
     .btn-admit-primary:hover {
       transform: translateY(-4px);
-      box-shadow: 0 14px 40px rgba(253,203,110,0.5);
+      box-shadow: 0 14px 40px rgba(253, 203, 110, 0.5);
       color: var(--royal-blue);
     }
+
     .btn-admit-outline {
       background: transparent;
-      color: white; border: 2px solid rgba(255,255,255,0.5);
-      font-weight: 600; padding: 14px 36px; border-radius: 50px;
-      cursor: pointer; transition: var(--transition);
-      text-decoration: none; display: inline-flex; align-items: center; gap: 8px;
+      color: white;
+      border: 2px solid rgba(255, 255, 255, 0.5);
+      font-weight: 600;
+      padding: 14px 36px;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: var(--transition);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
     }
+
     .btn-admit-outline:hover {
-      background: rgba(255,255,255,0.12);
-      border-color: rgba(255,255,255,0.8); color: white;
+      background: rgba(255, 255, 255, 0.12);
+      border-color: rgba(255, 255, 255, 0.8);
+      color: white;
       transform: translateY(-4px);
     }
+
     .admission-steps {
-      display: flex; justify-content: center; flex-wrap: wrap;
-      gap: 32px; margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 32px;
+      margin-top: 40px;
     }
-    .adm-step { text-align: center; }
+
+    .adm-step {
+      text-align: center;
+    }
+
     .adm-step-num {
-      width: 44px; height: 44px;
-      background: rgba(255,255,255,0.15);
-      border: 2px solid rgba(255,255,255,0.3);
+      width: 44px;
+      height: 44px;
+      background: rgba(255, 255, 255, 0.15);
+      border: 2px solid rgba(255, 255, 255, 0.3);
       border-radius: 50%;
-      display: flex; align-items: center; justify-content: center;
-      color: var(--gold); font-weight: 700; font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--gold);
+      font-weight: 700;
+      font-size: 1.1rem;
       margin: 0 auto 8px;
     }
-    .adm-step span { font-size: 0.78rem; color: rgba(255,255,255,0.7); display: block; max-width: 80px; }
+
+    .adm-step span {
+      font-size: 0.78rem;
+      color: rgba(255, 255, 255, 0.7);
+      display: block;
+      max-width: 80px;
+    }
 
     /* ===========================
        CONTACT
     =========================== */
-    #contact { background: var(--bg-soft); }
+    #contact {
+      background: var(--bg-soft);
+    }
+
     .contact-info-card {
       background: linear-gradient(135deg, var(--royal-blue), #1565c0);
       border-radius: var(--radius);
       padding: 40px;
       height: 100%;
     }
+
     .contact-info-card h4 {
       font-family: 'Playfair Display', serif;
-      color: white; font-size: 1.6rem; font-weight: 800; margin-bottom: 8px;
+      color: white;
+      font-size: 1.6rem;
+      font-weight: 800;
+      margin-bottom: 8px;
     }
-    .contact-info-card p { color: rgba(255,255,255,0.7); font-size: 0.88rem; margin-bottom: 28px; }
+
+    .contact-info-card p {
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 0.88rem;
+      margin-bottom: 28px;
+    }
+
     .ci-item {
-      display: flex; align-items: flex-start; gap: 16px;
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
       margin-bottom: 22px;
     }
+
     .ci-icon {
-      width: 44px; height: 44px; flex-shrink: 0;
-      background: rgba(255,255,255,0.12);
+      width: 44px;
+      height: 44px;
+      flex-shrink: 0;
+      background: rgba(255, 255, 255, 0.12);
       border-radius: 12px;
-      display: flex; align-items: center; justify-content: center;
-      color: var(--gold); font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--gold);
+      font-size: 1.1rem;
     }
-    .ci-text strong { display: block; color: white; font-size: 0.9rem; font-weight: 700; margin-bottom: 2px; }
-    .ci-text span { color: rgba(255,255,255,0.65); font-size: 0.82rem; line-height: 1.5; }
-    .ci-socials { display: flex; gap: 10px; margin-top: 28px; }
+
+    .ci-text strong {
+      display: block;
+      color: white;
+      font-size: 0.9rem;
+      font-weight: 700;
+      margin-bottom: 2px;
+    }
+
+    .ci-text span {
+      color: rgba(255, 255, 255, 0.65);
+      font-size: 0.82rem;
+      line-height: 1.5;
+    }
+
+    .ci-socials {
+      display: flex;
+      gap: 10px;
+      margin-top: 28px;
+    }
+
     .ci-social-btn {
-      width: 42px; height: 42px;
-      background: rgba(255,255,255,0.12);
+      width: 42px;
+      height: 42px;
+      background: rgba(255, 255, 255, 0.12);
       border-radius: 10px;
-      display: flex; align-items: center; justify-content: center;
-      color: white; font-size: 1rem;
-      text-decoration: none; transition: var(--transition);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: var(--transition);
     }
-    .ci-social-btn:hover { background: var(--gold); color: var(--royal-blue); transform: translateY(-3px); }
+
+    .ci-social-btn:hover {
+      background: var(--gold);
+      color: var(--royal-blue);
+      transform: translateY(-3px);
+    }
+
     .contact-form-card {
       background: white;
       border-radius: var(--radius);
       padding: 40px;
       box-shadow: var(--shadow-card);
     }
-    .form-label { font-size: 0.85rem; font-weight: 600; color: var(--royal-blue); margin-bottom: 6px; }
-    .form-control, .form-select {
+
+    .form-label {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--royal-blue);
+      margin-bottom: 6px;
+    }
+
+    .form-control,
+    .form-select {
       border: 1.5px solid #dce8f5;
       border-radius: 10px;
       padding: 12px 16px;
@@ -1148,29 +2034,39 @@
       transition: var(--transition);
       font-family: 'Poppins', sans-serif;
     }
-    .form-control:focus, .form-select:focus {
+
+    .form-control:focus,
+    .form-select:focus {
       border-color: var(--sky-blue);
-      box-shadow: 0 0 0 3px rgba(116,185,255,0.15);
+      box-shadow: 0 0 0 3px rgba(116, 185, 255, 0.15);
       outline: none;
     }
+
     .map-embed {
-      width: 100%; height: 300px;
+      width: 100%;
+      height: 300px;
       border-radius: var(--radius);
       border: none;
       margin-top: 14px;
       box-shadow: var(--shadow-soft);
     }
+
     .btn-submit {
       background: linear-gradient(135deg, var(--royal-blue), #1565c0);
-      color: white; border: none;
-      font-weight: 700; font-size: 0.95rem;
-      padding: 14px 36px; border-radius: 50px;
-      cursor: pointer; transition: var(--transition);
+      color: white;
+      border: none;
+      font-weight: 700;
+      font-size: 0.95rem;
+      padding: 14px 36px;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: var(--transition);
       width: 100%;
     }
+
     .btn-submit:hover {
       transform: translateY(-3px);
-      box-shadow: 0 10px 30px rgba(10,61,98,0.3);
+      box-shadow: 0 10px 30px rgba(10, 61, 98, 0.3);
       background: linear-gradient(135deg, var(--gold-dark), var(--gold));
       color: var(--royal-blue);
     }
@@ -1182,122 +2078,307 @@
       background: linear-gradient(180deg, var(--royal-blue-dark) 0%, #051e31 100%);
       color: white;
     }
-    .footer-top { padding: 70px 0 50px; }
+
+    .footer-top {
+      padding: 70px 0 50px;
+    }
+
     .footer-brand .brand-logo-lg {
-      width: 64px; height: 64px;
+      width: 64px;
+      height: 64px;
       background: linear-gradient(135deg, var(--sky-blue), #74b9ff80);
       border-radius: 18px;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 1.8rem; color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.8rem;
+      color: white;
       margin-bottom: 18px;
-      box-shadow: 0 8px 24px rgba(116,185,255,0.3);
+      box-shadow: 0 8px 24px rgba(116, 185, 255, 0.3);
     }
+
     .footer-brand h4 {
       font-family: 'Playfair Display', serif;
-      font-size: 1.2rem; font-weight: 800; color: white; margin-bottom: 12px;
+      font-size: 1.2rem;
+      font-weight: 800;
+      color: white;
+      margin-bottom: 12px;
     }
-    .footer-brand p { font-size: 0.83rem; color: rgba(255,255,255,0.55); line-height: 1.8; max-width: 240px; }
-    .footer-social { display: flex; gap: 10px; margin-top: 20px; }
+
+    .footer-brand p {
+      font-size: 0.83rem;
+      color: rgba(255, 255, 255, 0.55);
+      line-height: 1.8;
+      max-width: 240px;
+    }
+
+    .footer-social {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
     .fsocial-btn {
-      width: 38px; height: 38px;
-      background: rgba(255,255,255,0.08);
+      width: 38px;
+      height: 38px;
+      background: rgba(255, 255, 255, 0.08);
       border-radius: 9px;
-      display: flex; align-items: center; justify-content: center;
-      color: rgba(255,255,255,0.6); font-size: 0.95rem;
-      text-decoration: none; transition: var(--transition);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 0.95rem;
+      text-decoration: none;
+      transition: var(--transition);
     }
-    .fsocial-btn:hover { background: var(--gold); color: var(--royal-blue); transform: translateY(-3px); }
-    .footer-heading { font-size: 0.85rem; font-weight: 700; color: var(--gold); letter-spacing: 2px; text-transform: uppercase; margin-bottom: 20px; }
-    .footer-links { list-style: none; }
-    .footer-links li { margin-bottom: 10px; }
+
+    .fsocial-btn:hover {
+      background: var(--gold);
+      color: var(--royal-blue);
+      transform: translateY(-3px);
+    }
+
+    .footer-heading {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--gold);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .footer-links {
+      list-style: none;
+    }
+
+    .footer-links li {
+      margin-bottom: 10px;
+    }
+
     .footer-links a {
-      color: rgba(255,255,255,0.55); font-size: 0.83rem;
-      text-decoration: none; transition: var(--transition);
-      display: flex; align-items: center; gap: 8px;
+      color: rgba(255, 255, 255, 0.55);
+      font-size: 0.83rem;
+      text-decoration: none;
+      transition: var(--transition);
+      display: flex;
+      align-items: center;
+      gap: 8px;
     }
-    .footer-links a::before { content: '›'; color: var(--gold); font-size: 1.1rem; }
-    .footer-links a:hover { color: white; padding-left: 4px; }
+
+    .footer-links a::before {
+      content: '›';
+      color: var(--gold);
+      font-size: 1.1rem;
+    }
+
+    .footer-links a:hover {
+      color: white;
+      padding-left: 4px;
+    }
+
     .footer-contact-item {
-      display: flex; align-items: flex-start; gap: 10px;
-      margin-bottom: 12px; font-size: 0.82rem; color: rgba(255,255,255,0.55);
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 12px;
+      font-size: 0.82rem;
+      color: rgba(255, 255, 255, 0.55);
     }
-    .footer-contact-item i { color: var(--gold); font-size: 0.9rem; margin-top: 2px; flex-shrink: 0; }
+
+    .footer-contact-item i {
+      color: var(--gold);
+      font-size: 0.9rem;
+      margin-top: 2px;
+      flex-shrink: 0;
+    }
+
     .footer-bottom {
-      border-top: 1px solid rgba(255,255,255,0.08);
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
       padding: 22px 0;
-      display: flex; align-items: center; justify-content: space-between;
-      flex-wrap: wrap; gap: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
     }
-    .footer-bottom p { font-size: 0.8rem; color: rgba(255,255,255,0.4); margin: 0; }
-    .footer-bottom a { color: var(--gold); text-decoration: none; }
+
+    .footer-bottom p {
+      font-size: 0.8rem;
+      color: rgba(255, 255, 255, 0.4);
+      margin: 0;
+    }
+
+    .footer-bottom a {
+      color: var(--gold);
+      text-decoration: none;
+    }
+
     .footer-affil {
-      display: flex; gap: 16px; flex-wrap: wrap;
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
     }
+
     .affil-badge {
-      background: rgba(255,255,255,0.06);
-      border: 1px solid rgba(255,255,255,0.1);
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.1);
       border-radius: 8px;
       padding: 6px 14px;
-      font-size: 0.73rem; color: rgba(255,255,255,0.5);
-      display: flex; align-items: center; gap: 6px;
+      font-size: 0.73rem;
+      color: rgba(255, 255, 255, 0.5);
+      display: flex;
+      align-items: center;
+      gap: 6px;
     }
-    .affil-badge i { color: var(--gold); }
+
+    .affil-badge i {
+      color: var(--gold);
+    }
 
     /* ===========================
        BACK TO TOP
     =========================== */
     #backToTop {
-      position: fixed; bottom: 30px; right: 30px;
-      width: 48px; height: 48px;
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      width: 48px;
+      height: 48px;
       background: linear-gradient(135deg, var(--royal-blue), var(--sky-blue));
-      color: white; border: none;
+      color: white;
+      border: none;
       border-radius: 50%;
-      display: flex; align-items: center; justify-content: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       font-size: 1.1rem;
       cursor: pointer;
-      box-shadow: 0 6px 24px rgba(10,61,98,0.35);
+      box-shadow: 0 6px 24px rgba(10, 61, 98, 0.35);
       transition: var(--transition);
-      opacity: 0; pointer-events: none;
+      opacity: 0;
+      pointer-events: none;
       z-index: 999;
     }
-    #backToTop.visible { opacity: 1; pointer-events: all; }
-    #backToTop:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(10,61,98,0.4); }
+
+    #backToTop.visible {
+      opacity: 1;
+      pointer-events: all;
+    }
+
+    #backToTop:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 32px rgba(10, 61, 98, 0.4);
+    }
 
     /* ===========================
        RESPONSIVE
     =========================== */
     @media (max-width: 991px) {
-      .gallery-grid { grid-template-columns: repeat(2, 1fr); grid-template-rows: auto; }
-      .gallery-item:nth-child(1), .gallery-item:nth-child(4) { grid-column: auto; grid-row: auto; }
-      .timeline-wrap::before { left: 20px; }
-      .tl-item { flex-direction: column !important; padding-left: 50px; }
-      .tl-content { width: 100%; }
-      .tl-dot { left: 20px; }
-      .about-badge-float { right: 10px; }
-      .about-badge-float2 { left: 10px; top: -10px; }
+      .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+      }
+
+      .gallery-item:nth-child(1),
+      .gallery-item:nth-child(4) {
+        grid-column: auto;
+        grid-row: auto;
+      }
+
+      .timeline-wrap::before {
+        left: 20px;
+      }
+
+      .tl-item {
+        flex-direction: column !important;
+        padding-left: 50px;
+      }
+
+      .tl-content {
+        width: 100%;
+      }
+
+      .tl-dot {
+        left: 20px;
+      }
+
+      .about-badge-float {
+        right: 10px;
+      }
+
+      .about-badge-float2 {
+        left: 10px;
+        top: -10px;
+      }
     }
+
     @media (max-width: 767px) {
-      .section-pad { padding: 60px 0; }
-      .hero-title { font-size: 2rem; }
-      .hero-card-main { display: none; }
-      .hero-stats { justify-content: center; gap: 20px; }
-      .principal-card, .principal-message-card { padding: 28px; }
-      .gallery-grid { grid-template-columns: 1fr 1fr; }
-      .admission-card { padding: 32px 24px; }
-      .contact-form-card, .contact-info-card { padding: 28px; }
-      .footer-top { padding: 50px 0 36px; }
+      .section-pad {
+        padding: 60px 0;
+      }
+
+      .hero-title {
+        font-size: 2rem;
+      }
+
+      .hero-card-main {
+        display: none;
+      }
+
+      .hero-stats {
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .principal-card,
+      .principal-message-card {
+        padding: 28px;
+      }
+
+      .gallery-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .admission-card {
+        padding: 32px 24px;
+      }
+
+      .contact-form-card,
+      .contact-info-card {
+        padding: 28px;
+      }
+
+      .footer-top {
+        padding: 50px 0 36px;
+      }
     }
+
     @media (max-width: 575px) {
-      .about-features { grid-template-columns: 1fr; }
-      .gallery-grid { grid-template-columns: 1fr; }
-      .footer-bottom { flex-direction: column; text-align: center; }
+      .about-features {
+        grid-template-columns: 1fr;
+      }
+
+      .gallery-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+      }
     }
 
     /* AOS custom */
-    [data-aos] { pointer-events: none; }
-    [data-aos].aos-animate { pointer-events: auto; }
+    [data-aos] {
+      pointer-events: none;
+    }
+
+    [data-aos].aos-animate {
+      pointer-events: auto;
+    }
   </style>
 </head>
+
 <body>
 
   <!-- ===================== NAVBAR ===================== -->
@@ -1317,15 +2398,15 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav align-items-lg-center gap-lg-1 py-3 py-lg-0 ms-auto me-3">
-          <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 
-          <li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="/boarding.html">Boarding</a></li>
-          <li class="nav-item"><a class="nav-link" href="/govt-school.html">Govt. School</a></li>
-          <li class="nav-item"><a class="nav-link" href="/facilities.html">Facilities</a></li>
-          <li class="nav-item"><a class="nav-link" href="/teachers.html">Teachers</a></li>
-          <li class="nav-item"><a class="nav-link" href="/notice.html">Notice</a></li>
-          <li class="nav-item"><a class="nav-link" href="/contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="boarding.html">Boarding</a></li>
+          <li class="nav-item"><a class="nav-link" href="govt-school.html">Govt. School</a></li>
+          <li class="nav-item"><a class="nav-link" href="facilities.html">Facilities</a></li>
+          <li class="nav-item"><a class="nav-link" href="teachers.html">Teachers</a></li>
+          <li class="nav-item"><a class="nav-link" href="notice.html">Notice</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
         </ul>
         <a href="#admission" class="btn-nav-admit nav-link">Apply Now</a>
       </div>
@@ -1352,7 +2433,8 @@
             Leaders Today
           </h1>
           <p class="hero-subtitle">
-            Shree Pingla Devi Secondary School offers world-class boarding education for Classes 1–5 and quality government schooling for Classes 6–10 in Nepal. Where learning meets life.
+            Shree Pingla Devi Secondary School offers world-class boarding education for Classes 1–5 and quality
+            government schooling for Classes 6–10 in Nepal. Where learning meets life.
           </p>
           <div class="hero-btns">
             <a href="#admission" class="btn-hero-primary">
@@ -1392,11 +2474,12 @@
             </div>
             <div class="hero-card-main">
               <div class="hero-school-img">
-              <img src="698230365_4517160915235281_8828843330570834763_n.jpg" alt="">
+                <img src="698230365_4517160915235281_8828843330570834763_n.jpg" alt="">
               </div>
               <div class="hero-card-info">
                 <h4>Shree Pingla Devi Secondary School</h4>
-                <p>A beacon of quality education in Nepal, nurturing young minds with dedication, care, and modern curriculum.</p>
+                <p>A beacon of quality education in Nepal, nurturing young minds with dedication, care, and modern
+                  curriculum.</p>
                 <div class="hero-feature-pills">
                   <span class="hero-pill"><i class="fas fa-home me-1"></i>Boarding</span>
                   <span class="hero-pill"><i class="fas fa-university me-1"></i>Gov. School</span>
@@ -1406,7 +2489,9 @@
             </div>
             <div class="hero-floating-card card-bottom">
               <div style="display:flex;align-items:center;gap:10px;">
-                <div style="background:linear-gradient(135deg,#FDCB6E,#e2a84a);width:36px;height:36px;border-radius:9px;display:flex;align-items:center;justify-content:center;color:#0A3D62;font-size:1rem;"><i class="fas fa-star"></i></div>
+                <div
+                  style="background:linear-gradient(135deg,#FDCB6E,#e2a84a);width:36px;height:36px;border-radius:9px;display:flex;align-items:center;justify-content:center;color:#0A3D62;font-size:1rem;">
+                  <i class="fas fa-star"></i></div>
                 <div class="floating-text">
                   <strong>4.9 / 5.0 Rating</strong>
                   <span>Parent Satisfaction</span>
@@ -1418,7 +2503,9 @@
       </div>
     </div>
     <div class="scroll-indicator">
-      <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
       <span class="scroll-text">Scroll</span>
     </div>
   </section>
@@ -1430,22 +2517,30 @@
         <div class="announce-label px-3">📢 NOTICES</div>
         <div style="overflow:hidden;flex:1;">
           <div class="marquee-wrap">
-            <span class="marquee-item"><i class="fas fa-circle" style="font-size:6px;color:var(--gold);"></i> Admission Open for Academic Year 2082 B.S. – Classes 1 to 10</span>
+            <span class="marquee-item"><i class="fas fa-circle" style="font-size:6px;color:var(--gold);"></i> Admission
+              Open for Academic Year 2082 B.S. – Classes 1 to 10</span>
             <span class="marquee-sep">|</span>
-            <span class="marquee-item"><i class="fas fa-circle" style="font-size:6px;color:var(--gold);"></i> Annual Sports Day – Jestha 15, 2082 | All students must participate</span>
+            <span class="marquee-item"><i class="fas fa-circle" style="font-size:6px;color:var(--gold);"></i> Annual
+              Sports Day – Jestha 15, 2082 | All students must participate</span>
             <span class="marquee-sep">|</span>
-            <span class="marquee-item"><i class="fas fa-circle" style="font-size:6px;color:var(--gold);"></i> Scholarship Exam Results for Class 5 – Published on Notice Board</span>
+            <span class="marquee-item"><i class="fas fa-circle" style="font-size:6px;color:var(--gold);"></i>
+              Scholarship Exam Results for Class 5 – Published on Notice Board</span>
             <span class="marquee-sep">|</span>
-            <span class="marquee-item"><i class="fas fa-circle" style="font-size:6px;color:var(--gold);"></i> Parent-Teacher Meeting – Jestha 20, 2082 | 10:00 AM</span>
+            <span class="marquee-item"><i class="fas fa-circle" style="font-size:6px;color:var(--gold);"></i>
+              Parent-Teacher Meeting – Jestha 20, 2082 | 10:00 AM</span>
             <span class="marquee-sep">|</span>
             <!-- Duplicate for seamless loop -->
-            <span class="marquee-item"><i class="fas fa-circle" style="font-size:6px;color:var(--gold);"></i> Admission Open for Academic Year 2082 B.S. – Classes 1 to 10</span>
+            <span class="marquee-item"><i class="fas fa-circle" style="font-size:6px;color:var(--gold);"></i> Admission
+              Open for Academic Year 2082 B.S. – Classes 1 to 10</span>
             <span class="marquee-sep">|</span>
-            <span class="marquee-item"><i class="fas fa-circle" style="font-size:6px;color:var(--gold);"></i> Annual Sports Day – Jestha 15, 2082 | All students must participate</span>
+            <span class="marquee-item"><i class="fas fa-circle" style="font-size:6px;color:var(--gold);"></i> Annual
+              Sports Day – Jestha 15, 2082 | All students must participate</span>
             <span class="marquee-sep">|</span>
-            <span class="marquee-item"><i class="fas fa-circle" style="font-size:6px;color:var(--gold);"></i> Scholarship Exam Results for Class 5 – Published on Notice Board</span>
+            <span class="marquee-item"><i class="fas fa-circle" style="font-size:6px;color:var(--gold);"></i>
+              Scholarship Exam Results for Class 5 – Published on Notice Board</span>
             <span class="marquee-sep">|</span>
-            <span class="marquee-item"><i class="fas fa-circle" style="font-size:6px;color:var(--gold);"></i> Parent-Teacher Meeting – Jestha 20, 2082 | 10:00 AM</span>
+            <span class="marquee-item"><i class="fas fa-circle" style="font-size:6px;color:var(--gold);"></i>
+              Parent-Teacher Meeting – Jestha 20, 2082 | 10:00 AM</span>
           </div>
         </div>
       </div>
@@ -1476,15 +2571,21 @@
           <div class="gold-line"></div>
           <h2 class="section-title">A Legacy of Learning &<br>Excellence in Nepal</h2>
           <p class="section-sub mb-4">
-            Shree Pingla Devi Secondary School has been a cornerstone of quality education in our community for over two decades. We offer holistic education that blends academic rigour with character development, preparing students for the challenges of a modern world.
+            Shree Pingla Devi Secondary School has been a cornerstone of quality education in our community for over two
+            decades. We offer holistic education that blends academic rigour with character development, preparing
+            students for the challenges of a modern world.
           </p>
           <p style="color:var(--gray-light);font-size:0.9rem;line-height:1.9;margin-bottom:28px;">
-            Our institution uniquely combines a nurturing <strong style="color:var(--royal-blue);">Boarding School</strong> (Classes 1–5) providing round-the-clock care and learning, with an excellent <strong style="color:var(--royal-blue);">Government School</strong> (Classes 6–10) that upholds the national curriculum standards while maintaining exceptional quality.
+            Our institution uniquely combines a nurturing <strong style="color:var(--royal-blue);">Boarding
+              School</strong> (Classes 1–5) providing round-the-clock care and learning, with an excellent <strong
+              style="color:var(--royal-blue);">Government School</strong> (Classes 6–10) that upholds the national
+            curriculum standards while maintaining exceptional quality.
           </p>
           <div class="about-features">
             <div class="about-feature-item">
               <div class="af-icon"><i class="fas fa-book-open"></i></div>
-              <div class="af-text"><strong>Quality Curriculum</strong><span>National & activity-based learning</span></div>
+              <div class="af-text"><strong>Quality Curriculum</strong><span>National & activity-based learning</span>
+              </div>
             </div>
             <div class="about-feature-item">
               <div class="af-icon"><i class="fas fa-home"></i></div>
@@ -1508,10 +2609,12 @@
   <section id="principal" class="section-pad">
     <div class="container">
       <div class="text-center mb-5" data-aos="fade-up">
-        <span class="section-badge" style="background:rgba(253,203,110,0.15);border-color:rgba(253,203,110,0.4);color:var(--gold);">Leadership</span>
+        <span class="section-badge"
+          style="background:rgba(253,203,110,0.15);border-color:rgba(253,203,110,0.4);color:var(--gold);">Leadership</span>
         <div class="gold-line center"></div>
         <h2 class="section-title" style="color:white;">Principal's Message</h2>
-        <p class="section-sub mx-auto" style="color:rgba(255,255,255,0.65);">Words of guidance and inspiration from our school's leadership</p>
+        <p class="section-sub mx-auto" style="color:rgba(255,255,255,0.65);">Words of guidance and inspiration from our
+          school's leadership</p>
       </div>
       <div class="row gy-4 align-items-stretch">
         <!-- Left: Message -->
@@ -1519,9 +2622,16 @@
           <div class="principal-message-card">
             <p class="msg-text">
               "Dear Students, Parents, and Valued Members of our School Community,<br><br>
-              It is with immense pride and joy that I welcome you to Shree Pingla Devi Secondary School. Our institution has been a beacon of learning and character development in Nepal for over two decades, and I am honoured to lead this remarkable community of dedicated educators and bright young minds.<br><br>
-              We believe that education is not merely the transfer of knowledge — it is the transformation of character, the awakening of curiosity, and the nurturing of every child's unique potential. Here at Shree Pingla Devi, we strive to create an environment where every student feels safe, valued, and inspired to achieve their very best.<br><br>
-              Our boarding school provides a home away from home for our younger students, while our secondary classes build the academic foundation needed for a successful future. Together, we walk the path of excellence — one step at a time."
+              It is with immense pride and joy that I welcome you to Shree Pingla Devi Secondary School. Our institution
+              has been a beacon of learning and character development in Nepal for over two decades, and I am honoured
+              to lead this remarkable community of dedicated educators and bright young minds.<br><br>
+              We believe that education is not merely the transfer of knowledge — it is the transformation of character,
+              the awakening of curiosity, and the nurturing of every child's unique potential. Here at Shree Pingla
+              Devi, we strive to create an environment where every student feels safe, valued, and inspired to achieve
+              their very best.<br><br>
+              Our boarding school provides a home away from home for our younger students, while our secondary classes
+              build the academic foundation needed for a successful future. Together, we walk the path of excellence —
+              one step at a time."
             </p>
             <div class="principal-sig">
               <div class="sig-line"></div>
@@ -1552,8 +2662,10 @@
                 <div style="font-size:0.72rem;color:rgba(255,255,255,0.55);">Years Exp.</div>
               </div>
             </div>
-            <div style="margin-top:18px;padding:14px;background:rgba(253,203,110,0.1);border-radius:10px;border:1px solid rgba(253,203,110,0.2);">
-              <p style="font-size:0.8rem;color:rgba(255,255,255,0.65);margin:0;font-style:italic;">"Every child is a star waiting to shine. Our job is to light the way."</p>
+            <div
+              style="margin-top:18px;padding:14px;background:rgba(253,203,110,0.1);border-radius:10px;border:1px solid rgba(253,203,110,0.2);">
+              <p style="font-size:0.8rem;color:rgba(255,255,255,0.65);margin:0;font-style:italic;">"Every child is a
+                star waiting to shine. Our job is to light the way."</p>
             </div>
           </div>
         </div>
@@ -1575,21 +2687,26 @@
           <div class="mv-card mission">
             <div class="mv-icon"><i class="fas fa-bullseye"></i></div>
             <h4>Our Mission</h4>
-            <p>To provide accessible, high-quality education that empowers every student with knowledge, skills, and values — preparing them to become responsible citizens and lifelong learners in a rapidly changing world.</p>
+            <p>To provide accessible, high-quality education that empowers every student with knowledge, skills, and
+              values — preparing them to become responsible citizens and lifelong learners in a rapidly changing world.
+            </p>
           </div>
         </div>
         <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
           <div class="mv-card vision">
             <div class="mv-icon"><i class="fas fa-eye"></i></div>
             <h4>Our Vision</h4>
-            <p>To be a leading educational institution in Nepal, recognized for academic excellence, innovative teaching, and the holistic development of students who positively impact their communities and nation.</p>
+            <p>To be a leading educational institution in Nepal, recognized for academic excellence, innovative
+              teaching, and the holistic development of students who positively impact their communities and nation.</p>
           </div>
         </div>
         <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
           <div class="mv-card values">
             <div class="mv-icon"><i class="fas fa-heart"></i></div>
             <h4>Core Values</h4>
-            <p>Integrity, respect, and compassion form the bedrock of our school. We celebrate diversity, encourage curiosity, reward perseverance, and believe deeply that every child deserves the opportunity to thrive and succeed.</p>
+            <p>Integrity, respect, and compassion form the bedrock of our school. We celebrate diversity, encourage
+              curiosity, reward perseverance, and believe deeply that every child deserves the opportunity to thrive and
+              succeed.</p>
           </div>
         </div>
       </div>
@@ -1599,34 +2716,40 @@
   <!-- ===================== COUNTERS ===================== -->
   <section id="counters" class="section-pad-sm">
     <div class="blob" style="width:400px;height:400px;top:-200px;right:-100px;background:rgba(116,185,255,1);"></div>
-    <div class="blob" style="width:300px;height:300px;bottom:-150px;left:-50px;background:rgba(253,203,110,1);animation-delay:2s;"></div>
+    <div class="blob"
+      style="width:300px;height:300px;bottom:-150px;left:-50px;background:rgba(253,203,110,1);animation-delay:2s;">
+    </div>
     <div class="container">
       <div class="row gy-4">
         <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="0">
           <div class="counter-card">
             <div class="counter-icon"><i class="fas fa-user-graduate"></i></div>
-            <div class="counter-num"><span class="counter" data-target="500">0</span><span class="counter-suffix">+</span></div>
+            <div class="counter-num"><span class="counter" data-target="500">0</span><span
+                class="counter-suffix">+</span></div>
             <div class="counter-label">Students Enrolled</div>
           </div>
         </div>
         <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="100">
           <div class="counter-card">
             <div class="counter-icon"><i class="fas fa-chalkboard-teacher"></i></div>
-            <div class="counter-num"><span class="counter" data-target="35">0</span><span class="counter-suffix">+</span></div>
+            <div class="counter-num"><span class="counter" data-target="35">0</span><span
+                class="counter-suffix">+</span></div>
             <div class="counter-label">Expert Teachers</div>
           </div>
         </div>
         <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="200">
           <div class="counter-card">
             <div class="counter-icon"><i class="fas fa-trophy"></i></div>
-            <div class="counter-num"><span class="counter" data-target="98">0</span><span class="counter-suffix">%</span></div>
+            <div class="counter-num"><span class="counter" data-target="98">0</span><span
+                class="counter-suffix">%</span></div>
             <div class="counter-label">Pass Rate</div>
           </div>
         </div>
         <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="300">
           <div class="counter-card">
             <div class="counter-icon"><i class="fas fa-calendar-alt"></i></div>
-            <div class="counter-num"><span class="counter" data-target="25">0</span><span class="counter-suffix">+</span></div>
+            <div class="counter-num"><span class="counter" data-target="25">0</span><span
+                class="counter-suffix">+</span></div>
             <div class="counter-label">Years of Excellence</div>
           </div>
         </div>
@@ -1641,7 +2764,8 @@
         <span class="section-badge">Classes 1–5</span>
         <div class="gold-line center"></div>
         <h2 class="section-title">Boarding School Program</h2>
-        <p class="section-sub mx-auto">A nurturing residential environment where young children thrive academically and personally</p>
+        <p class="section-sub mx-auto">A nurturing residential environment where young children thrive academically and
+          personally</p>
       </div>
       <div class="row gy-4 align-items-center">
         <div class="col-lg-5" data-aos="fade-right">
@@ -1654,7 +2778,8 @@
             </div>
             <div class="stc-body">
               <ul class="stc-feature-list">
-                <li><i class="fas fa-check-circle"></i> Fully supervised residential facility with trained house parents</li>
+                <li><i class="fas fa-check-circle"></i> Fully supervised residential facility with trained house parents
+                </li>
                 <li><i class="fas fa-check-circle"></i> Nutritious, balanced meals prepared by qualified cooks</li>
                 <li><i class="fas fa-check-circle"></i> Structured daily schedule: study, play & rest</li>
                 <li><i class="fas fa-check-circle"></i> Evening coaching and homework supervision</li>
@@ -1674,28 +2799,32 @@
               <div class="facility-card">
                 <div class="facility-icon"><i class="fas fa-bed"></i></div>
                 <h5>Comfortable Dormitories</h5>
-                <p>Clean, spacious, well-ventilated sleeping quarters with age-appropriate furnishings and individual storage space.</p>
+                <p>Clean, spacious, well-ventilated sleeping quarters with age-appropriate furnishings and individual
+                  storage space.</p>
               </div>
             </div>
             <div class="col-sm-6" data-aos="zoom-in" data-aos-delay="80">
               <div class="facility-card">
                 <div class="facility-icon"><i class="fas fa-utensils"></i></div>
                 <h5>Nutritious Dining</h5>
-                <p>Three wholesome meals and snacks daily, prepared with care to support growing children's health and energy.</p>
+                <p>Three wholesome meals and snacks daily, prepared with care to support growing children's health and
+                  energy.</p>
               </div>
             </div>
             <div class="col-sm-6" data-aos="zoom-in" data-aos-delay="160">
               <div class="facility-card">
                 <div class="facility-icon"><i class="fas fa-moon"></i></div>
                 <h5>Evening Study Hours</h5>
-                <p>Dedicated study time from 6–8 PM with teacher supervision, homework help, and guided learning sessions.</p>
+                <p>Dedicated study time from 6–8 PM with teacher supervision, homework help, and guided learning
+                  sessions.</p>
               </div>
             </div>
             <div class="col-sm-6" data-aos="zoom-in" data-aos-delay="240">
               <div class="facility-card">
                 <div class="facility-icon"><i class="fas fa-heartbeat"></i></div>
                 <h5>Health & Wellness</h5>
-                <p>Regular health check-ups, first aid availability, and prompt communication with parents for complete peace of mind.</p>
+                <p>Regular health check-ups, first aid availability, and prompt communication with parents for complete
+                  peace of mind.</p>
               </div>
             </div>
           </div>
@@ -1708,40 +2837,50 @@
   <section id="govt" class="section-pad bg-soft">
     <div class="container">
       <div class="text-center mb-5" data-aos="fade-up">
-        <span class="section-badge" style="background:rgba(0,105,92,0.08);border-color:rgba(0,105,92,0.3);color:#00695c;">Classes 6–10</span>
+        <span class="section-badge"
+          style="background:rgba(0,105,92,0.08);border-color:rgba(0,105,92,0.3);color:#00695c;">Classes 6–10</span>
         <div class="gold-line center"></div>
         <h2 class="section-title">Government School Program</h2>
-        <p class="section-sub mx-auto">Nationally affiliated secondary education delivering academic excellence and character development</p>
+        <p class="section-sub mx-auto">Nationally affiliated secondary education delivering academic excellence and
+          character development</p>
       </div>
       <div class="row gy-4 align-items-center">
         <div class="col-lg-7 order-lg-1 order-2" data-aos="fade-right">
           <div class="row gy-3">
             <div class="col-sm-6" data-aos="zoom-in" data-aos-delay="0">
               <div class="facility-card" style="border-top:4px solid #00695c;">
-                <div class="facility-icon" style="background:rgba(0,105,92,0.08);"><i class="fas fa-book" style="color:#00695c;"></i></div>
+                <div class="facility-icon" style="background:rgba(0,105,92,0.08);"><i class="fas fa-book"
+                    style="color:#00695c;"></i></div>
                 <h5>National Curriculum</h5>
-                <p>Comprehensive curriculum aligned with Nepal's national education standards, Science, Maths, Social Studies, and Languages.</p>
+                <p>Comprehensive curriculum aligned with Nepal's national education standards, Science, Maths, Social
+                  Studies, and Languages.</p>
               </div>
             </div>
             <div class="col-sm-6" data-aos="zoom-in" data-aos-delay="80">
               <div class="facility-card" style="border-top:4px solid #00695c;">
-                <div class="facility-icon" style="background:rgba(0,105,92,0.08);"><i class="fas fa-flask" style="color:#00695c;"></i></div>
+                <div class="facility-icon" style="background:rgba(0,105,92,0.08);"><i class="fas fa-flask"
+                    style="color:#00695c;"></i></div>
                 <h5>Science Laboratory</h5>
-                <p>Well-equipped science lab enabling hands-on experiments that make learning Physics, Chemistry, and Biology engaging.</p>
+                <p>Well-equipped science lab enabling hands-on experiments that make learning Physics, Chemistry, and
+                  Biology engaging.</p>
               </div>
             </div>
             <div class="col-sm-6" data-aos="zoom-in" data-aos-delay="160">
               <div class="facility-card" style="border-top:4px solid #00695c;">
-                <div class="facility-icon" style="background:rgba(0,105,92,0.08);"><i class="fas fa-laptop" style="color:#00695c;"></i></div>
+                <div class="facility-icon" style="background:rgba(0,105,92,0.08);"><i class="fas fa-laptop"
+                    style="color:#00695c;"></i></div>
                 <h5>Computer Education</h5>
-                <p>Modern computer lab with up-to-date systems providing digital literacy and ICT skills for the 21st century.</p>
+                <p>Modern computer lab with up-to-date systems providing digital literacy and ICT skills for the 21st
+                  century.</p>
               </div>
             </div>
             <div class="col-sm-6" data-aos="zoom-in" data-aos-delay="240">
               <div class="facility-card" style="border-top:4px solid #00695c;">
-                <div class="facility-icon" style="background:rgba(0,105,92,0.08);"><i class="fas fa-chart-line" style="color:#00695c;"></i></div>
+                <div class="facility-icon" style="background:rgba(0,105,92,0.08);"><i class="fas fa-chart-line"
+                    style="color:#00695c;"></i></div>
                 <h5>SEE Preparation</h5>
-                <p>Specialized coaching and mock examinations to ensure every student is fully prepared for the national SEE exams.</p>
+                <p>Specialized coaching and mock examinations to ensure every student is fully prepared for the national
+                  SEE exams.</p>
               </div>
             </div>
           </div>
@@ -1756,15 +2895,22 @@
             </div>
             <div class="stc-body">
               <ul class="stc-feature-list govt">
-                <li><i class="fas fa-check-circle" style="color:#00695c;"></i> Government-approved curriculum & certified teachers</li>
-                <li><i class="fas fa-check-circle" style="color:#00695c;"></i> Fully equipped science & computer labs</li>
-                <li><i class="fas fa-check-circle" style="color:#00695c;"></i> Scholarship and financial assistance available</li>
+                <li><i class="fas fa-check-circle" style="color:#00695c;"></i> Government-approved curriculum &
+                  certified teachers</li>
+                <li><i class="fas fa-check-circle" style="color:#00695c;"></i> Fully equipped science & computer labs
+                </li>
+                <li><i class="fas fa-check-circle" style="color:#00695c;"></i> Scholarship and financial assistance
+                  available</li>
                 <li><i class="fas fa-check-circle" style="color:#00695c;"></i> Extra classes for SEE preparation</li>
-                <li><i class="fas fa-check-circle" style="color:#00695c;"></i> Co-curricular & sports activities included</li>
-                <li><i class="fas fa-check-circle" style="color:#00695c;"></i> Library with comprehensive book collections</li>
-                <li><i class="fas fa-check-circle" style="color:#00695c;"></i> Regular parent-teacher meetings & progress reports</li>
+                <li><i class="fas fa-check-circle" style="color:#00695c;"></i> Co-curricular & sports activities
+                  included</li>
+                <li><i class="fas fa-check-circle" style="color:#00695c;"></i> Library with comprehensive book
+                  collections</li>
+                <li><i class="fas fa-check-circle" style="color:#00695c;"></i> Regular parent-teacher meetings &
+                  progress reports</li>
               </ul>
-              <a href="#admission" class="btn-hero-primary d-inline-flex" style="font-size:0.88rem;padding:10px 24px;background:linear-gradient(135deg,#00695c,#00897b);">
+              <a href="#admission" class="btn-hero-primary d-inline-flex"
+                style="font-size:0.88rem;padding:10px 24px;background:linear-gradient(135deg,#00695c,#00897b);">
                 <i class="fas fa-arrow-right"></i> Enrol Now
               </a>
             </div>
@@ -1781,17 +2927,66 @@
         <span class="section-badge">Infrastructure</span>
         <div class="gold-line center"></div>
         <h2 class="section-title">World-Class Facilities</h2>
-        <p class="section-sub mx-auto">State-of-the-art infrastructure designed to support every aspect of student development and learning</p>
+        <p class="section-sub mx-auto">State-of-the-art infrastructure designed to support every aspect of student
+          development and learning</p>
       </div>
       <div class="row gy-4">
-        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="0"><div class="facility-card"><div class="facility-icon"><i class="fas fa-book-reader"></i></div><h5>Library</h5><p>Over 3,000 books, journals, and digital resources for research and leisure reading.</p></div></div>
-        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="60"><div class="facility-card"><div class="facility-icon"><i class="fas fa-flask"></i></div><h5>Science Lab</h5><p>Modern equipment for Biology, Chemistry, and Physics practical experiments.</p></div></div>
-        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="120"><div class="facility-card"><div class="facility-icon"><i class="fas fa-laptop-code"></i></div><h5>Computer Lab</h5><p>30+ computers with high-speed internet and licensed software for digital learning.</p></div></div>
-        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="180"><div class="facility-card"><div class="facility-icon"><i class="fas fa-futbol"></i></div><h5>Sports Ground</h5><p>Cricket, football, volleyball courts and an athletics track for physical development.</p></div></div>
-        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="240"><div class="facility-card"><div class="facility-icon"><i class="fas fa-music"></i></div><h5>Music Room</h5><p>Instruments and trained music teachers for cultural and creative expression.</p></div></div>
-        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="300"><div class="facility-card"><div class="facility-icon"><i class="fas fa-medkit"></i></div><h5>Medical Room</h5><p>First aid facility with trained staff to handle health needs during school hours.</p></div></div>
-        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="360"><div class="facility-card"><div class="facility-icon"><i class="fas fa-bus"></i></div><h5>Transport</h5><p>Safe school bus service covering major routes with experienced drivers.</p></div></div>
-        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="420"><div class="facility-card"><div class="facility-icon"><i class="fas fa-solar-panel"></i></div><h5>Solar Power</h5><p>Eco-friendly solar energy system ensuring uninterrupted electricity for all facilities.</p></div></div>
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+          <div class="facility-card">
+            <div class="facility-icon"><i class="fas fa-book-reader"></i></div>
+            <h5>Library</h5>
+            <p>Over 3,000 books, journals, and digital resources for research and leisure reading.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="60">
+          <div class="facility-card">
+            <div class="facility-icon"><i class="fas fa-flask"></i></div>
+            <h5>Science Lab</h5>
+            <p>Modern equipment for Biology, Chemistry, and Physics practical experiments.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="120">
+          <div class="facility-card">
+            <div class="facility-icon"><i class="fas fa-laptop-code"></i></div>
+            <h5>Computer Lab</h5>
+            <p>30+ computers with high-speed internet and licensed software for digital learning.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="180">
+          <div class="facility-card">
+            <div class="facility-icon"><i class="fas fa-futbol"></i></div>
+            <h5>Sports Ground</h5>
+            <p>Cricket, football, volleyball courts and an athletics track for physical development.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="240">
+          <div class="facility-card">
+            <div class="facility-icon"><i class="fas fa-music"></i></div>
+            <h5>Music Room</h5>
+            <p>Instruments and trained music teachers for cultural and creative expression.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+          <div class="facility-card">
+            <div class="facility-icon"><i class="fas fa-medkit"></i></div>
+            <h5>Medical Room</h5>
+            <p>First aid facility with trained staff to handle health needs during school hours.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="360">
+          <div class="facility-card">
+            <div class="facility-icon"><i class="fas fa-bus"></i></div>
+            <h5>Transport</h5>
+            <p>Safe school bus service covering major routes with experienced drivers.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="420">
+          <div class="facility-card">
+            <div class="facility-icon"><i class="fas fa-solar-panel"></i></div>
+            <h5>Solar Power</h5>
+            <p>Eco-friendly solar energy system ensuring uninterrupted electricity for all facilities.</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -1803,7 +2998,8 @@
         <span class="section-badge">Our Educators</span>
         <div class="gold-line center"></div>
         <h2 class="section-title">Meet Our Dedicated Teachers</h2>
-        <p class="section-sub mx-auto">Our passionate, qualified team of educators who inspire, guide, and nurture every student's journey</p>
+        <p class="section-sub mx-auto">Our passionate, qualified team of educators who inspire, guide, and nurture every
+          student's journey</p>
       </div>
       <div class="row gy-4">
         <div class="col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="0">
@@ -1966,7 +3162,8 @@
         <span class="section-badge">School Life</span>
         <div class="gold-line center"></div>
         <h2 class="section-title">Student Activities Gallery</h2>
-        <p class="section-sub mx-auto">Glimpses of vibrant school life, co-curricular activities, and memorable moments</p>
+        <p class="section-sub mx-auto">Glimpses of vibrant school life, co-curricular activities, and memorable moments
+        </p>
       </div>
       <div class="gallery-grid" data-aos="fade-up">
         <div class="gallery-item">
@@ -2022,14 +3219,17 @@
         <span class="section-badge">Updates</span>
         <div class="gold-line center"></div>
         <h2 class="section-title">Notice Board</h2>
-        <p class="section-sub mx-auto">Stay informed with the latest announcements, events, and important notices from school</p>
+        <p class="section-sub mx-auto">Stay informed with the latest announcements, events, and important notices from
+          school</p>
       </div>
       <div class="row gy-4">
         <div class="col-lg-6" data-aos="fade-right">
           <div class="notice-card">
             <div class="notice-header">
               <h4><i class="fas fa-bell me-2"></i>Latest Notices</h4>
-              <span style="background:rgba(255,255,255,0.15);color:white;font-size:0.72rem;padding:3px 10px;border-radius:4px;">2082 B.S.</span>
+              <span
+                style="background:rgba(255,255,255,0.15);color:white;font-size:0.72rem;padding:3px 10px;border-radius:4px;">2082
+                B.S.</span>
             </div>
             <div class="notice-item">
               <div class="notice-date" style="background:var(--gold);color:var(--royal-blue);">
@@ -2092,7 +3292,9 @@
           <div class="notice-card">
             <div class="notice-header" style="background:linear-gradient(135deg,#00695c,#00897b);">
               <h4><i class="fas fa-calendar-alt me-2"></i>Upcoming Events</h4>
-              <span style="background:rgba(255,255,255,0.15);color:white;font-size:0.72rem;padding:3px 10px;border-radius:4px;">2082 B.S.</span>
+              <span
+                style="background:rgba(255,255,255,0.15);color:white;font-size:0.72rem;padding:3px 10px;border-radius:4px;">2082
+                B.S.</span>
             </div>
             <div class="notice-item">
               <div class="notice-date" style="background:#00695c;">
@@ -2157,14 +3359,16 @@
         <span class="section-badge">Our History</span>
         <div class="gold-line center"></div>
         <h2 class="section-title">School History Timeline</h2>
-        <p class="section-sub mx-auto">A journey of growth, achievement, and unwavering commitment to educational excellence</p>
+        <p class="section-sub mx-auto">A journey of growth, achievement, and unwavering commitment to educational
+          excellence</p>
       </div>
       <div class="timeline-wrap">
         <div class="tl-item" data-aos="fade-right">
           <div class="tl-content">
             <div class="tl-year">1998 B.S.</div>
             <h5>Foundation of Shree Pingla Devi School</h5>
-            <p>The school was established by the local community with a vision to bring quality education to rural Nepal, starting with Classes 1–5.</p>
+            <p>The school was established by the local community with a vision to bring quality education to rural
+              Nepal, starting with Classes 1–5.</p>
           </div>
           <div class="tl-dot"></div>
         </div>
@@ -2172,7 +3376,8 @@
           <div class="tl-content">
             <div class="tl-year">2005 B.S.</div>
             <h5>Boarding Facility Established</h5>
-            <p>The boarding wing was inaugurated, providing residential facilities for students from distant villages, making quality education truly accessible.</p>
+            <p>The boarding wing was inaugurated, providing residential facilities for students from distant villages,
+              making quality education truly accessible.</p>
           </div>
           <div class="tl-dot"></div>
         </div>
@@ -2180,7 +3385,8 @@
           <div class="tl-content">
             <div class="tl-year">2010 B.S.</div>
             <h5>Government Affiliation – Classes 6–10</h5>
-            <p>The school received full government affiliation to run secondary classes up to Class 10, expanding its reach and academic offerings.</p>
+            <p>The school received full government affiliation to run secondary classes up to Class 10, expanding its
+              reach and academic offerings.</p>
           </div>
           <div class="tl-dot"></div>
         </div>
@@ -2188,7 +3394,8 @@
           <div class="tl-content">
             <div class="tl-year">2015 B.S.</div>
             <h5>Science Lab & Computer Lab Inaugurated</h5>
-            <p>A modern science laboratory and fully equipped computer lab were established, providing students with hands-on learning opportunities.</p>
+            <p>A modern science laboratory and fully equipped computer lab were established, providing students with
+              hands-on learning opportunities.</p>
           </div>
           <div class="tl-dot"></div>
         </div>
@@ -2196,7 +3403,8 @@
           <div class="tl-content">
             <div class="tl-year">2019 B.S.</div>
             <h5>District Excellence Award</h5>
-            <p>Recognized by the district education office for outstanding academic performance, achieving 98% pass rate in the national SEE examinations.</p>
+            <p>Recognized by the district education office for outstanding academic performance, achieving 98% pass rate
+              in the national SEE examinations.</p>
           </div>
           <div class="tl-dot"></div>
         </div>
@@ -2204,7 +3412,8 @@
           <div class="tl-content">
             <div class="tl-year">2082 B.S.</div>
             <h5>Digital Transformation & Expansion</h5>
-            <p>Launch of e-learning systems, digital classrooms, solar power installation, and expansion of the boarding facility to accommodate more students.</p>
+            <p>Launch of e-learning systems, digital classrooms, solar power installation, and expansion of the boarding
+              facility to accommodate more students.</p>
           </div>
           <div class="tl-dot" style="background:var(--gold);box-shadow:0 0 0 3px var(--gold-dark);"></div>
         </div>
@@ -2219,14 +3428,18 @@
         <span class="section-badge">What They Say</span>
         <div class="gold-line center"></div>
         <h2 class="section-title">Voices from Our Community</h2>
-        <p class="section-sub mx-auto">Hear from parents and students who have experienced the Shree Pingla Devi difference</p>
+        <p class="section-sub mx-auto">Hear from parents and students who have experienced the Shree Pingla Devi
+          difference</p>
       </div>
       <div class="row gy-4">
         <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
           <div class="testimonial-card">
             <div class="testi-quote">"</div>
-            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-            <p class="testi-text">My son has been in the boarding programme since Class 1 and the transformation has been remarkable. The teachers are genuinely caring, and the facilities are excellent. We are so grateful for this school.</p>
+            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p class="testi-text">My son has been in the boarding programme since Class 1 and the transformation has
+              been remarkable. The teachers are genuinely caring, and the facilities are excellent. We are so grateful
+              for this school.</p>
             <div class="testi-author">
               <div class="testi-avatar">RD</div>
               <div>
@@ -2239,8 +3452,11 @@
         <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
           <div class="testimonial-card">
             <div class="testi-quote">"</div>
-            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-            <p class="testi-text">I studied here from Class 1 to Class 10, and this school shaped who I am today. The teachers pushed me to be my best, and the boarding life taught me discipline and responsibility. Forever grateful.</p>
+            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p class="testi-text">I studied here from Class 1 to Class 10, and this school shaped who I am today. The
+              teachers pushed me to be my best, and the boarding life taught me discipline and responsibility. Forever
+              grateful.</p>
             <div class="testi-author">
               <div class="testi-avatar">SM</div>
               <div>
@@ -2253,8 +3469,11 @@
         <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
           <div class="testimonial-card">
             <div class="testi-quote">"</div>
-            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
-            <p class="testi-text">The government school programme here is exceptional. Despite being government-affiliated, the teaching quality rivals the best private schools. My daughter passed SEE with distinction and is now in +2.</p>
+            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+            <p class="testi-text">The government school programme here is exceptional. Despite being
+              government-affiliated, the teaching quality rivals the best private schools. My daughter passed SEE with
+              distinction and is now in +2.</p>
             <div class="testi-author">
               <div class="testi-avatar">KT</div>
               <div>
@@ -2267,8 +3486,11 @@
         <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
           <div class="testimonial-card">
             <div class="testi-quote">"</div>
-            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-            <p class="testi-text">What sets this school apart is the genuine love and attention each teacher gives to their students. My twins both study here, and every day they come home excited about what they learned. Truly remarkable!</p>
+            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p class="testi-text">What sets this school apart is the genuine love and attention each teacher gives to
+              their students. My twins both study here, and every day they come home excited about what they learned.
+              Truly remarkable!</p>
             <div class="testi-author">
               <div class="testi-avatar">BG</div>
               <div>
@@ -2281,8 +3503,11 @@
         <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
           <div class="testimonial-card">
             <div class="testi-quote">"</div>
-            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-            <p class="testi-text">The extracurricular activities here are amazing. I was part of the science club, drama team, and football squad. Shree Pingla Devi doesn't just teach academics — it builds complete human beings.</p>
+            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p class="testi-text">The extracurricular activities here are amazing. I was part of the science club, drama
+              team, and football squad. Shree Pingla Devi doesn't just teach academics — it builds complete human
+              beings.</p>
             <div class="testi-author">
               <div class="testi-avatar">AP</div>
               <div>
@@ -2295,8 +3520,11 @@
         <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
           <div class="testimonial-card">
             <div class="testi-quote">"</div>
-            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-            <p class="testi-text">As a parent in a remote village, I was worried about my child's education. The boarding program gave us peace of mind — he is safe, happy, well-fed, and most importantly, learning beautifully.</p>
+            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p class="testi-text">As a parent in a remote village, I was worried about my child's education. The
+              boarding program gave us peace of mind — he is safe, happy, well-fed, and most importantly, learning
+              beautifully.</p>
             <div class="testi-author">
               <div class="testi-avatar">MB</div>
               <div>
@@ -2323,39 +3551,66 @@
         <div class="col-lg-9" data-aos="fade-up">
           <div class="accordion" id="faqAccordion">
             <div class="accordion-item">
-              <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">What is the admission process for the Boarding School (Classes 1–5)?</button></h2>
+              <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq1">What is the admission process for the Boarding School (Classes 1–5)?</button>
+              </h2>
               <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">Admission for Classes 1–5 (Boarding) requires a completed application form, the student's birth certificate, previous academic records (if applicable), and an interaction session with the student and parents. A spot assessment may be conducted. Please visit our school office or fill out the contact form below to initiate the process.</div>
+                <div class="accordion-body">Admission for Classes 1–5 (Boarding) requires a completed application form,
+                  the student's birth certificate, previous academic records (if applicable), and an interaction session
+                  with the student and parents. A spot assessment may be conducted. Please visit our school office or
+                  fill out the contact form below to initiate the process.</div>
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">What are the boarding fees and what do they include?</button></h2>
+              <h2 class="accordion-header"><button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#faq2">What are the boarding fees and what do they
+                  include?</button></h2>
               <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">The boarding fee covers accommodation, three nutritious meals per day, evening study supervision, basic medical care, and all school facilities. Exact fee structures vary by class and are provided during the admission consultation. Scholarship opportunities are available for deserving students.</div>
+                <div class="accordion-body">The boarding fee covers accommodation, three nutritious meals per day,
+                  evening study supervision, basic medical care, and all school facilities. Exact fee structures vary by
+                  class and are provided during the admission consultation. Scholarship opportunities are available for
+                  deserving students.</div>
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">Is the school affiliated with the Government of Nepal?</button></h2>
+              <h2 class="accordion-header"><button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#faq3">Is the school affiliated with the Government of
+                  Nepal?</button></h2>
               <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">Yes. Shree Pingla Devi Secondary School (Classes 6–10) is fully affiliated with the Government of Nepal under the national curriculum framework. Students appear for the national SEE (Secondary Education Examination) and receive official government certificates.</div>
+                <div class="accordion-body">Yes. Shree Pingla Devi Secondary School (Classes 6–10) is fully affiliated
+                  with the Government of Nepal under the national curriculum framework. Students appear for the national
+                  SEE (Secondary Education Examination) and receive official government certificates.</div>
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">Are scholarship programmes available for meritorious or financially challenged students?</button></h2>
+              <h2 class="accordion-header"><button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#faq4">Are scholarship programmes available for meritorious
+                  or financially challenged students?</button></h2>
               <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">Yes, we offer scholarship programmes for both meritorious students and those from economically disadvantaged backgrounds. Applications are reviewed on a case-by-case basis. Please contact the school office for scholarship criteria and application procedures.</div>
+                <div class="accordion-body">Yes, we offer scholarship programmes for both meritorious students and those
+                  from economically disadvantaged backgrounds. Applications are reviewed on a case-by-case basis. Please
+                  contact the school office for scholarship criteria and application procedures.</div>
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">How do boarding students stay in contact with their parents?</button></h2>
+              <h2 class="accordion-header"><button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#faq5">How do boarding students stay in contact with their
+                  parents?</button></h2>
               <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">Boarding students are encouraged to stay connected with family through regular supervised phone calls and designated visiting days. Parents are also updated through periodic progress reports, WhatsApp notices, and formal parent-teacher meetings each term.</div>
+                <div class="accordion-body">Boarding students are encouraged to stay connected with family through
+                  regular supervised phone calls and designated visiting days. Parents are also updated through periodic
+                  progress reports, WhatsApp notices, and formal parent-teacher meetings each term.</div>
               </div>
             </div>
             <div class="accordion-item">
-              <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">What co-curricular activities does the school offer?</button></h2>
+              <h2 class="accordion-header"><button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#faq6">What co-curricular activities does the school
+                  offer?</button></h2>
               <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">We offer a rich variety of co-curricular activities including football, cricket, volleyball, athletics, music, dance, drama, art & craft, science club, debate society, and community service projects. These activities are integrated into the school timetable to ensure all students can participate.</div>
+                <div class="accordion-body">We offer a rich variety of co-curricular activities including football,
+                  cricket, volleyball, athletics, music, dance, drama, art & craft, science club, debate society, and
+                  community service projects. These activities are integrated into the school timetable to ensure all
+                  students can participate.</div>
               </div>
             </div>
           </div>
@@ -2367,14 +3622,18 @@
   <!-- ===================== ADMISSION ===================== -->
   <section id="admission" class="section-pad">
     <div class="blob" style="width:350px;height:350px;top:-100px;left:-80px;background:rgba(116,185,255,1);"></div>
-    <div class="blob" style="width:280px;height:280px;bottom:-80px;right:-50px;background:rgba(253,203,110,1);animation-delay:1.5s;"></div>
+    <div class="blob"
+      style="width:280px;height:280px;bottom:-80px;right:-50px;background:rgba(253,203,110,1);animation-delay:1.5s;">
+    </div>
     <div class="container">
       <div class="admission-card" data-aos="zoom-in">
-        <span class="section-badge" style="background:rgba(253,203,110,0.15);border-color:rgba(253,203,110,0.4);color:var(--gold);">
+        <span class="section-badge"
+          style="background:rgba(253,203,110,0.15);border-color:rgba(253,203,110,0.4);color:var(--gold);">
           🎓 Admissions Open 2082 B.S.
         </span>
         <h2>Begin Your Journey with Us</h2>
-        <p>Secure your child's future with a quality education at Shree Pingla Devi Secondary School. Limited seats available for Boarding (Classes 1–5) and Government School (Classes 6–10). Apply today!</p>
+        <p>Secure your child's future with a quality education at Shree Pingla Devi Secondary School. Limited seats
+          available for Boarding (Classes 1–5) and Government School (Classes 6–10). Apply today!</p>
         <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
           <a href="#contact" class="btn-admit-primary">
             <i class="fas fa-file-alt"></i> Apply for Admission
@@ -2412,7 +3671,8 @@
         <span class="section-badge">Get in Touch</span>
         <div class="gold-line center"></div>
         <h2 class="section-title">Contact Us</h2>
-        <p class="section-sub mx-auto">We'd love to hear from you. Reach out for admissions, enquiries, or to schedule a school visit</p>
+        <p class="section-sub mx-auto">We'd love to hear from you. Reach out for admissions, enquiries, or to schedule a
+          school visit</p>
       </div>
       <div class="row gy-4">
         <!-- Contact Info -->
@@ -2460,7 +3720,8 @@
         <div class="col-lg-8" data-aos="fade-left">
           <div class="contact-form-card">
             <h5 style="font-weight:700;color:var(--royal-blue);margin-bottom:6px;">Send Us a Message</h5>
-            <p style="font-size:0.85rem;color:var(--gray-light);margin-bottom:24px;">Fill out the form below and we'll get back to you within 24 hours.</p>
+            <p style="font-size:0.85rem;color:var(--gray-light);margin-bottom:24px;">Fill out the form below and we'll
+              get back to you within 24 hours.</p>
             <form id="contactForm">
               <div class="row gy-3">
                 <div class="col-sm-6">
@@ -2489,7 +3750,8 @@
                 </div>
                 <div class="col-12">
                   <label class="form-label">Your Message *</label>
-                  <textarea class="form-control" rows="5" placeholder="Write your message or enquiry here..." required></textarea>
+                  <textarea class="form-control" rows="5" placeholder="Write your message or enquiry here..."
+                    required></textarea>
                 </div>
                 <div class="col-12">
                   <button type="submit" class="btn-submit">
@@ -2501,12 +3763,9 @@
             <!-- Google Map Embed (Achham Nepal approximate location) -->
             <div class="mt-4">
               <label class="form-label">Find Us on Map</label>
-              <iframe
-                class="map-embed"
+              <iframe class="map-embed"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113600.71820083882!2d83.52437!3d28.272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995f450b5d2a7d3%3A0x4e1e6b1b2c3d4e5f!2sAchham%2C%20Sudurpaschim%20Province%2C%20Nepal!5e0!3m2!1sen!2snp!4v1234567890"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                 title="School Location – Achham, Nepal">
               </iframe>
             </div>
@@ -2526,7 +3785,8 @@
             <div class="footer-brand">
               <div class="brand-logo-lg"><i class="fas fa-graduation-cap"></i></div>
               <h4>Shree Pingla Devi Secondary School</h4>
-              <p>Nurturing young minds with quality education, values, and care. Boarding (1–5) & Government School (6–10) in Nepal.</p>
+              <p>Nurturing young minds with quality education, values, and care. Boarding (1–5) & Government School
+                (6–10) in Nepal.</p>
               <div class="footer-social">
                 <a href="#" class="fsocial-btn"><i class="fab fa-facebook-f"></i></a>
                 <a href="#" class="fsocial-btn"><i class="fab fa-youtube"></i></a>
@@ -2562,9 +3822,12 @@
           <!-- Contact -->
           <div class="col-lg-3 col-md-6">
             <div class="footer-heading">Contact Info</div>
-            <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><span>Achham District, Sudurpaschim Province, Nepal</span></div>
-            <div class="footer-contact-item"><i class="fas fa-phone-alt"></i><span>+977-068-XXXXXX<br>+977-98XXXXXXXX</span></div>
-            <div class="footer-contact-item"><i class="fas fa-envelope"></i><span>info@pingladevischool.edu.np</span></div>
+            <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><span>Achham District, Sudurpaschim
+                Province, Nepal</span></div>
+            <div class="footer-contact-item"><i
+                class="fas fa-phone-alt"></i><span>+977-068-XXXXXX<br>+977-98XXXXXXXX</span></div>
+            <div class="footer-contact-item"><i class="fas fa-envelope"></i><span>info@pingladevischool.edu.np</span>
+            </div>
             <div class="footer-contact-item"><i class="fas fa-clock"></i><span>Sun–Fri: 10 AM – 4 PM</span></div>
           </div>
           <!-- Affiliations -->
@@ -2576,9 +3839,15 @@
               <div class="affil-badge"><i class="fas fa-book"></i> DEO Approved</div>
               <div class="affil-badge"><i class="fas fa-star"></i> District Award</div>
             </div>
-            <div style="margin-top:20px;padding:14px;background:rgba(253,203,110,0.1);border:1px solid rgba(253,203,110,0.2);border-radius:10px;">
-              <div style="font-size:0.72rem;color:rgba(255,255,255,0.5);margin-bottom:6px;letter-spacing:1px;text-transform:uppercase;">Admission Status</div>
-              <div style="font-size:0.85rem;font-weight:700;color:var(--gold);display:flex;align-items:center;gap:6px;"><span style="width:8px;height:8px;background:#00b894;border-radius:50%;display:inline-block;animation:blink 1.5s infinite;"></span> OPEN 2082 B.S.</div>
+            <div
+              style="margin-top:20px;padding:14px;background:rgba(253,203,110,0.1);border:1px solid rgba(253,203,110,0.2);border-radius:10px;">
+              <div
+                style="font-size:0.72rem;color:rgba(255,255,255,0.5);margin-bottom:6px;letter-spacing:1px;text-transform:uppercase;">
+                Admission Status</div>
+              <div style="font-size:0.85rem;font-weight:700;color:var(--gold);display:flex;align-items:center;gap:6px;">
+                <span
+                  style="width:8px;height:8px;background:#00b894;border-radius:50%;display:inline-block;animation:blink 1.5s infinite;"></span>
+                OPEN 2082 B.S.</div>
             </div>
           </div>
         </div>
@@ -2602,7 +3871,8 @@
   </button>
 
   <!-- ===================== TOAST NOTIFICATION ===================== -->
-  <div id="toast" style="position:fixed;bottom:30px;left:50%;transform:translateX(-50%) translateY(100px);background:white;border-left:5px solid #00b894;border-radius:12px;padding:14px 24px;box-shadow:0 10px 40px rgba(0,0,0,0.15);z-index:9999;transition:all 0.4s;opacity:0;min-width:280px;text-align:center;">
+  <div id="toast"
+    style="position:fixed;bottom:30px;left:50%;transform:translateX(-50%) translateY(100px);background:white;border-left:5px solid #00b894;border-radius:12px;padding:14px 24px;box-shadow:0 10px 40px rgba(0,0,0,0.15);z-index:9999;transition:all 0.4s;opacity:0;min-width:280px;text-align:center;">
     <strong style="color:#00b894;">✓ Message Sent!</strong>
     <p style="margin:4px 0 0;font-size:0.83rem;color:var(--gray-light);">We'll contact you within 24 hours.</p>
   </div>
@@ -2695,7 +3965,7 @@
     // ===========================
     // CONTACT FORM
     // ===========================
-    document.getElementById('contactForm').addEventListener('submit', function(e) {
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
       e.preventDefault();
       const toast = document.getElementById('toast');
       toast.style.opacity = '1';
@@ -2715,4 +3985,5 @@
     document.head.appendChild(style);
   </script>
 </body>
+
 </html>
